@@ -1,0 +1,17 @@
+//------------------------------------------------------------
+// HS2_UnlockPlayerHeight
+//------------------------------------------------------------
+HS{{A}}_UnlockPlayerHeight {{B}}\n...=解锁玩家身高 {{B}}\n▼HS{{A}}_UnlockPlayerHeight {{B}}▼
+HS{{A}}_UnlockPlayerHeight {{B}}=▲解锁玩家身高 {{B}}▲
+
+H Scene=H场景
+Custom height=自定义身高
+If 'Height from card' is off, use this value instead'=如果'身高存至卡片'关闭，请用此项更改
+If 'Height from card' is off, use this value instead=如果'身高存至卡片'关闭，请用此项更改
+Custom height {{A}}nd=自定义身高{{A}}
+If 'Height from card' is off, use this value instead for {{A}}nd male=如果'身高存至卡片{{A}}'关闭，请用此项更改{{A}}号玩家
+If 'Height from card {{A}}nd' is off, use this value instead for 2nd male=如果'身高存至卡片{{A}}'关闭，请用此项更改{{A}}号玩家
+Height from card=身高存至卡片
+Set players height according to the value in the card=将玩家的身高保存至卡片
+Height from card {{A}}nd=身高存至卡片{{A}}
+Set players height according to the value in the card for {{A}}nd male=将{{A}}号玩家的身高保存至{{A}}号男性卡片

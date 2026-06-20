@@ -1,0 +1,14 @@
+#set level 14
+
+/CharaSearch/
+
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Body/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Breast/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Hair/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Height/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Mole/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Option/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Personal/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/SkinColor/Toggle
+/CharaSearch/SearchControl/CanvasSearch/SearchWindow/SearchItem/Skin/Toggle

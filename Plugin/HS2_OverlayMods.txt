@@ -1,0 +1,83 @@
+//------------------------------------------------------------
+// Skin Overlay Mod
+//------------------------------------------------------------
+Skin Overlay Mod {{A}}\n...=皮肤贴图MOD {{A}}\n▼Skin Overlay Mod {{A}}▼
+Skin Overlay Mod {{A}}=▲皮肤贴图MOD {{A}}▲
+
+Maker=人物创建
+Overlay export/open folder=贴图 导出/打开 文件夹
+The value needs to be a valid full path to an existing folder. Default folder will be used if the value is invalid. Exported overlays will be saved there, and by default open overlay dialog will show this directory.=该值必须是有效文件夹的完整路径。如果设定值无效将使用默认路径。导出的贴图将保存在设定文件夹内，默认情况下，导出贴图后会打开此文件夹。
+General=主要设置
+Compress overlay textures in RAM=在内存中压缩贴图纹理
+Reduces RAM usage to about {{A}}th at the cost of lower quality. Use when loading lots of characters with overlays if you're running out of memory.=以较低的质量为代价，将RAM使用率降低到约{{A}}。在加载大量带有角色贴图导致内存不足时使用。
+
+
+//------------------------------------------------------------
+// Skin Overlay Mod GUI
+//------------------------------------------------------------
+//Plugin/modsettings
+Skin Overlay Mod GUI {{A}}\n...=皮肤贴图MOD 图形界面 {{A}}\n▼Skin Overlay Mod GUI {{A}}▼
+Skin Overlay Mod GUI {{A}}=▲皮肤贴图MOD 图形界面 {{A}}▲
+
+Watch loaded texture for changes=监视加载纹理的变化
+
+//------------------------------------------------------------
+//ModUI
+//Skin
+
+Skin/eye overlays=皮肤/眼睛贴图
+Skin Overlays=皮肤贴图
+Get face overlay template=获取面部贴图模板
+//face.png
+Face template=面部模板
+Get body overlay template=获取身体贴图模板
+//body.png
+Body template=身体模板
+Face overlay texture (On top of almost everything)=面部纹理(几乎覆盖所有东西)
+Body overlay texture (On top of almost everything)=身体纹理(几乎覆盖所有东西)
+Face underlay texture (Under tattoos, blushes, etc.)=脸部底图纹理(纹身/腮红等之下)
+Body underlay texture (Under tattoos, blushes, etc.)=身体底图纹理(纹身/腮红等之下)
+Iris Overlays=美瞳贴图
+Get iris overlay template=获取美瞳贴图模板
+Get iris underlay template=获取美瞳底图模板
+Iris template=美瞳模板
+Iris overlay texture (On top of original iris)=美瞳贴图纹理(在原始美瞳最上面)
+Iris underlay texture (Before coloring and effects)=美瞳底图纹理(着色和效果前面)
+Watch last loaded texture file for changes=查看最后加载的纹理文件以进行更改
+//Use different overlays per outfit=每套衣服使用不同的贴图
+//When off, there is a single set of overlays for all outfits. When on, each outfit has its own set of skin overlays.=禁用此选项后，所有衣服共用一套覆盖层。启用此选项后，每套衣服都有自己的皮肤贴图。
+Eye to edit=眼睛编辑
+Both=两者
+Left=左
+Right=右
+Load new texture=加载新纹理
+Open overlay image=打开贴图图片
+Clear texture=清除纹理
+Export current texture=导出当前纹理
+
+
+//Clothes
+Clothes Overlay Mod GUI=衣服贴图MOD 图形界面
+Clothes overlays=衣服贴图
+//Overlay textures (Piece 1)=
+//Overlay textures (Piece 2)=
+//Overlay textures (Piece 3)=
+//Body alpha mask=
+//Inner clothes alpha mask=
+//Bra alpha mask=
+Overlay textures=贴图纹理
+Dump original texture=获取原始纹理
+Hide base texture=隐藏基础纹理
+Load new overlay texture=加载新贴图纹理
+Clear overlay texture=清除贴图纹理
+Export overlay texture=导出贴图纹理
+
+
+Top=上装
+Bottom=下装
+Inner Top=内衣
+Inner Bottom=内裤
+Gloves=手套
+Pantyhose=裤袜
+Socks=袜子
+Shoes=鞋子

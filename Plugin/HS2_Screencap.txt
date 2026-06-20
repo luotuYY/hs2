@@ -1,0 +1,49 @@
+//------------------------------------------------------------
+// Screenshot Manager 
+//------------------------------------------------------------
+Screenshot Manager {{A}}\n...=游戏截屏管理器 {{A}}\n▼Screenshot Manager {{A}}▼
+Screenshot Manager {{A}}=▲游戏截屏管理器 {{A}}▲
+
+Screenshot Manager=游戏截屏管理
+
+Rendered screenshots=渲染屏幕截图
+Always=总是
+When Upsampling=上采样时
+Never=从不
+Screenshot width=屏幕截图宽度
+Screenshot width in pixels=屏幕截图宽度的像素值
+Screenshot height=屏幕截图高度
+Screenshot height in pixels=屏幕截图高度的像素值
+Upsampling ratio=上采样率
+Render the scene in x times larger resolution, then downscale it to the correct size. Improves screenshot quality at cost of more RAM usage and longer capture times.\n\nBE CAREFUL, SETTING THIS TOO HIGH CAN AND WILL CRASH THE GAME BY RUNNING OUT OF RAM.=以x倍的分辨率渲染场景，然后将其缩小到正确的大小。以更高的内存使用率和更长的截取时间为代价提高屏幕截图质量。注意，设置得太高会导致内存耗尽，从而导致游戏崩溃。
+Alpha=Alpha透明度
+When capturing the screenshot make the background transparent. Only works if the background is a {{A}}D image, not a {{B}}D object like a map.=截取屏幕截图时使背景透明。仅当背景是{{A}}D图像，而不是像地图那样的{{B}}D对象时才有效
+
+General=主要设置
+Show messages on screen=在屏幕上显示消息
+Whether screenshot messages will be displayed on screen. Messages will still be written to the log.=屏幕上是否显示屏幕截图消息。消息仍将写入日志
+
+//Rendered screenshots=渲染屏幕截图
+Shadow resolution override=覆盖阴影分辨率
+By default, shadow map resolution is computed from its importance on screen. Setting this to a value greater than zero will override that behavior. Please note that the shadow map resolution will still be capped by memory and hardware limits.=默认情况下根据阴影贴图在屏幕上的重要性计算阴影贴图分辨率。将此设置为大于零的值时将覆盖该行为。请注意阴影贴图分辨率仍将受到内存和硬件的限制。
+
+
+Zero=0
+Two=2
+Four=4
+Off=关闭
+Shadow cascade override=覆盖阴影级联
+When capturing screenshots, different shadow cascade values may look better. Override it or keep the current value.=截取屏幕截图时，不同的阴影层叠值可能看起来更好。覆盖它或保留当前值。
+Disable AO=禁用AO
+When capturing screenshots, upsampling can cause ambient occlusion to start banding and produce weird effects on the end image. Change this setting to disable AO when capturing the screenshot.=截取屏幕截图时，上采样可能会导致环境遮挡开始带状化，并在最终图像上产生奇怪的效果。修改此项在捕获屏幕截图时禁用AO。
+
+Hotkeys=热键
+Capture normal screenshot=截取普通屏幕截图
+Capture a screenshot "as you see it". Includes interface and such.=所见即所截。包括操作窗口。
+Capture rendered screenshot=截取渲染屏幕截图
+Capture a rendered screenshot with no interface. Controlled by other settings.=截取没有操作窗口的渲染屏幕截图。由其他设置控制
+
+UI Screenshots=UI屏幕截图
+Screenshot resolution multiplier=屏幕截图分辨率倍增器
+Multiplies the UI screenshot resolution from the current game resolution by this amount.\nWarning: Some elements will still be rendered at the original resolution (most notably the interface).=将当前游戏的UI屏幕截图分辨率乘以该值。\n警告：某些元素仍将以原始分辨率渲染(最明显的是操作窗口)
+Advanced=高级

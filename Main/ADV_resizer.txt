@@ -1,0 +1,4 @@
+#set level 6
+
+/ADVMainScene/ADVScene(Clone)/Canvas_Main/MsgWindowCanvas/Window/Message
+/ADVMainScene/ADVScene(Clone)/Canvas_Main/MsgWindowCanvas/Window/Message

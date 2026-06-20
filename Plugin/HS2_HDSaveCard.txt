@@ -1,0 +1,12 @@
+//------------------------------------------------------------
+// HS2_HDSaveCard
+//------------------------------------------------------------
+HS{{A}}_HDSaveCard {{B}}\n...=高清卡片存档 {{B}}\n▼HS{{A}}_HDSaveCard {{B}}▼
+HS{{A}}_HDSaveCard {{B}}=▲高清卡片存档 {{B}}▲
+
+Resolution=分辨率
+Width of the card image=卡片图像的宽度
+Original=原生
+Normal=标准
+Large=大
+Extra Large=特大

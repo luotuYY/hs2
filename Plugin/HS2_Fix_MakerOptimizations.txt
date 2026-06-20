@@ -1,0 +1,8 @@
+//------------------------------------------------------------
+// Maker Optimizations
+//------------------------------------------------------------
+Maker Optimizations {{A}}\n...=人物创建优化插件 {{A}}\n▼Maker Optimizations {{A}}▼
+Maker Optimizations {{A}}=▲人物创建优化插件 {{A}}▲
+
+Manage cursor in maker=人物创建中管理光标
+Lock and hide the cursor when moving the camera in maker.=在人物创建中移动镜头时锁定并隐藏光标

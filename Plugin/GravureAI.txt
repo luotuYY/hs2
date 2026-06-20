@@ -1,0 +1,36 @@
+//------------------------------------------------------------
+// Gravure plugin
+//------------------------------------------------------------
+Gravure plugin {{A}}\n...=姿势动作选择器 {{A}}\n▼Gravure plugin {{A}}▼
+Gravure plugin {{A}}=▲姿势动作选择器 {{A}}▲
+Show gravure panel=显示动作面板
+
+Top=上衣
+Bottom=下衣
+On=显示
+Half=半脱
+Off=隐藏
+Inner Top=胸罩
+Inner Bot=内裤
+Pantyhose=裤袜
+Gloves=手套
+Socks=袜子
+Shoes=鞋子
+Animation=角色动画
+← Animation →=←动作→
+Studio=工作室
+Default=默认
+Gravure=Gravure
+Action=行为
+Dance=舞蹈
+Fighting=格斗
+Walking=步态
+Pose=姿势
+BaseAction1=基本行为1
+BaseAction2=基本行为2
+Sleeping=睡姿
+Wetness=湿身
+Blush=脸红
+Skin Gloss=皮肤光泽
+Nipples=乳头
+Tears=眼泪

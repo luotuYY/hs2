@@ -1,0 +1,17 @@
+// known format strings used by game before applying to GUI element
+
+r:"^スロット([０-９0-9]+)$"=槽位 $1
+sr:"^(.*) が逃げ出しました$"=$1逃走了
+
+sr:"^FKカラー (.*)"$=FK颜色$1
+
+// ranking
+r:"^([０-９0-9]+)位"=第$1位
+
+sr:"^■\s*(.*)"=■ $1
+
+// Achievement alert
+
+sr:"^「([^」]+)」が達成されました$"=达成了"$1"
+
+r:"^残り([０-９0-9]+)Ｐ$"=剩余$1P

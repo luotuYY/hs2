@@ -1,0 +1,9 @@
+
+#set level 2
+
+/StudioScene/Canvas Main Menu/01_Add/02_Item/Scroll View Item/Viewport/Content/node(Clone)/TextMeshPro=ChangeFontSizeByPercentage(0.19)
+/StudioScene/Canvas Main Menu/01_Add/04_Light/Viewport/Content/Node(Clone)/TextMeshPro=ChangeFontSizeByPercentage(0.19)
+/StudioScene/Canvas Main Menu/02_Manipulate/03_Anime/Anime Panel/Viewport/Content/node(Clone)/TextMeshPro Text=ChangeFontSizeByPercentage(0.19)
+/StudioScene/Canvas Main Menu/02_Manipulate/03_Anime/Category Panel/Viewport/Content/node(Clone)/TextMeshPro Text=ChangeFontSizeByPercentage(0.19)
+/StudioScene/Canvas Main Menu/02_Manipulate/00_Chara/04_Voice/Scroll View List/Viewport/Content/Node List(Clone)/Info/TextMeshPro=ChangeFontSizeByPercentage(0.19)
+/StudioScene/Canvas Main Menu/02_Manipulate/00_04_00_Voice Play List/List/Scroll View/Viewport/Content/Node(Clone)/Button Select/TextMeshPro Text=ChangeFontSizeByPercentage(0.19)

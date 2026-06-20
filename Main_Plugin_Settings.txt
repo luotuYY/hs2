@@ -1,0 +1,1313 @@
+//------------------------------------------------------------
+//通用补充
+//------------------------------------------------------------
+Plugin settings=插件设置
+Save with translated names=以翻译后名称保存
+Toggle Blinking=激活眨眼
+Show height measure bar=显示身高标尺
+Split XYZ scale sliders=划分XYZ缩放滑块
+Lock Cameralight=锁定相机灯光
+Advanced Bonemod Window=高级骨骼编辑窗口
+Toggle Backlight=激活背光
+Coordinate Visibility Rules=套装可见性规则
+
+Plugin / mod settings=[插件/MOD] 设置
+BGM=背景音乐
+
+Text=文本
+New Text=新文本
+No Name=未命名
+Enter name...=输入名字...
+
+Save (Keep Card)=保存(保留卡)
+Set all colors=设置所有颜色
+
+Variants=
+Save Variant=保存变体
+Dynamic Bone=动态骨骼
+Dynamic Bone Editor=动态骨编辑器
+
+Option A=选项A.
+Freeze Axis=冻结轴
+Weight=重量
+Damping=减震
+Elasticity=弹性
+Stiffness=刚性
+Inertia=惯性
+Radius=半径
+
+Random=随机
+Rendering=显示设置
+
+//Refresh\n=刷新\n
+//Folders\n=文件夹
+//Root Folder=根目录
+//..=上一级目录
+
+Refresh\n=
+Folders\n=
+Root Folder=
+..=
+Directory Name=目录名称
+Show: =显示:
+Show=显示
+
+Normal settings=常规设置
+Keyboard shortcuts=快捷键
+Advanced settings=高级设置
+Debug mode=调试模式
+Log=日志
+Search settings: =搜索(仅支持英文):
+Clear=清除
+Tip: Click plugin names to expand. Click setting and group names to see their descriptions.=提示：单击插件名称以展开。鼠标悬停“设置”和“项目名称”以查看其功能说明。
+
+Character Accessory=角色配饰
+Match Hair Color on Coord Load=在协调加载下匹配发色
+Visibility Rules=可见性规则
+
+//------------------------------------------------------------
+// BepInEx
+//------------------------------------------------------------
+BepInEx {{A}}\n...=BepInEx框架 {{A}}\n▼单击展开▼
+BepInEx {{A}}=▲BepInEx框架 {{A}}▲
+
+EnableAssemblyCache=启用程序集缓存
+
+Harmony.Logger=
+LogChannels=日志通道
+
+Chainloader=
+HideManagerGameObject=隐藏管理器游戏物件
+
+LogConsoleToUnityLog=记录控制台到Unity日志
+UnityLogListening=Unity日志监听
+
+Logging.Console=控制台日志
+LogLevels=日志级别
+PreventClose=阻止关闭
+ShiftJisEncoding=Shift-JIS编码
+StandardOutType=标准输出类型
+
+Logging.Disk=
+AppendLog=追加日志
+WriteUnityLog=写入Unity日志
+
+Preloader=
+ApplyRuntimePatches=应用运行补丁 
+BreakBeforeLoadAssemblies=加载组件前中断
+DumpAssemblies=转储程序集
+HarmonyBackend=Harmony后台
+LoadDumpedAssemblies=加载转储程序集
+
+Preloader.Entrypoint=
+
+//------------------------------------------------------------
+//Additional Accessory Controls
+//------------------------------------------------------------
+Additional Accessory Controls {{A}}\n...=附加配饰控制 {{A}}\n▼Additional Accessory Controls {{A}}▼
+Additional Accessory Controls {{A}}=▲附加配饰控制 {{A}}▲
+
+
+Allow for Head Bone Animation=允许支持头部骨骼动画
+Body Mesh Parent Fast Action Threshold=主体网格父级快速动作阀值
+History Key Frames for Body Mesh Parents=主体网格父级的历史关键帧
+Reset Additional Accessory Data=重置<额外饰品>数据
+Show Slot Setting Resync Button=显示槽位设置重新同步按钮
+
+Fix More Accessories Dynamic Bones=修复<更多配饰>的动态骨骼
+Trim More Accessory Slots=清理<更多配饰>槽位
+Update Body Mesh Parented Accessories Every N Frames =每几帧刷新绑定父级的饰品
+
+//------------------------------------------------------------
+//AdvIKPlugin
+//------------------------------------------------------------
+AdvIKPlugin {{A}}\n...=人物呼吸插件 {{A}}.\n▼AdvIKPlugin {{A}}▼
+AdvIKPlugin {{A}}=▲人物呼吸插件 {{A}}.▲
+Breathe in Main Game=主游戏的人物呼吸效果
+Main Game Breath Size Scale=主游戏的人物呼吸效果幅度
+Main Game Breath Rate Scale=主游戏的人物呼吸效果速率
+HScene Size Adjustment=H场景中幅度调整
+HScene Rate Adjustment=H场景中速率调整
+Breathe in Maker=角色创建的人物呼吸效果
+Maker Breath Scale=角色创建的人物呼吸效果比例
+Maker Breath Rate Scale=角色创建的人物呼吸效果速率
+Maker - Deactivate Maker IK Handlign=角色创建 - 停用角色创建的IK处理
+Maker - Deactivate Maker IK Handling=角色创建 - 停用角色创建的IK处理
+Studio - Auto Resize on Reload=工作室 - 重新加载时自动调整幅度
+Studio - Enable Resize on Folder Control=工作室 - 文件夹控件启用重新调整
+
+//------------------------------------------------------------
+// Better Anti-Aliasing
+//------------------------------------------------------------
+Better Anti-Aliasing {{A}}\n...=抗锯齿插件 {{A}}\n▼Better Anti-Aliasing {{A}}▼
+Better Anti-Aliasing {{A}}=▲抗锯齿插件 {{A}}▲
+Enable TAA=启用TAA
+Turn the custom anti aliasing algorithm on or off.=打开或关闭自定义抗锯齿算法
+Adaptive Enhance=自适应增强
+Hdr Response=HDR响应
+Micro Shimmer Reduction=微光减少
+Static Stability Power=静态稳定功率
+Temporal Jitter Scale=时间抖动比例
+Temporal Stability=时间稳定性
+
+//------------------------------------------------------------
+// boopz
+//------------------------------------------------------------
+boopz {{A}}\n...=摸奶插件 {{A}}\n▼boopz {{A}}▼
+boopz {{A}}=▲摸奶插件 {{A}}▲
+
+//------------------------------------------------------------
+// CardSize Plug-In
+//------------------------------------------------------------
+CardSize Plug-In {{A}}\n...=卡片大小 {{A}}\n▼CardSize Plug-In {{A}}▼
+CardSize Plug-In {{A}}=▲卡片大小 {{A}}▲
+
+//------------------------------------------------------------
+// Character Export 
+//------------------------------------------------------------
+Character Export {{A}}\n...=场景人物导出插件 {{A}}\n▼Character Export {{A}}▼
+Character Export {{A}}=▲场景人物导出插件 {{A}}▲
+Open Folder After Export=导出后打开文件夹
+
+Export Characters=导出人物
+
+//------------------------------------------------------------
+// Character Loader
+//------------------------------------------------------------
+Character Loader {{A}}\n...=人物卡预览插件 {{A}}\n▼Character Loader {{A}}▼
+Character Loader {{A}}=▲人物卡预览插件 {{A}}▲
+Chars per row.=每行人物数量
+Close window after select=选择后关闭窗口
+Maker folder list=人物文件夹列表
+Replace menu buttons=替换菜单按钮
+Studio character card reordering=工作室角色卡重新排序
+
+//------------------------------------------------------------
+// Character Replacer
+//------------------------------------------------------------
+Character Replacer {{A}}\n...=角色创建默认人物更改器 {{A}}\n▼Character Replacer {{A}}▼
+Character Replacer {{A}}=▲角色创建默认人物更改器 {{A}}▲
+Default Female Card Replacement=默认女性人物卡替换
+Default Female Card Path=默认女性人物卡路径
+Default Male Card Replacement=默认男性人物卡替换
+Default Male Card Path=默认男性人物卡路径
+
+//------------------------------------------------------------
+// Cheat Tools
+//------------------------------------------------------------
+Cheat Tools {{A}}\n...=游戏作弊器插件 {{A}}\n▼Cheat Tools {{A}}▼
+Cheat Tools {{A}}=▲游戏作弊器插件 {{A}}▲
+Toggle cheat window=作弊器窗口开关
+
+
+Unable to edit character stats on this screen. Start an H scene or enter the lobby.=无法在此屏幕上编辑角色属性信息。请开始H场景或进入大厅。
+Character status editor=角色属性编辑器
+Select a character to edit their stats=选择一个角色来编辑她们的属性
+
+//sr:"^Selected heroine name: (?<tcl1>[\w\u4E00-\u9FFF]+)"="应用于：${tcl1}"
+//Select #{{A}}=选择#{{A}}
+//Current state: =当前状态: 
+
+
+Blank=空白
+
+Favor=好感
+Enjoyment=爱慕
+Aversion=厌恶
+Dependence=依赖
+Slavery=性奴
+Broken=崩坏
+
+Statistics: =属性信息 : 
+//sr:"^(?<tcl1>[\w\s\S]+): (?<tcl2>[\w]+)"="应用于：${tcl1} ${tcl2}"
+
+
+View more stats and flags=查看更多属性和标志
+
+Navigate to Heroine's GameObject=导航到女性的游戏对象
+Open Heroine in inspector=在检查器中打开女性数据
+Inspect extended data=检查扩展数据
+
+H scene controls=H场景控制
+
+Open in inspector=在检查器中打开
+
+Danger zone! These cheats are permanent and can't be undone without resetting the save.=危险区域！这些作弊是永久性的，如果不重置保存就无法撤消。
+Get all achievements=获得所有成就
+Unlock all perks=解锁所有特权
+
+//------------------------------------------------------------
+// Colliders
+//------------------------------------------------------------
+Colliders {{A}}\n...=乳房碰撞机制插件 {{A}}\n▼Colliders {{A}}▼
+Colliders {{A}}=▲乳房碰撞机制插件 {{A}}▲
+Breast Colliders=乳房碰撞机制
+Floor Collider=地面碰撞机制
+Default Studio Settings=工作室默认设置
+
+//------------------------------------------------------------
+// Demosaic
+//------------------------------------------------------------
+Demosaic {{A}}\n...=去马赛克插件{{A}}\n▼Demosaic {{A}}▼
+Demosaic {{A}}=▲去马赛克插件 {{A}}▲
+
+//------------------------------------------------------------
+// Drag & Drop
+//------------------------------------------------------------
+Drag & Drop {{A}}\n...=拖动&放下插件 {{A}}\n▼Drag & Drop {{A}}▼
+Drag & Drop {{A}}=▲拖动&放下插件 {{A}}▲
+Show scene overwrite warnings=显示场景覆盖警告
+
+//------------------------------------------------------------
+// DynamicBonesGravityPlugin
+//------------------------------------------------------------
+DynamicBonesGravityPlugin {{A}}\n...=动态骨骼重力插件 {{A}}\n▼DynamicBonesGravityPlugin {{A}}▼
+DynamicBonesGravityPlugin {{A}}=▲动态骨骼重力插件 {{A}}▲
+Stronger!=更强烈!
+Realistic!!!=实际!!!
+Advanced Mode=高级模式
+Advanced Gravity=高级重力
+Alternate Update Mode=备用更新模式
+
+//------------------------------------------------------------
+// Enable Resize
+//------------------------------------------------------------
+Enable Resize {{A}}\n...=游戏窗口调整插件 {{A}}\n▼Enable Resize {{A}}▼
+Enable Resize {{A}}=▲游戏窗口调整插件 {{A}}▲
+Enable Resize=启用调整大小
+
+//------------------------------------------------------------
+// FemaleParameterInfoEditor
+//------------------------------------------------------------
+FemaleParameterInfoEditor {{A}}\n...=女性参数信息编辑 {{A}}\n▼FemaleParameterInfoEditor {{A}}▼
+FemaleParameterInfoEditor {{A}}=▲女性参数信息编辑 {{A}}▲
+
+Visible=可见
+
+FemaleParametersInfoEditor=女性参数信息编辑
+F{{A}}=F{{A}}
+Parameters=参数
+Favor: =好感值: 
+Enjoyment: =爱慕值: 
+Aversion: =厌恶值: 
+Dependence: =依赖值: 
+Slavery: =性奴值: 
+Broken: =崩坏值: 
+
+//------------------------------------------------------------
+// GeBo Modding API
+//------------------------------------------------------------
+GeBo Modding API {{A}}\n...=▲Gebo Modding API {{A}}▲\n▼单击展开▼
+GeBo Modding API {{A}}=▲Gebo Modding API {{A}}▲
+Developer Settings=开发者设置
+Enable ObjectPools=启用对象池
+
+//------------------------------------------------------------
+// Graphics Settings
+//------------------------------------------------------------
+Graphics Settings {{A}}\n...=游戏画质设置 {{A}}\n▼Graphics Settings {{A}}▼
+Graphics Settings {{A}}=▲游戏画质设置 {{A}}▲
+Optimize in background=后台优化
+Run in background=后台运行
+
+Display mode=显示模式
+Resolution=分辨率
+Selected monitor=所选显示器
+VSync=垂直同步(VSync)
+Framerate limit=帧率限制
+Anisotropic filtering=各向异性过滤
+Anti-aliasing multiplier=抗锯齿倍数
+
+Windowed=窗口化
+Borderless fullscreen=无边框全屏
+Fullscreen=全屏
+Force Enable=强制启用
+
+//------------------------------------------------------------
+// Gravure plugin
+//------------------------------------------------------------
+Gravure plugin {{A}}\n...=姿势动作选择器 {{A}}\n▼Gravure plugin {{A}}▼
+Gravure plugin {{A}}=▲姿势动作选择器 {{A}}▲
+Show gravure panel=显示动作面板
+Gravure\n=写真\n
+
+Top=上衣
+Bottom=下装
+On=显示
+Half=半脱
+Off=隐藏
+Inner Top=内衣
+Inner Bot=内裤
+Pantyhose=裤袜
+Gloves=手套
+Socks=袜子
+Shoes=鞋子
+
+Animation=角色动画
+← Animation →=←    动作    →
+Studio\n=工作室\n
+Default\n=默认\n
+//Studio=工作室
+//Default=默认
+
+Gravure=拍摄姿势
+Action=行为
+Dance=舞蹈
+Fighting=格斗
+Walking=行走
+Pose=姿势
+BaseAction1=基本行为1
+BaseAction2=基本行为2
+Sleeping=睡姿
+
+Wetness=湿身
+Blush=脸红
+Skin Gloss=光泽
+Nipples=乳头
+Tears=眼泪
+
+//------------------------------------------------------------
+// HeightBarX
+//------------------------------------------------------------
+HeightBarX {{A}}\n...=身高测量插件 {{A}}\n▼HeightBarX {{A}}▼
+HeightBarX {{A}}=▲身高测量插件 {{A}}▲
+Appearance=外观
+{{A}}%={{A}}％
+Opacity of the floor bar=地面板不透明度
+Opacity of the measuring bar=测量板不透明度
+Show floor bar at character`s feet=在人物脚下展示地面
+Toggle height measure bar=切换高度测量快捷键
+Use freedom units=使用自由单位
+
+//------------------------------------------------------------
+// HideAllUI
+//------------------------------------------------------------
+HideAllUI {{A}}\n...=隐藏游戏UI界面 {{A}}\n▼HideAllUI {{A}}▼
+HideAllUI {{A}}=▲隐藏游戏UI界面 {{A}}▲
+Hide UI=隐藏游戏界面
+
+//------------------------------------------------------------
+// HS2 Better Penetration
+//------------------------------------------------------------
+HS{{A}} Better Penetration 3.0.{{A}}.0\n...=抽插优化插件 3.0.{{A}}.0\n▼HS{{A}} Better Penetration 3.0.{{A}}.0▼
+HS{{A}} Better Penetration 3.0.{{A}}.0=▲抽插优化插件 3.0.{{A}}.0▲
+HS{{A}} Better Penetration {{B}}\n...=抽插优化插件{{B}}\n▼HS{{A}} Better Penetration {{B}}▼
+HS{{A}} Better Penetration {{B}}=▲抽插优化插件{{B}}▲
+
+Female Options=女性选项
+Clipping Depth=抽插深度
+
+Clipping Offset: Back Collision {{A}}=抽插偏移: 后碰撞{{A}}
+Clipping Offset: Front Collision {{A}}=插入偏移: 前碰撞{{A}}
+
+Inner Target=内部目标
+Mouth Offset: Inner Target=嘴巴偏移: 内部目标
+Mouth Offset: Outer Target=嘴巴偏移: 外部目标
+Outer Target=外部目标
+Toggle Male Colliders=切换男性碰撞器
+Vagina Offset: Inner Target=阴道偏移: 内部目标
+Vagina Offset: Outer Target=阴道偏移: 外部目标
+
+Belly Bulge=腹部隆起
+Joint Adjustment=关节调整
+Anal Correction=肛门矫正
+Anal Position=肛门位置
+Anal Rotation=肛门旋转
+Missionary Correction=体位矫正
+Missionary Position Y=体位旋转Y
+Missionary Position Z=体位旋转Z
+Missionary Rotation X=体位旋转X
+Joint Adjustment: Missionary Correction=关节调整: 体位矫正
+Joint Adjustment: Missionary Rotation X=关节调整: 体位旋转X
+Joint Adjustment: Missionary Position Y=关节调整: 体位旋转Y
+Joint Adjustment: Missionary Position Z=关节调整: 体位旋转Z
+Oral Push/Pull: Enable=口腔 推/拉: 启用
+Oral Push/Pull: Max Pull=口腔 推/拉: 最大拉力
+Oral Push/Pull: Max Push=口腔 推/拉: 最大推力
+Oral Push/Pull: Push/Pull Rate=口腔 推/拉: 速率
+Oral Push/Pull: Return Rate=口腔 推/拉: 恢复速率
+Target Offset: Inner Mouth Target=目标偏移: 嘴内目标
+Target Offset: Inner Vagina Target=目标偏移: 阴内目标
+Target Offset: Mouth Target=目标偏移: 嘴巴目标
+Target Offset: Vagina Target=目标偏移: 阴道目标
+Vaginal Push/Pull: Enable=阴道 推/拉: 启用
+Vaginal Push/Pull: Max Pull=阴道 推/拉: 最大拉力
+Vaginal Push/Pull: Max Push=阴道 推/拉: 最大推力
+Vaginal Push/Pull: Push/Pull Rate=阴道 推/拉: 速率
+Vaginal Push/Pull: Return Rate=阴道 推/拉: 恢复速率
+
+Male {{A}} Options=男性{{A}}选项
+Limit Penis Amount=阴茎: 限制运动的量
+Limit Penis Movement=阴茎: 是否限制移动
+Finger Collider: Enable=手指碰撞器: 启用
+Finger Collider: Length=手指碰撞器: 长度
+Finger Collider: Radius=手指碰撞器: 半径
+Limit Penis Amount=限制阴茎数值
+Limit Penis Movement=限制阴茎移动
+Penis Collider: Length Scale=阴茎: 长度比例
+Penis Collider: Radius Scale=阴茎: 半径比例
+Penis Collider: Vertical Center=阴茎碰撞器: 垂直中心
+Penis Collider: Radius of Shaft=阴茎碰撞器: 轴半径
+Penis Collider: Length of Head=阴茎碰撞器: 头部长度
+Penis: Squish Oral Girth=阴茎: 挤压口腔周长
+Penis: Squish Length Factor=阴茎: 挤压长度系数
+Penis: Squish Girth Factor=阴茎: 挤压实际周长
+Penis: Squish Threshold=阴茎: 挤压阈值
+Rotate Balls with Shaft=绕轴旋转睾丸
+Simplify Anal Calculation=简化肛交计算
+Simplify Oral Calculation=简化口交计算
+Simplify Penetration Calculation=简化抽插计算
+
+Balls: Rotate Balls=睾丸: 旋转睾丸
+Calculation: Simple Anal=计算: 简化肛门
+Calculation: Simple Oral=计算: 简化口腔
+Calculation: Simple Vaginal=计算: 简化阴道
+Collider: Length Scale=碰撞: 长度比例
+Collider: Radius Scale=碰撞: 半径比例
+Limiter: Enable=限制: 启用
+Limiter: Threshold=限制: 阈值
+Squish: Girth Factor=挤压: 实际周长
+Squish: Length Factor=挤压: 长度系数
+Squish: Oral Girth=挤压: 口腔周长
+Squish: Threshold=挤压: 阈值
+
+Push/Pull=推/拉
+Anal Enable=肛门: 启用
+Anal Max Pull=肛门: 最大拉力
+Anal Max Push=肛门: 最大推力
+Anal Push/Pull Rate=肛门 推/拉: 速率
+Anal Return Rate=肛门: 恢复速率
+Oral Enable=口腔: 启用
+Oral Max Pull=口腔: 最大拉力
+Oral Max Push=口腔: 最大推力
+Oral Push/Pull Rate=口腔 推/拉: 速率
+Oral Return Rate=口腔: 恢复速率
+Vaginal Enable=阴道: 启用
+Vaginal Max Pull=阴道: 最大拉力
+Vaginal Max Push=阴道: 最大推力
+Vaginal Push/Pull Rate=阴道 推/拉: 速率
+Vaginal Return Rate=阴道: 恢复速率
+
+Oral Push/Pull: Enable=口腔 推/拉: 启用
+Oral Push/Pull: Max Pull=口腔 推/拉: 最大拉力
+Oral Push/Pull: Max Push=口腔 推/拉: 最大推力
+Oral Push/Pull: Push/Pull Rate=口腔 推/拉: 速率
+Oral Push/Pull: Return Rate=口腔 推/拉: 恢复速率
+Target Offset: Inner Mouth Target=目标偏移: 嘴巴内部目标
+Target Offset: Inner Vagina Target=目标偏移: 阴道内部目标
+Target Offset: Mouth Target=目标偏移: 嘴巴目标
+Target Offset: Vagina Target=目标偏移: 阴道目标
+Vaginal Push/Pull: Enable=阴道 推/拉: 启用
+Vaginal Push/Pull: Max Pull=阴道 推/拉: 最大拉力
+Vaginal Push/Pull: Max Push=阴道 推/拉: 最大推力
+Vaginal Push/Pull: Push/Pull Rate=阴道 推/拉: 速率
+Vaginal Push/Pull: Return Rate=阴道 推/拉: 恢复速率
+
+//------------------------------------------------------------
+// HS2 Boob Settings 
+//------------------------------------------------------------
+HS{{A}} Boob Settings {{B}}\n...=突破乳房大小限制 {{A}}\n▼HS{{A}} Boob Settings {{B}}▼
+HS{{A}} Boob Settings {{B}}=▲ 突破乳房大小限制 {{A}}▲
+Slider Min. Value=滑块最小\n数值
+Slider Max. Value=滑块最大\n数值
+
+//------------------------------------------------------------
+// HS2 PoV X
+//------------------------------------------------------------
+HS{{A}} PoV X {{B}}\n...=第一人称插件 {{B}}\n▼HS{{A}} PoV X {{B}}▼
+HS{{A}} PoV X {{B}}=▲第一人称插件 {{B}}▲
+
+Center=居中
+Left Eve=靠左
+Right Eve=靠右
+
+Animation=动画
+Max Eye Pitch (Up/Down)=视野高低最大值(上/下)
+Max Eye Yaw (Left/Right)=视野偏转最大值(左/右)
+Max Head Pitch (Up/Down)=抬低头最大值(上/下)
+Max Head Yaw (Left/Right)=偏转头最大值(左/右)
+
+Camera=相机
+Camera Location=相机位置
+Camera Near Clip Plane=相机裁剪距离
+Camera Sensitivity=相机灵敏度
+Field of View=视野范围(FoV)
+Normalize Camera Z-Axis=标准化相机Z轴
+Offset X=偏移X轴
+Offset Y=偏移Y轴
+Offset Z=偏移Z轴
+Zoom Field of View=缩放视野范围(FOV)
+
+General=常规
+Automatically Lock Head During H Scenes=H场景中自动锁定头部
+Hide Head=隐藏头部
+Hide Head Scale Z=隐藏头部Z轴比例
+Hide Head Shadow Only=隐藏头部(仅阴影)
+Lock Cursor During H Scenes=H场景时锁定鼠标
+
+Hotkeys=快捷按键
+Camera Drag Key=相机拖动按键
+Character Cycle Key=角色轮换按键
+Cursor Toggle Key=鼠标切换按键
+Lock Head Key=锁定头部按键
+Lock-On Key=锁定按键
+PoV Toggle Key=第一人称(PoV)切换键
+Zoom Key=缩放视野(FOV)按键
+
+//------------------------------------------------------------
+// HS2_BetterHScenes
+//------------------------------------------------------------
+//Plugin/modsettings
+
+HS{{A}}_BetterHScenes {{B}}\n...=HS{{A}}_优化H场景 {{B}}\n▼单击展开▼
+HS{{A}}_BetterHScenes {{B}}=▲HS{{A}}_优化H场景 {{B}}▲
+
+Animations > Draggers=动画 > 调整
+Apply saved offsets=应用保存的偏移
+Body Slider min/max position=身体滑块最小/最大移动
+Body Slider min/max rotation=身体滑块最小/最大旋转
+Hint Slider min/max position=微调滑块最小/最大移动
+Legacy Offset File Path=旧版偏移文件路径
+Limb Slider min/max position=四肢滑块最小/最大移动
+Limb Slider min/max rotation=四肢滑块最小/最大旋转
+Offset File Path V{{A}}=V{{A}}新版偏移文件路径
+Show animation UI=显示动画窗口
+Show draggers UI=显示调整窗口
+Use one offset for all motions=偏移应用到所有动作中
+Use unique default offset for weak motions=对虚脱动作使用默认偏移
+
+Animations > Solver=动画 > 处理
+Enable Animation Fixer=开启动画修复
+Fix broken Animation Tables=修复损坏的动画列表
+Fix broken Effectors=修复损坏的效果工具
+Fix Kiss Animations=修复接吻动画
+Joint Correction Default=关节默认校正
+Kiss Offset=接吻偏移
+Solve Independent Animations First=优先处理单独动画
+Use Last Frame Solutions for Females=对女性角色使用上一帧处理
+Use Last Frame Solutions for Males=对男性角色使用上一帧处理
+
+QoL > Clothes=H场景 > 服装
+Prevent default animationchange strip=阻止默认动画更改服饰状态
+Should strip female clothes=需要脱下的女性服装
+Should strip male clothes=需要脱下的男性服装
+Strip female bottom=脱掉女性下装
+Strip female bra=脱掉女性内衣
+Strip female gloves=脱掉女性手套
+Strip female panties=脱掉女性内裤
+Strip female pantyhose=脱掉女性裤袜
+Strip female shoes=脱掉女性鞋子
+Strip female socks=脱掉女性袜子
+Strip female top=脱掉女性上衣
+Strip male bottom=脱掉男性下装
+Strip male bra=脱掉男性(扶他)内衣
+Strip male gloves=脱掉男性手套
+Strip male panties=脱掉男性(扶他)内裤
+Strip male pantyhose=脱掉男性(扶他)裤袜
+Strip male shoes=脱掉男性鞋子
+Strip male socks=脱掉男性(扶他)袜子
+Strip male top=脱掉男性上衣
+
+QoL > Cum=H场景 > 高潮
+Auto finish=双方快感条充满时自动结束
+Detailed Cum Update Mode=汁液细节刷新模式
+Preferred auto insert finish=插入完成自动首选行为
+Preferred auto service finish=侍奉完成自动首选行为
+
+QoL > General=H场景 > 常规
+Unlock camera movement=解锁镜头移动
+
+QoL > Weakness=H场景 > 虚脱
+Always hit gauge heart=快感条始终触发心形效果
+Force close eyes=强制闭上眼睛
+Force show tears=强制显示眼泪
+Force stop blinking=强制停止眨眼
+Orgasm count until weakness=虚弱所需性高潮次数
+
+On H Start=H开始时
+On Anim Change=动画切换时
+Both=两者都
+All=全部
+On=显示
+Half=半脱
+Off=隐藏
+Service Only=仅伺候
+Insert Only=仅插入
+Fixed Update=修复刷新
+After Fixed Update=修复刷新之后
+Late Update=最后刷新
+Inside=内部
+Outside=外部
+Same=相同
+Random=随机
+Drink=咽下
+Spit=吐出
+Outside=外部
+Weakness Only=仅虚脱
+Always=总是
+
+//------------------------------------------------------------
+// HS2_ColorPanelX
+//------------------------------------------------------------
+HS{{A}}_ColorPanelX {{B}}\n...=拾色器面板X {{B}}\n▼HS{{A}}_ColorPanelX {{B}}▼
+HS{{A}}_ColorPanelX {{B}}=▲拾色器面板X {{B}}▲
+ShowColorPanelOptions=显示颜色面板选项
+Transpa=透明度(Trans)
+Alpha=透明度(Alpha)
+
+//------------------------------------------------------------
+// HS2_ExtraGroups 
+//------------------------------------------------------------
+HS{{A}}_ExtraGroups {{B}}\n...=增加分组女孩数 {{B}}\n▼HS{{A}}_ExtraGroups {{B}}▼
+HS{{A}}_ExtraGroups {{B}}=▲增加分组女孩数 {{B}}▲
+Requires restart! Modifies save!=需要重启！修改才能保存！
+Groups Count=分组数量
+Girls Count=女孩数量
+
+//------------------------------------------------------------
+// HS2_GirlsEntrance
+//------------------------------------------------------------
+HS{{A}}_GirlsEntrance {{B}}\n...=女孩登场秀 {{B}}\n▼HS{{A}}_GirlsEntrance {{B}}▼
+HS{{A}}_GirlsEntrance {{B}}=▲女孩登场秀 {{B}}▲
+When make an entrance=何时显示登场秀
+Where play the animation=在哪播放动画
+
+On Girl's First Time=女孩第一次登场
+Every Time=每次
+Before Map Select=选择地图前
+When Select a Girl=选择女孩时
+
+//------------------------------------------------------------
+// HS2_HLightControl
+//------------------------------------------------------------
+HS{{A}}_HLightControl {{B}}\n...=H时光线控制器 {{B}}\n▼HS{{A}}_HLightControl {{B}}▼
+HS{{A}}_HLightControl {{B}}=▲H时光线控制器 {{B}}▲
+Auxiliary Light=辅光
+Backlight=背光
+Lock Camlight=锁定相机灯光
+Lower Shadow Resolution=降低阴影分辨率
+
+Shadow resolution target=目标阴影分辨率
+
+//------------------------------------------------------------
+// HS2_MakerSearch
+//------------------------------------------------------------
+HS{{A}}_MakerSearch {{B}}\n...=人物创建搜索 {{B}}\n▼HS{{A}}_MakerSearch {{B}}▼
+HS{{A}}_MakerSearch {{B}}=▲人物创建搜索 {{B}}▲
+General=主要设置
+Case sensitive=区分大小写
+Search translated cache=搜索翻译缓存
+Search text memory=搜索文本存储
+
+Search=搜索
+Include assetbundle=包含资源文件(AssetBundle)
+Include author=包含作者(Author)
+Include name=包含名字(Name)
+Separate=单独
+Global=全局
+None=无
+Reset=重置
+
+//------------------------------------------------------------
+// HS2_UnlockPlayerHeight
+//------------------------------------------------------------
+HS{{A}}_UnlockPlayerHeight {{B}}\n...=解锁玩家身高 {{B}}\n▼HS{{A}}_UnlockPlayerHeight {{B}}▼
+HS{{A}}_UnlockPlayerHeight {{B}}=▲解锁玩家身高 {{B}}▲
+H Scene=H场景
+Custom height=玩家自定义身高
+Custom height {{A}}nd={{A}}号玩家自定义身高
+Height from card=玩家从卡片获取身高
+Height from card {{A}}nd={{A}}号玩家从卡片获取身高
+
+//------------------------------------------------------------
+// HS2_ABMX (BonemodX)
+//------------------------------------------------------------
+HS{{A}}ABMX (BonemodX) {{B}}\n...=高级骨骼编辑器  {{B}}\n▼HS{{A}}ABMX (BonemodX) {{B}}▼
+HS{{A}}ABMX (BonemodX) {{B}}=▲ 高级骨骼编辑器  {{B}}▲
+Make advanced window transparent=高级窗口透明
+Open bonemod editor=打开模型骨骼编辑器
+
+Increase slider limits {{A}}x=增加滑块限制{{A}}×
+Use XYZ scale sliders=使用XYZ比例滑块
+
+//------------------------------------------------------------
+// HS2_ChicksDigMapModdersPlugin
+//------------------------------------------------------------
+HS{{A}}ChicksDigMapModdersPlugin {{B}}\n...=少女数字地图模组 {{B}}\n▼HS{{A}}ChicksDigMapModdersPlugin {{B}}▼
+HS{{A}}ChicksDigMapModdersPlugin {{B}}=▲少女数字地图模组 {{B}}▲
+Enable Debug Logging=启用调试日志记录
+Use Modded Maps For All Events=为所有事件使用修改后的地图
+Use Modded Maps For First Time girls=为第一次的女孩们使用修改的地图
+Use Modded Maps For Safe Events=对安全事件使用修改后的地图
+
+//------------------------------------------------------------
+// HS2Heelz
+//------------------------------------------------------------
+HS{{A}}Heelz {{B}}\n...=鞋跟插件 {{B}}\n▼HS{{A}}Heelz {{B}}▼
+HS{{A}}Heelz {{B}}=▲鞋跟插件 {{B}}▲
+Heelz=鞋跟z
+Load Developer XML=加载开发者XML
+Verbose Mode=详细模式
+
+Always Rotate Heels=总是旋转高跟
+Apply Heels Foot Scale=应用高跟足部比例
+Simple Heels in HScenes=H场景中简化高跟计算
+Simple Heels on World Map=世界地图中简化高跟计算
+
+//------------------------------------------------------------
+// HS2_TakeChargePlugin
+//------------------------------------------------------------
+HS{{A}}TakeChargePlugin {{B}}\n...=自动H插件 {{B}}\n▼HS{{A}}TakeChargePlugin {{B}}▼
+HS{{A}}TakeChargePlugin {{B}}=▲自动H插件 {{B}}▲
+Enable Auto Mode=启动自动模式
+Enable Take Charge Mode=启用接管模式
+Manual H-Anim Visual Speed (Decrease)=手动H动画视觉速度(减少)
+Manual H-Anim Visual Speed (Increase)=手动H动画视觉速度(增加)
+Manual H-Anim Visual Speed (Reset)=手动H动画视觉速度(重置)
+Stop Female Arousal=停止女生唤醒
+Stop Male Arousal=停止男生唤醒
+
+Anim Rules File=动画规则文件
+Auto Mode - Ignore Location Animation Limits=自动模式 - 忽略位置动画限制
+Enable Auto Speed Override=启用自动速度覆盖
+Manual H-Anim Visual Speed Increment=手动H动画视觉速度增量
+Reset Arousal Meters on Pos Change=体位改变时重置唤醒仪表
+Reset to Idle on Pos Change=体位改变时重置为闲置动画
+Speed Override All Modes=覆盖所有模式速度
+
+% Chance to Pull Out=拔出几率（%）
+% Chance to Pull Out When Not Inserted=未插入时拔出几率（%）
+% Position Change=位置变化（%）
+Loop Change Wait Max=循环变化等待最大值
+Loop Change Wait Min=循环改变等待分钟数
+Position Change Wait Max=位置变化等待最大值
+Position Change Wait Min=位置变化等待分钟数
+Pullout Wait Max=拔出等待最大值
+Pullout Wait Min=拔出等待分钟数
+Restart Wait Max=重新H等待最大值
+Restart Wait Min=重新H等待分钟数
+Spanking Wait Max=打屁股等待最大值
+Spanking Wait Min=打屁股等待分钟数
+Start Wait Max=开始H等待最大分钟数
+Start Wait Min=开始H等待最小分钟数
+
+//------------------------------------------------------------
+// HS2US
+//------------------------------------------------------------
+AutoJointCorrection=自动关节校正
+EyesBlink=眨眼
+
+Interface=界面
+Add search boxes to Character Maker=将搜索框添加到【创建角色】界面
+Add search boxes to Studio=将搜索框添加到工作室
+Improve Studio UI=改进工作室 UI
+UI Scale in Game=游戏中的 UI 缩放
+UI Scale in Studio=工作室中的 UI 缩放
+
+Performance=性能
+Automatic Memory Cleaning=自动清理内存
+Automatic Memory Cleaning Interval=自动清理内存间隔
+
+Studio camera=工作室相机
+Camera Speed Base Factor=相机速度基础系数
+Camera Speed Modifier Keys=相机速度修改键
+Speed Modifier Fast=加快速度修改乘数
+Speed Modifier Slow=减慢速度修改乘数
+
+Studio controls=工作室控制
+Alternative Center To Objects=备选中心到物件
+GenericFK=通用FK
+Improved Transform Operations=改进变换操作
+Show confirmation when clicking Delete interface button=单击删除界面按钮时显示确认
+Show confirmation when pressing Delete key=按 Delete 键时显示确认
+
+//------------------------------------------------------------
+// KK_PregnancyPlus
+//------------------------------------------------------------
+KK_PregnancyPlus {{A}}\n...=KK_怀孕插件{{A}}\n▼KK_PregnancyPlus {{A}}▼
+KK_PregnancyPlus {{A}}=▲KK_怀孕插件{{A}}▲
+Pregnancy +=怀孕+
+Pregnancy+=怀孕+
+
+Cumflation=内射膨胀
+Allow cumflation=允许内射膨胀
+Cumflation Max Level=内射膨胀最高程度
+Inflation Level=膨胀程度
+Deflation Level=紧缩程度
+Max Level=最大程度
+Inflation Speed=膨胀速度
+
+//Debug=调试
+Show Unskinned Verts=显示未蒙皮的顶点
+Show P+ Skinned Verts=显示P+皮肤顶点
+Show P+ Inflated Verts=显示P+膨胀顶点
+Show P+ vertex deltas=显示P+顶点增量
+Show Bind Pose=显示绑定动作
+Balloon mode (Debug mode)=膨胀模式 (Debug mode)
+Refresh X Ticks (Debug mode)=刷新X标记 (Debug mode)
+Entire Mesh Debugging (Debug mode)=完全网格调试 (Debug mode)
+Enable BlendShape Debug Logging (Debug mode)=启用混合变形调试日志记录 (Debug mode)
+Enable Debug of calculations (Debug mode)=启用计算调试 (Debug mode)
+Enable Debug Logging (Debug mode)=启用调试日志 (Debug mode)
+Enable Debug Logging of calculations (Debug mode)=启用计算调试日志 (Debug mode)
+Preset Shape for Pregnancy Progression=怀孕进展的预设形状
+Apply preset shape to all (Debug mode)=应用预设形状到所有 (Debug mode)
+
+Ignore Accessories=忽略饰品
+Allow male=允许男性应用
+Prefer targets belly=优先目标腹部形状
+
+Live Inflation Shortcuts=实时调整快捷键
+Inflation + Key=怀孕膨胀-增加按键
+Inflation - Key=怀孕膨胀-减少按键
+Inflation reset Key=怀孕膨胀-重置按键
+
+Story/Main-Game Mode=故事/游戏 模式
+Gameplay Enabled=游戏过程启用
+Global Multiplier Adjustment=倍数修正(全局)
+Global Roundness Adjustment=圆润修正(全局)
+Global Move Y Adjustment=移动 Y修正(全局)
+Global Move Z Adjustment=移动 Z修正(全局)
+Global Stretch X Adjustment=伸展 X修正(全局)
+Global Stretch Y Adjustment=伸展 Y修正(全局)
+Global Shift Y Adjustment=变换 Y修正(全局)
+Global Shift Z Adjustment=变换 Z修正(全局)
+Global Taper Y Adjustment=锥化 Y修正(全局)
+Global Taper Z Adjustment=锥化 Z修正(全局)
+Global Drop Adjustment=下坠修正(全局)
+Global Cloth Offset Adjustment=服装修正(全局)
+Global Fat Fold Adjustment=脂肪褶皱修正(全局)
+Global Fat Fold Height Adjustment=褶皱折痕高度修正(全局)
+Global Fat Fold Gap Adjustment=褶皱折痕间隙修正(全局)
+
+//------------------------------------------------------------
+// Maker Defaults
+//------------------------------------------------------------
+Maker Defaults {{A}}\n...=人物创建默认设置 {{A}}\n▼Maker Defaults {{A}}▼
+Maker Defaults {{A}}=▲人物创建默认设置 {{A}}▲
+//Settings=
+Default Gaze Direction=默认视线朝向
+Default Head Direction=默认头部朝向
+Default Pose=默认姿势
+Default pose=默认姿势
+Default Eyebrow Pattern=默认眉毛形状
+Default Eye Pattern=默认眼睛形状
+Default Mouth Pattern=默认嘴巴形状
+Default Pause=默认暂停
+Default Clothing State=默认服装
+Default Background=默认背景
+
+Automatic=自动模式
+Forward=朝前
+Naked=裸体
+Underwear=内衣
+Clothed=着装
+Image=图片
+
+//------------------------------------------------------------
+// Maker Jump to Selection Edition
+//------------------------------------------------------------
+Maker Jump to Selection Edition {{A}}\n...=人物创建跳转选择 {{A}}\n▼Maker Jump to Selection Edition {{A}}▼
+Maker Jump to Selection Edition {{A}}=▲人物创建跳转选择 {{A}}▲
+
+Open folder=打开目录
+Show Path=显示路径
+
+//------------------------------------------------------------
+// Maker Optimizations
+//------------------------------------------------------------
+Maker Optimizations {{A}}\n...=人物创建优化插件 {{A}}\n▼Maker Optimizations {{A}}▼
+Maker Optimizations {{A}}=▲人物创建优化插件 {{A}}▲
+Manage cursor in maker=管理创建角色中的十字光标
+
+//------------------------------------------------------------
+// Maker/Studio Browser Folders
+//------------------------------------------------------------
+Maker/Studio Browser Folders {{A}}\n...=人物创建 / 工作室资源管理器{{A}}\n▼Maker/Studio Browser Folders {{A}}▼
+Maker/Studio Browser Folders {{A}}=▲人物创建 / 工作室资源管理器{{A}}▲
+Select character folder=打开人物文件夹
+Main game folder=打开主游戏文件夹
+Screenshot folder=打开截屏文件夹
+Current folder=打开当前文件夹
+Refresh thumbnails=刷新缩略图
+Search: =搜索: 
+Select folder with scenes to view=选择包含要查看场景的文件夹
+Open main game folder in explorer=在资源管理器中打开游戏目录
+Open character folder in explorer=在资源管理器中打开人物目录
+Open screenshot folder in explorer=在资源管理器中打开截屏目录
+Open current folder in explorer=在资源管理器中打开当前目录
+Refresh scene thumbnails=刷新场景缩略图
+
+Chara Studio=角色工作室
+Enable folder browser in character browser=在浏览角色时启用文件夹浏览器
+Enable folder browser in outfit browser=在浏览服饰时启用文件夹浏览器
+Enable folder browser in scene browser=在浏览场景时启用文件夹浏览器
+Save scenes to current folder=将场景保存到当前文件夹
+
+Automatically refresh when files change=文件变化时自动刷新
+
+Main game=主游戏
+Enable character folder browser in main game=在主游戏中启用角色文件夹浏览器
+Enable character folder browser in maker=在角色创建中启用角色文件夹浏览器
+Enable clothes folder browser in maker=在角色创建中启用服装文件夹浏览器
+
+Clothes=服装
+
+//------------------------------------------------------------
+// MakerSortIconReplacer
+//------------------------------------------------------------
+Replace Sort Icons=替换分类图标
+
+//------------------------------------------------------------
+// Material Editor
+//------------------------------------------------------------
+Material Editor {{A}}\n...=材质编辑器 {{A}}\n▼Material Editor {{A}}▼
+Material Editor {{A}}=▲材质编辑器 {{A}}▲
+
+UI Scale=UI 缩放
+UI Width=UI 宽度
+UI Height=UI 高度
+Watch File Changes=查看文件变化
+Export Baked Mesh=导出烘培网格
+Export Baked World Position=导出烘培世界坐标
+Export Path Override=导出路径覆盖
+Shader Optimization=着色器优化
+
+Disable ReceiveShadows=禁用阴影接收
+Disable ShadowCasting=禁用阴影投射
+Enable ReceiveShadows=启用阴影接收
+Enable ShadowCasting=启用阴影投射
+Reset ReceiveShadows=重置阴影接收
+Reset ShadowCasting=重置阴影投射
+
+Mods=Mods
+
+Top=上衣
+Bottom=下装
+Inner Top=内衣
+Inner Bottom=内裤
+Inner Bot=内裤
+Gloves=手套
+Panties=内裤
+Pantyhose=裤袜
+Socks=袜子
+Shoes=鞋子
+
+Two Sided=
+Shadows Only=
+
+Export UV Map=导出UV贴图
+Export .obj=导出obj文件
+Option A=选项A
+Reset=重置
+Copy Edits=复制编辑内容
+Paste Edits=粘贴编辑内容
+Copy Material=复制材质
+Export Texture=导出纹理
+Import Texture=导入纹理
+
+Offset X=平移X
+Offset Y=平移Y
+Offset Z=平移Z
+Scale X=缩放X
+Scale Y=缩放Y
+Scale Z=缩放Z
+
+//------------------------------------------------------------
+// Message Center
+//------------------------------------------------------------
+Message Center {{A}}\n...=消息中心{{A}}\n▼Message Center {{A}}▼
+Message Center {{A}}=▲消息中心{{A}}▲
+Show messages in UI=在游戏界面中显示信息提示
+
+//------------------------------------------------------------
+// Modding API
+//------------------------------------------------------------
+Modding API {{A}}\n...=Modding API {{A}}\n▼Modding API {{A}}▼
+Modding API {{A}}=▲Modding API {{A}}▲
+Show debug messages=显示调试信息
+
+//------------------------------------------------------------
+// Mute In Background
+//------------------------------------------------------------
+Mute In Background {{A}}\n...=游戏后台静音 {{A}}\n▼Mute In Background {{A}}▼
+Mute In Background {{A}}=▲游戏后台静音 {{A}}▲
+Mute In Background=后台运行游戏时静音
+
+//------------------------------------------------------------
+// PlayBoopz
+//------------------------------------------------------------
+PlayBoopz {{A}}\n...=摸奶插件 {{A}}\n▼PlayBoopz {{A}}▼
+PlayBoopz {{A}}=▲摸奶插件 {{A}}▲
+
+Only Touch Body=只摸身体
+Touch Strength=触摸强度
+
+//------------------------------------------------------------
+// PositionSelector
+//------------------------------------------------------------
+PositionSelector {{A}}\n...=位置选择插件 {{A}}\n▼PositionSelector {{A}}▼
+PositionSelector {{A}}=▲位置选择插件 {{A}}▲
+
+//------------------------------------------------------------
+// PushUp plugin
+//------------------------------------------------------------
+PushUp plugin {{A}}\n...=胸托插件 {{A}}\n▼PushUp plugin {{A}}▼
+PushUp plugin {{A}}=▲胸托插件 {{A}}▲
+
+Push-Up bra default settings=胸托默认设置
+
+Enable pushUp by default=默认情况下启用胸托
+Nipple Centering=乳头居中
+Push Up=胸托设置
+Type=类型 
+Bra=内衣
+Enabled=启用
+Firmness=软硬程度
+Lift=支撑程度
+Push Together=聚拢效果
+Squeeze=压迫程度
+Center Nipples=乳头中心
+Flatten Nipples=乳头扁平
+Hide Accessories=隐藏配饰
+Hide Nipples=隐藏乳头
+Corset=束腰程度
+Corset active for Half-Off=半脱状态允许束腰
+
+//------------------------------------------------------------
+// Re CharaLoader
+//------------------------------------------------------------
+Clean up BookMark=清理书签
+window=窗口
+Window=窗口
+Window scale=窗口缩放
+
+//------------------------------------------------------------
+// Resource Unload Optimizations
+//------------------------------------------------------------
+Resource Unload Optimizations {{A}}\n...=非加载资源优化 {{A}}\n▼Resource Unload Optimizations {{A}}▼
+Resource Unload Optimizations {{A}}=▲非加载资源优化 {{A}}▲
+Disable Resource Unload=禁用资源卸载
+Optimize Memory Threshold=优化内存阈值
+Optimize Memory Threshold During Load=优化负载期间的内存阈值
+Optimize Memory Usage=优化内存使用
+
+//------------------------------------------------------------
+// Runtime Unity Editor
+//------------------------------------------------------------
+Runtime Unity Editor {{A}}\n...=运行Unity编辑器 {{A}}\n▼Runtime Unity Editor {{A}}▼
+Runtime Unity Editor {{A}}=▲运行Unity编辑器 {{A}}▲
+Enable Mouse Inspector=启用鼠标检查器
+Open/close runtime editor=运行编辑器快捷键
+Show REPL console=显示REPL控制台
+Inspector=检查器
+Optional dnSpy arguments=可选的dnSpy参数
+Path to dnSpy.exe=dnSpy.exe路径
+
+//------------------------------------------------------------
+// Screenshot Manager 
+//------------------------------------------------------------
+Screenshot Manager {{A}}\n...=游戏截屏管理器 {{A}}\n▼Screenshot Manager {{A}}▼
+Screenshot Manager {{A}}=▲游戏截屏管理器 {{A}}▲
+
+Show messages on screen=屏幕上显示信息
+
+Capture normal screenshot=捕获正常截屏
+Capture rendered screenshot=捕获渲染截屏
+
+Rendered screenshots=渲染截屏
+//Alpha=
+Disable AO=禁用AO
+Screenshot height=截屏高度
+Screenshot width=截屏宽度
+Shadow cascade override=阴影级别覆盖
+Shadow resolution override=阴影分辨率覆盖
+Upsampling ratio=超采样率
+
+UI Screenshots=UI 截屏
+Screenshot resolution multiplier=截屏分辨率倍数
+
+Two=2
+Zero=0
+Four=4
+Never=从不
+Always=总是
+When Upsampling=超采样时
+
+//------------------------------------------------------------
+// Sideloader
+//------------------------------------------------------------
+Sideloader {{A}}\n...=附加MOD加载器 {{A}}\n▼Sideloader {{A}}▼
+Sideloader {{A}}=▲附加MOD加载器 {{A}}▲
+Additional mods directory=附加MOD路径
+Keep missing accessories=保留丢失的饰品
+Migration enabled=启用迁移功能
+
+Debug logging=调试日志
+Debug mod loading logging=调试MOD加载日志
+Debug resolve info logging=调试解决信息日志
+Show missing mod warnings=显示缺失MOD警告
+
+//------------------------------------------------------------
+// Skin Overlay Mod
+//------------------------------------------------------------
+Skin Overlay Mod {{A}}\n...=皮肤贴图MOD {{A}}\n▼Skin Overlay Mod {{A}}▼
+Skin Overlay Mod {{A}}=▲皮肤贴图MOD {{A}}▲
+Compress overlay textures in RAM=在内存中压缩贴图纹理
+Overlay export/open folder=贴图 导出/打开 文件夹
+
+//------------------------------------------------------------
+// Skin Overlay Mod GUI
+//------------------------------------------------------------
+Skin Overlay Mod GUI {{A}}\n...=皮肤贴图MOD GUI {{A}}\n▼Skin Overlay Mod GUI {{A}}▼
+Skin Overlay Mod GUI {{A}}\=▲皮肤贴图MOD GUI {{A}}▲
+Watch loaded texture for changes=查看已加载纹理的变化
+
+//------------------------------------------------------------
+//Slider Unlocker
+//------------------------------------------------------------
+Slider Unlocker {{A}}\n...=滑块数值解锁器 {{A}}\n▼Slider Unlocker {{A}}▼
+Slider Unlocker {{A}}=▲滑块数值解锁器 {{A}}▲
+Slider Limits=滑块限制数值
+Maximum slider value=滑块最大值
+Minimum slider value=滑块最小值
+
+//------------------------------------------------------------
+// Subtitles
+//------------------------------------------------------------
+Subtitles {{A}}\n...=对白字幕插件 {{A}}\n▼Subtitles {{A}}▼
+Subtitles {{A}}=▲对白字幕插件 {{A}}▲
+
+Show Subtitles=显示字幕
+Subtitle Directory=字幕目录
+Font Style=字体风格
+Text Align=文本对齐
+Text Horizontal Offset=文本水平偏移
+Text Vertical Offset=文本垂直偏移
+Outline Thickness=描边宽度
+Text Color=文本颜色
+Outline Color=轮廓颜色
+VR Text Offset=VR文本偏移
+VR Text {{A}} Offset=VR文本偏移{{A}}
+
+Bold=粗体
+Bold And Italic=粗体和斜体
+Italic=斜体
+
+//------------------------------------------------------------
+// Text Resource Redirector
+//------------------------------------------------------------
+Text Resource Redirector {{A}}\n...=文本资源重定向器 {{A}}\n▼Text Resource Redirector {{A}}▼
+Text Resource Redirector {{A}}=▲文本资源重定向器 {{A}}▲
+
+Register as Translations=注册为翻译
+Use Translation from Asset=使用本机资源翻译
+Enable Tracing=启用跟踪
+Alternate Text Reflow=备用文本重排
+
+AchievementInfoDataHandler=成就信息数据处理程序 
+BGMNameInfoHandler=BGM名称信息处理程序 
+ChaListDataHandler=人物列表数据处理程序
+EventContentInfoDataHandler=事件内容信息数据处理程序
+ExcelDataHandler=Excel数据处理程序
+MapInfoHandler=地图信息处理程序
+ParameterNameInfoHandler=参数名称信息处理程序 
+PlanNameInfoHandler=计划名称信息处理程序
+ScenarioDataHandler=场景数据处理程序 
+Text Formatter=文本转换处理程序
+TextAssetTableHandler=文本资产表处理程序 
+VoiceInfoHandler=语音信息处理程序 
+
+//------------------------------------------------------------
+// Translation Cache Cleaner
+//------------------------------------------------------------
+Translation Cache Cleaner {{A}}\n...=翻译缓存清理器 {{A}}\n▼Translation Cache Cleaner {{A}}▼
+Translation Cache Cleaner {{A}}=▲翻译缓存清理器 {{A}}▲
+
+//------------------------------------------------------------
+// Translation Helper
+//------------------------------------------------------------
+Translation Helper {{A}}\n...=翻译助手 {{A}}\n▼Translation Helper {{A}}▼
+Translation Helper {{A}}=▲翻译助手 {{A}}▲
+Acceleration=性能加速
+
+Enable Card List Translation Caching=启用卡片列表翻译缓存
+
+Maker=人物创建
+Save Translated Names=保存翻译后名字
+
+Translate Card Name Modes=翻译卡名模式
+MainGame=主游戏
+
+Translate Card Name Options=翻译卡名选项
+Characters to Trim=缩减字符
+Register Active Characters=注册活动人物
+Split Names Before Translate=翻译前拆分名字
+Use Suffix=使用后缀
+
+//------------------------------------------------------------
+// Uncensor Selector
+//------------------------------------------------------------
+Uncensor Selector {{A}}\n...=解码选择器 {{A}}\n▼Uncensor Selector {{A}}▼
+Uncensor Selector {{A}}=▲解码选择器 {{A}}▲
+Uncensor Selector=解码选择器
+
+Default Male Body=默认的男性身体
+Default Male Penis=默认的男性阴茎
+Default Male Balls=默认的男性睾丸
+Default Female Body=默认的女性身体
+Default Female Penis=默认的女性阴茎
+Default Female Balls=默认的女性睾丸
+Default Female Balls Display=默认的女性的睾丸显示
+Use separate exclusions for studio=为工作室使用单独的排除项
+
+Male Body=男性身体
+Male Penis=男性阴茎
+Male Balls=男性睾丸
+Female Body=女性身体
+Female Penis=女性阴茎
+Female Balls=女性睾丸
+
+Random Excluded=随机排除
+Configure uncensors to exclude for Male Body=配置排除出男性的随机身体解码。
+Configure uncensors to exclude for Male Penis=配置排除出男性的随机阴茎解码。
+Configure uncensors to exclude for Male Balls=配置排除出男性的随机睾丸解码。
+Configure uncensors to exclude for Female Body=配置排除出女性的随机身体解码。
+Configure uncensors to exclude for Female Penis=配置排除出女性的随机阴茎解码。
+Configure uncensors to exclude for Female Balls=配置排除出女性的随机睾丸解码。
+
+//------------------------------------------------------------
+// Who Is There?
+//------------------------------------------------------------
+Who Is There? {{A}}\n...=惊喜事件人名查看器 {{A}}\n▼Who Is There? {{A}}▼
+Who Is There? {{A}}=▲惊喜事件人名查看器 {{A}}▲
+Toggle showing who is in room=切换显示谁在房间-快捷键
+
+//------------------------------------------------------------
+// XUnity Resource Redirector
+//------------------------------------------------------------
+XUnity Resource Redirector {{A}}\n...=XUnity资源重定向器 {{A}}\n▼XUnity Resource Redirector {{A}}▼
+XUnity Resource Redirector {{A}}=▲XUnity资源重定向器 {{A}}▲
+//General=
+LogAllLoadedResources=记录所有加载的资源
+LogCallbackOrder=日志回调顺序
+
+//Settings=
+Log all loaded resources=记录所有加载的资源
+Log callback order=日志回调顺序
+
+;------------------------------------------------------------
+; ■ 插件-DHH Graphics Enhancer
+;------------------------------------------------------------
+Enable DHH MOD=启用DHH画质
+Enable SSS=启用SSS支持
+
+GUI=图形用户界面(GUI)
+Show hint window=显示提示窗口
+Show loading progress=显示载入过程
+
+Keyboard Shortcuts=键盘快捷键
+FOV Decrement=FOV 减量
+FOV Increment=FOV 增量
+FOV Reset=FOV 重置
+Toggle DHH Graphics window=激活DHH画质窗口

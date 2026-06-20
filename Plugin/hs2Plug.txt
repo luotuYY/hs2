@@ -1,0 +1,415 @@
+//------------------------------------------------------------
+// hs2 Plug & hs2 Plug VR
+//------------------------------------------------------------
+//Plugin/modsettings
+
+hs{{A}} Plug {{B}}\n...=H时为所欲为插件 {{B}}\n▼hs{{A}} Plug {{B}}▼
+hs{{A}} Plug {{B}}=▲H时为所欲为插件 {{B}}▲
+hs{{A}} Plug VR {{B}}\n...=H时为所欲为插件 VR {{B}}\n▼hs{{A}} Plug VR {{B}}▼
+hs{{A}} Plug VR {{B}}=▲H时为所欲为插件 VR {{B}}▲
+
+¤------------------ Customize Shortcuts ------------------¤=¤------------------ 定制快捷键 ------------------¤
+- (in H) Move to next spot=- (H时) 移至下一个地点
+Defines a key to go to the next available location over a map=定义一个键以转到地图中的下一个可用位置
+- (in H) Move to previous spot=- (H时) 移至上一个地点
+Defines a key to go to the previous available location over a map=定义一个键以转到地图中的上一个可用位置
+- (in H) Open Invitation menu=- (H时) 打开邀约菜单
+Defines a key that open or close the Invitation menu during H scene=定义在H场景中打开或关闭邀约菜单的快捷键
+- (in H) Open Pose Selector menu=- (H时) 打开姿势选择菜单
+Defines a key that open or close the Pose Selector menu during H scene=定义在H场景中打开货关闭姿势选的快捷键
+- (in H) Toggle camera light tracking=- (H时) 切换镜头光照追踪
+Defines key that will toggle the light movement with camera ( alternatve key is keypad {{A}} )=定义切换光照与镜头的关联的快捷键(备用键位小键盘{{A}})
+- (in H) Toggle Light Presets=- (H时) 切换预设光照
+Defines a key to enable or disable lighting presets from this mod during H scene=定义在H场景中打开或关闭预设光照的快捷键
+- (in H) Toggle Smart UI=- (H时) 切换智能UI
+Defines key to toggle Smart UI ( alternatve key is keypad dot )=定义切换智能UI的键（备用键是小键盘的小数点）
+- Open Music Selector=- 打开音乐选择
+Defines a key that open or close the Music Selector=定义一个快捷键用来打开或关闭音乐选择
+- Open Rooms Register=- 打开房间登记簿
+when you're in your room, defines a key to open the Rooms Register, it list the girls stats and allow to edit moods and personalities=当你在你的房间时，定义一个快捷键用来打开房间登记簿，它将列出女孩的信息并且能够编辑情绪和个性
+- Toggle Free Camera=- 切换自由镜头
+When a girl is visible ( anywhere except in H and Maker ) defines a key to free the camera and move it where you wish=当有女孩出场时(H和角色创建除外)，定义一个快捷键以解锁镜头移动
+
+¤------------------ H Common Settings ------------------¤=¤------------------ H常用设置 ------------------¤
+¤        H Common Settings         ¤=¤        H常用设置        ¤
+- Action make her sweaty=- 行动使其汗流浃背
+Action with the girl will increase the sweat effect on body shader=与女孩一起运动会增加身体着色器的汗水效果
+- Add Eye darts move to girl=- 添加眼标移到少女身上
+Add Small Eye movement to make the face of the girl a little more alive=添加细微眼动，让女孩的脸更生动些
+- Apply Lighting presets on H scenes=- 在H场景上应用预设光照
+Modify the scene lighting for a better immersion=修改场景照明，让场景更有沉浸感
+- Heals faintness with sync-orgasm=- 用同步性高潮治愈虚弱
+Orgasms together during faintness can make the girl recover=虚弱时的性高潮可以使女孩恢复
+- Heals required sync-orgasm count=- 治愈所需的同步性高潮计数
+When Heals faintness is on, defines the number of orgasm to wake up the girl=当治愈虚弱开启时，定义唤醒女孩的性高潮次数
+- Orgasm make her wet=- 性高潮使其湿透
+Each girl orgasm will increase the wet effect on body shader=每个女孩的高潮都会增加身体着色器的潮湿效果
+- Orgasms to reach full wetness=- 达到完全湿润的性高潮
+When Orgasm make her wet is on, defines the number of orgasm to reach the maximum wet value=当性高潮使她湿润时，定义达到最大湿润值的性高潮次数
+- Reduce UI at H start=- 在H开始时减少UI
+Smart UI is triggered at H starts=智能UI在H开始时触发
+
+¤------------------ H First Person View ------------------¤=¤------------------ H第一人称视角 ------------------¤
+¤        First Person View        ¤=¤       第一人称视角       ¤
+- Focal in FPV=FPV焦距
+Camera Focal value in First person view=第一人称视角中的相机焦距值
+- Trigger FPV at H start=- H开始时触发FPV
+FPV is activated when H starts=开始H时第一人称视角被激活
+
+¤------------------ Overall Settings ------------------¤=¤------------------ 总体设置 ------------------¤
+- Add audio reverb effect in some places=- 在某些地方添加混音效果
+In various places such as bathes, toilets, hall, torture room... a reverberation effect will be added for a better immersion=在不同的地方如浴场，厕所，大厅，拷问室... 添加混音效果以获得更好的沉浸感
+- Restore accessories on clothes change=- 更换衣服时恢复配饰
+When a clothes card (coordinate) is loaded, accessories will be kept. Very useful when your girls have haircuts built with accessories=当读取服装卡(coordinate)时，将保留当前的配饰。这非常有用比如女孩有发型配饰时
+- Use Japanese for hs{{A}}Plug UI=- hs{{A}}Plug启用日语界面
+Display UI text from this mod in Japanese=用日语显示这个mod的界面
+
+¤------------------ Temporary Settings ------------------¤=¤------------------ 临时设置 ------------------¤
+¤        Temporary Settings        ¤=¤        临时设置        ¤
+- Change Penis Material=- 改变阴茎材质
+Replace the mosaic texture with the body one=将马赛克纹理替换为主体纹理
+
+¤        H Custom Shortcuts        ¤=¤        自定义H快捷键        ¤
+- Move to next spot=- 移至下一个地点
+Defines a key to go to the next available location over a map=定义一个键以转到地图中的下一个可用位置
+- Move to previous spot=- 移至上一个地点
+Defines a key to go to the previous available location over a map=定义一个键以转到地图中的上一个可用位置
+- Open Invitation menu in H=- 在H中打开邀约菜单
+Defines a key that open or close the inviation menu during H scene=定义在H场景中打开或关闭邀约菜单的快捷键
+- Open Pose Selector meun in H=在H中打开姿势选择菜单
+Defines a key that open or close the Pose Selector menu during H scene=定义在H场景中打开货关闭姿势选的快捷键
+- Toggle light association with Camera=- 切换光照与镜头的关联
+Defines key that will toggle the light movement with Camera ( alternatve key is keypad 1 )=定义切换光照与镜头的关联的快捷键(备用键位小键盘1)
+- Toggle light Presets=切换预设光照
+Defines a key to enable or disable lighting presets from this mod during H scene=定义在H场景中打开或关闭预设光照的快捷键
+- Toggle Smart UI=- 切换智能UI
+Defines key to toggle Smart UI ( alternatve key is keypad dot )=定义切换智能UI的键（备用键是小键盘的小数点）
+
+
+
+//------------------------------------------------------------
+//ModUI
+
+//Free Camera
+
+free camera=自由镜头
+fixed camera=恢复镜头
+
+//Rooms Register
+
+¤ Rooms Register ¤=¤ 房间登记簿 ¤
+
+Personality: Quiet=个性: 酷妹
+Personality: Ordinary=个性: 普通
+Personality: Hard worker=个性: 御姐
+Personality: Girlfriend=个性: 女友
+Personality: Fashonable=个性: 辣妹
+Personality: Timid=个性: 胆小
+Personality: Motherly=个性: 人妻
+Personality: Sadistic=个性: 女王
+Personality: Open hearted=个性: 腐女
+Personality: Natural=个性: 天然
+Personality: Diligent=个性: 认真
+Personality: Ideal girl=个性: 软妹子
+Personality: Tomboy=个性: 假小子
+Personality: Yandere=个性: 病娇
+
+Pitch=程度
+
+Current State : Dependence=当前状态 : 依赖
+Current State : Aversion=当前状态 : 厌恶
+Current State : Broken=当前状态 : 崩坏
+Current State : Neutral=当前状态 : 无倾向
+Current State : Enjoyment=当前状态 : 快乐
+Current State : Favor=当前状态 : 好感
+Current State : Slavery=当前状态 : 奴役
+
+Total H sessions : {{A}}=总H场次 : {{A}}
+
+Experiences=
+H experience : {{A}}=H经验 : {{A}}
+Anal experience : {{A}}=肛门经验 : {{A}}
+Pain experience : {{A}}=痛苦经验 : {{A}}
+
+Mind States=心态
+Dirty : {{A}}=涩情 : {{A}}
+Enjoyment : {{A}}=快乐 : {{A}}
+Favor : {{A}}=好感 : {{A}}
+Slavery : {{A}}=奴役 : {{A}}
+Dependence : {{A}}=依赖 : {{A}}
+Aversion : {{A}}=厌恶 : {{A}}
+Broken : {{A}}=崩坏 : {{A}}
+
+//Music Selector
+
+¤  Music Selector  ¤=¤  音乐选择  ¤
+
+AI Shoujo Theme=AI少女 主题
+Honey Select {{A}} Theme=Honey Select {{A}} 主题
+My Room Theme=我的房间主题
+Character Maker=角色编辑
+Fur Room=菲儿的房间
+Network=网络
+Normal=普通
+Favor=好感
+Enjoyment=快乐
+Enjoyement=快乐
+Slavery=奴役
+Aversion=厌恶
+Broken=崩坏
+Dependence=依赖
+Asian Style Theme=亚洲风格主题
+Lobby Theme=大堂主题
+Dark=黑暗
+Honey Select {{A}} DX Theme=Honey Select {{A}} DX 主题
+VRP Lobby=VRP大厅
+Night Love Service=夜间爱爱服务
+Adulte Service=成人服务
+Mystique Service=神秘服务
+Exciting Thight=激动人心
+Forever Service=无尽服务
+Night Walk=夜行
+
+Volume=音量
+
+//Light Presets
+
+default lighting=默认光照
+lighting presets=预设光照
+
+//camera light tracking
+Re-=重
+Re-a=重新
+Re-at=重新
+Re-att=重新
+Re-atta=重新关
+Re-attac=重新关
+Re-attach=重新关
+Re-attach =重新关联
+Re-attach l=重新关联
+Re-attach li=重新关联
+Re-attach lig=重新关联光
+Re-attach ligh=重新关联光
+Re-attach light=重新关联光
+Re-attach light =重新关联光照
+Re-attach light T=重新关联光照
+Re-attach light To=重新关联光照
+Re-attach light To =重新关联光照和
+Re-attach light To c=重新关联光照和
+Re-attach light To ca=重新关联光照和
+Re-attach light To cam=重新关联光照和镜
+Re-attach light To came=重新关联光照和镜
+Re-attach light To camer=重新关联光照和镜头
+Re-attach light To camera=重新关联光照和镜头
+
+Fre=锁
+Free=锁
+Freez=锁
+Freeze=锁定
+Freeze =锁定
+Freeze L=锁定
+Freeze Li=锁定光
+Freeze Lig=锁定光
+Freeze Ligh=锁定光
+Freeze Light=锁定光照
+Freeze Light =锁定光照
+Freeze Light p=锁定光照
+Freeze Light po=锁定光照位
+Freeze Light pos=锁定光照位
+Freeze Light posi=锁定光照位
+Freeze Light posit=锁定光照位置
+Freeze Light positi=锁定光照位置
+Freeze Light positio=锁定光照位置
+Freeze Light position=锁定光照位置
+
+//Pose Selector
+¤  Pose Selector  ¤=¤  体位选择  ¤
+Sex=插入
+Special=特殊
+Lesbian=女同
+Group=群P
+Tease=爱抚
+Service=伺候
+
+POOL: Missionary=漂浮前入抱起
+POOL: Doggy=漂浮后入
+Missionary=正常位
+Missionary, Boobs Play=揉胸正常位
+Missionary, Anal=肛交正常位
+Missionary, Legs Up=扛腿位
+Press Missionary=打桩机
+Missionary, Forced=强迫正常位
+Missionary, Restrained=束缚正常位
+Spooning=侧入位
+Piledriver=打桩正常位
+Piledriver, Anal=抬腿肛交正常位
+Stacking, Lotus=正面坐抱
+Stacking, Straddle=正面坐位
+Doggy Style=后入式
+Doggy Style, Anal=肛交后入式
+Doggy Style, Leashed=抬腿母狗位
+Lying Back=俯卧后入
+Trust Back=扭腰后入
+Squat Back=下蹲插入
+Cowgirl=骑乘位
+Cowgirl, Boobs Play=揉胸骑乘位
+(GL) Pile Driver=(女主导)女上抬腿位
+Rear Cowgirl=背向骑乘位
+(GL) Rear Piledriver=(女主导)抬脚背面骑乘
+(GL) Rear Cowgirl Anal=(女主导)肛交背面骑乘
+Bridge=仰头后入
+(GL) Humping=(女主导)素股骑乘位
+(GL) Humping, Hanjob=(女主导)手交素股
+Standing=立位
+Standing, Lifted=正面抱起
+Standing, Lifted, Leg Locks=正面抱起夹腿
+Standing Rear, Trust=背向站位
+Standing Rear, Trust Leg Up=站立抬腿后入
+Standing Rear, Humping=素股
+Standing Rear, Lifted=背后抱起
+Bondage, Suspended=悬挂插入
+Bondage, Hands Tied=束缚站立
+Bondage Rear, Hands Tied=绳索束缚插入
+(GL) Bondage, Riding=(女主导)男束缚站立
+Delivery Table=分娩台插入
+STAIR, Doggy Style=楼梯后入式
+SEAT: Rear Riding=椅上背坐位
+SEAT: Rear Riding, Boobs Play=揉胸背面坐位
+SEAT:(GL) Rear Humping=(女主导)椅上素股
+SEAT: Doggy Style, Anal=扶椅肛交背后位
+SEAT:(GL) Male Restrained=(女主导)椅子拘束坐姿
+SOFA: Straddle=跨坐插入
+SOFA:(GL) Side=(女主导)侧面躺椅插入
+DESK: Missionary=桌上正常位
+DESK: Rear Fuck A=桌上侧入位
+DESK: Rear Fuck B=桌上背后位
+COUNTER: Trust Back=柜台后入
+WALL: Rear Fuck=后入壁咚
+WALL: Doggy Style=靠墙站位
+WALL: Doggy Style, Anal=靠墙站位肛交
+MISC: Restrained Rear Fuck=站立拘束
+MISC: Wall Hole Rear Fuck=墙洞后入式
+
+69=69
+Masturbation, Lying=躺下自慰
+Masturbation with Dildo=假阳具自慰
+Masturbation, Filmed=自慰摄影
+STAIR: Masturbation=楼梯自慰
+Whipped=趴下鞭打
+SEAT: Spanking=坐着打屁股
+DESK: Spanking=靠桌打屁股
+MISC: Wood Horse Spanking=骑木马鞭打
+MISC: Wood Horse A=三角木马
+MISC: Wood Horse B=绑手三角木马
+MISC: Wood Horse=绑手铁球三角木马
+MISC: Toy Attacks!=拘束玩具抽插！
+MISC: Advanced Fucking Device=束缚机器奸淫
+MISC: Tentacle A=触手A
+MISC: Tentacle B=触手B
+
+Lying, Shell=磨阴
+Lying, Shell (swap)=磨阴(换位)
+Standing, Fingering=站立手交
+Standing, Fingering (swap)=站立手交(换位)
+SEAT: Cunni=椅上舔穴
+SEAT: Cunni (swap)=椅上舔穴(换位)
+WALL: Cunni=趴墙舔穴
+WALL: Cunni (swap)=趴墙舔穴(换位)
+
+FFM: Lying Blowjob=口交
+FFM: Lying Blowjob ( swap )=口交(换位)
+FFM: Lying Blowjob (swap)=口交(换位)
+FFM: Stand Blowjob=手交舔龟头
+FFM: Stand Blowjob ( swap )=手交舔龟头(换位)
+FFM: Stand Blowjob (swap)=手交舔龟头(换位)
+FFM: Back Double Hump=后位双素股
+FFM: Back Double Hump ( swap )=后位双素股(换位)
+FFM: Back Double Hump (swap)=后位双素股(换位)
+FFM: Face Sitting & Cowgirl=骑脸舔穴&骑乘位
+FFM: Face Sitting & Cowgirl ( swap )=骑脸舔穴&骑乘位(换位)
+FFM: Face Sitting & Cowgirl (swap)=骑脸舔穴&骑乘位(换位)
+FFM: Cunni & Cowgirl=舔穴&骑乘位
+FFM: Cunni & Cowgirl ( swap )=舔穴&骑乘位(换位)
+FFM: Cunni & Cowgirl (swap)=舔穴&骑乘位(换位)
+FFM: Doggy & Fingering=后入&指交
+FFM: Doggy & Fingering ( swap )=后入&指交(换位)
+FFM: Doggy & Fingering (swap)=后入&指交(换位)
+MMF: Double Blowjob=一口双雕
+MMF: Lying Back & Blowjob=侧入式+口交
+MMF: Kneeling Back & Blowjob=后入式+口交
+MMF: Lying Double Penetration=背面骑乘+正常位
+MMF: Lying Back Double Penetration=正面骑乘+后入式
+MMF: Lifted Double Penetration=抱起双管齐下
+MMF: Wall Hole Penetration & Blowjob=强东后入+口交
+
+Boobs Massage, Lying Down=抚摸胸部
+Boobs Play, Squating=下蹲揉胸
+Boobs Play, Standing Rear=后背位揉胸
+STAIR: Boobs Massage=台阶揉胸
+Kiss, Crouched=接吻
+Kiss & Maturbate, Crouched=接吻手淫
+Kiss, Lying Down=侧资热吻
+Kiss, Lying Down, Forced=强行热吻
+Kiss, Standing=站立亲吻
+Kiss & Fingering, Standing=站立亲吻爱抚
+Fingering, Lying Down=抚摸小穴
+Fingering, Mutilation=抬腿抚摸小穴
+Fingering, G Spot Attack=G点进攻
+STAIR: Fingering=台阶指交
+WALL: Fingering=趴墙指交
+Cunni, Lying Down=舔穴
+Cunni, Lying Down, Mutilation=腿臀舔穴
+Cunni, Face Sitting=(女主导)骑脸舔穴
+Cunni, Standing=站立舔穴
+SEAT: Cunnilingus=椅上舔穴
+DESK: Cunnilingus=桌上舔穴
+COUNTER: Rear Cunnilingus=后位舔穴
+WALL: Rear Cunnilingus=壁立后舔
+Rimjob, Doggy Style=舔舐菊花
+Anal Vibrator, Lying Down=菊花震动棒插入
+Vibrator, Standing=震动棒插入
+COUNTER: Vibrator=立前震动棒插入
+MISC: Double Vibes=拘束二穴震动棒
+
+Blowjob, Lying Down=口交
+Blowjob, Mouth Fuck=虚脱口交
+Blowjob, Squat=下蹲口交
+Blowjob & Boobjob, Lying Down=乳胶+口交
+Blowjob, Kneeling No Hand=无手口交
+Blowjob, Deepthroat=深喉
+Blowjob, Deepthroat Forced=按头深喉
+Blowjob, Kneeling Leashed=奴役口交
+Blowjob & Titjob, Kneeling=站立乳交
+(GL): Blowjob, Boy Restrained=(女主导)男拘束口交
+SEAT: Blowjob=椅上无手口交
+SEAT: Blowjob, Forced=坐着深喉
+WALL: Blowjob, Forced=靠墙深喉
+MISC: Blowjob, Restrained=捆绑口交
+MISC: Blowjob, Wall Hole=壁穴口交
+Lick, Kneeling=无手舔龟头
+Titjob & Lick, Kneeling=站立乳交舔舐
+Titjob & Lick, Lying Down=乳交舔龟头
+SEAT: Titjob & Lick=座椅乳交舔舐
+Titjob, Lying Down=乳交
+Titjob, Lying, Girl on Top=躺位乳交
+SEAT: Titjob=座姿乳交
+Handjob, Lying Down=手交
+Handjob, Lying, Knob Polish=抚摸龟头
+Handjob & Nip Lick, Lying=(女主导)舔乳头自慰
+Handjob, Lying Down Weak=脱力手交
+Handjob, Milking=(女主导)男性趴位手交
+Handjob, Kneeling=站立手交
+Handjob, Standing Side=侧位手交
+Handjob, Aversion=强迫手交
+SEAT: Handjob=座椅手交
+SOFA: Side Handjob=平行坐位手交
+DESK: Hanjob=桌上手交
+DESK: Handjob=桌上手交
+Footjob, Lying Down=(女主导)站立足交
+CHAIR: Footjob Footjob=(女主导)座椅足交
+CHAIR:(GL) Lick Foot=(女主导)椅子拘束足交
+Lying, Rimjob=(女主导)舔菊手交
+
+
+//Invitation menu
+¤  Invitation Menu  ¤=¤  邀约菜单  ¤

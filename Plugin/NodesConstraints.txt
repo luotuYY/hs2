@@ -1,0 +1,31 @@
+//------------------------------------------------------------
+// NodesConstraints
+//------------------------------------------------------------
+Nodes Constraints {{A}}\n...=节点绑定 {{A}}\n▼Nodes Constraints {{A}}▼
+Nodes Constraints {{A}}=▲节点绑定 {{A}}▲
+
+
+Link position= 关联 移动
+Link rotation= 关联 旋转
+Link scale= 关联 缩放
+Use current=使用当前值
+Reset=重置
+Alias=简写
+Add new=添加新关联
+Update selected=刷新选中项
+Search=搜索
+Advanced List=高级列表
+Show nodes=显示节点
+All=全部
+Set as parent=设为父项
+Set as child=设为子项
+
+Debug=调试
+Local Pos:=相对移动:
+World Pos:=绝对移动:
+Local Rot (E):=相对旋转(E):
+Local Rot (Q):=相对旋转(Q):
+World Rot (E):=绝对旋转(E):
+World Rot (Q):=绝对旋转(Q):
+Local Scale:=相对缩放:
+World Scale:=绝对缩放:

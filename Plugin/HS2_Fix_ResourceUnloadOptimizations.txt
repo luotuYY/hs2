@@ -1,0 +1,14 @@
+//------------------------------------------------------------
+// Resource Unload Optimizations
+//------------------------------------------------------------
+Resource Unload Optimizations {{A}}\n...=非加载资源优化 {{A}}\n▼Resource Unload Optimizations {{A}}▼
+Resource Unload Optimizations {{A}}=▲非加载资源优化 {{A}}▲
+
+Disable Resource Unload=禁用非加载资源
+Disables all resource unloading. Requires large amounts of RAM or will likely crash your game.=禁用所有非加载资源。需要大量的内存否则可能会导致游戏崩溃。
+Optimize Memory Usage=优化内存使用
+Use more memory (if available) in order to load the game faster and reduce random stutter.=使用更多的内存(如果可行)用来更快的加载游戏。
+Optimize Memory Threshold=优化内存阈值
+Minimum amount of memory to be used before resource unloading will run.=运行非加载资源前要使用的最小内存量。
+Optimize Memory Threshold During Load=在加载期间优化内存阈值
+Minimum amount of memory to be used during load before resource unloading will run (should be lower than 'Percent Memory Threshold').=运行非加载资源时要使用的最小内存量(必须低于优化内存阈值)。

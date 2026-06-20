@@ -1,0 +1,1045 @@
+//***********************************************************************
+//***********************************************************************
+// Note: Some text is intentionally cut short or have thier context
+//       removed to fit the UI.
+//           Eyebrow Height -> Height // this is inside the Eyebrow menu
+//           Left Shoulder -> L Shoulder
+//***********************************************************************
+//***********************************************************************
+
+#set exe HoneySelect2
+// Scene: CharaCustom (3)
+#set level 3
+
+
+//************************************************************
+// General
+//************************************************************
+
+//------------------------------------------------------------
+// Personalities
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\cha_sample_voice_00\
+// RedirectedResources\assets\abdata\etcetra\list\config\30\00\
+// RedirectedResources\assets\abdata\studio\info\34\voicegroup_34\
+
+//------------------------------------------------------------
+// Traits
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00
+
+//------------------------------------------------------------
+// Mentality
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\init_mind_param_00\
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00
+
+//------------------------------------------------------------
+// Sex Traits
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00
+
+//------------------------------------------------------------
+// use # to search for instances of the following "\\Sample#"
+// Some commented lines have translations also in Generic.txt
+//------------------------------------------------------------
+サンプル=样本
+タイプ=类型
+調整=调整
+名前=名字
+コーデ=套装
+瞳の設定=眼睛设置
+キャラ設定=角色设置
+ハート=心形
+肌=肌肤
+顔=脸
+耳=耳
+眼鏡=眼镜
+//眉
+//目
+鼻=鼻子
+//口
+顎=下巴
+//首
+肩=肩
+胸=胸
+腰=腰
+腕=臂
+脚=腿
+//手
+//左手
+//右手
+
+//------------------------------------------------------------
+// Placement (Paint and Accessories) Arrangement and Parent Tabs
+//------------------------------------------------------------
+//Paint and Accessories
+左肩=左肩
+右肩=右肩
+
+//paint face:
+//RedirectedResources\assets\abdata\list\characustom\00\facepaint_layout_00\
+
+//paint body:
+//RedirectedResources\assets\abdata\list\characustom\00\bodypaint_layout_00\
+
+//accessories
+ポニー=马尾
+ツイン左=双马尾左
+ツイン右=双马尾右
+ヘアピン左=左发夹
+ヘアピン右=发夹右
+帽子=帽子
+額=额头
+頭中心=头部中心
+//Face#
+左耳=左耳
+右耳=右耳
+//Glasses#
+//Nose#
+//Mouth#
+//Neck#
+胸上=胸上
+胸上中央=胸部中心
+左胸=左胸
+右胸=右胸
+背中中央=背部中心
+背中左=向左后退
+背中右=背中右侧
+//Waist#
+腰前=在腰前
+腰後ろ=腰部后面
+腰右=右腰
+腰左=左腰
+左太もも=左大腿
+右太もも=右大腿
+左ひざ=左膝
+右ひざ=右膝
+左足首=左脚踝
+右足首=右脚踝
+かかと左=左脚后跟
+かかと右=脚跟向右
+//L Shoulder#
+//R Shoulder#
+左肘=左肘
+右肘=右肘
+左上腕=左上臂
+右上腕=右上臂
+左手首=左手腕
+右手首=右手腕
+//L Hand#
+//R Hand#
+左人差指=左食指
+右人差指=右手食指
+左中指=左中指
+右中指=右中指
+左薬指=左无名指
+右薬指=右无名指
+下腹部①=小腹①
+下腹部②=小腹②
+下腹部③=小腹③
+
+//------------------------------------------------------------
+// Tabs
+//------------------------------------------------------------
+//pattern also used in Color fields
+種類=类型
+//カラー
+親=佩戴位置
+配置=放置
+その他=其他
+
+//------------------------------------------------------------
+// Pattern fields
+//------------------------------------------------------------
+初期カラー=初始颜色
+
+//------------------------------------------------------------
+// Color fields
+//------------------------------------------------------------
+//Color
+ツヤ=光泽
+質感=质感
+カラーサンプル=颜色样本
+柄設定=模式设置
+柄=花纹
+
+//------------------------------------------------------------
+// Misc fields
+//------------------------------------------------------------
+破れ具合=撕裂状态
+オプションパーツ01を表示=显示可选零件01
+オプションパーツ02を表示=显示可选的部分02
+
+//------------------------------------------------------------
+// Adjust/Arrange/Parent and other positioning fields
+//------------------------------------------------------------
+//eye
+幅=宽度
+高さ=高度
+X位置=X位置
+Y位置=Y位置
+傾き=倾斜
+
+位置X=位置X
+位置Y=位置Y
+
+位置=位置
+回転=旋转
+拡縮=缩放比例
+
+移動量=运动量
+回転量=旋转量
+拡縮量=缩放量
+
+操作軸=操作轴
+移動=移动
+速度=速度
+大きさ=大小
+
+揺らさない=不要摇动
+
+//Hair
+操作軸設定=操作轴设置
+全ての操作軸=所有工作轴
+移動X=X轴平移
+移動Y=Y轴平移
+移動Z=Z轴平移
+回転X=X轴旋转
+回転Y=Y轴旋转
+回転Z=Z轴旋转
+
+全て初期化=全部初始化
+
+//------------------------------------------------------------
+// Paint
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\st_paint_00\
+// RedirectedResources\assets\abdata\list\characustom\10\st_paint_10\
+// RedirectedResources\assets\abdata\list\characustom\30\st_paint_30\
+// RedirectedResources\assets\abdata\list\characustom\40\st_paint_40\
+// RedirectedResources\assets\abdata\list\characustom\41\st_paint_41\
+
+//------------------------------------------------------------
+// Patterns
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\st_pattern_00\
+// RedirectedResources\assets\abdata\list\characustom\30\st_pattern_30\
+// RedirectedResources\assets\abdata\list\characustom\34\st_pattern_34\
+
+
+//************************************************************
+// Main Menues (Left side)
+//************************************************************
+//------------------------------------------------------------
+// Shared
+//------------------------------------------------------------
+全体=整体
+ペイント01=彩绘01
+ペイント02=彩绘02
+
+//------------------------------------------------------------
+// Face
+//------------------------------------------------------------
+フェイス=脸部
+
+顔周り=面部区域
+顔のタイプ=脸型
+//Jaw#
+頬=脸颊
+//Eyebrows#
+//Eye#
+//Nose#
+//Mouth#
+//Ears#
+ホクロの設定=设置痣
+//Male editor:
+ヒゲのタイプ=小胡子类型
+
+目周り=眼睛周围
+左右の設定を合わせる=左右设置保持一致
+左目=左眼
+右目=右眼
+//Eye Settings#
+目のハイライト=眼睛亮点
+眉のタイプ=眉型
+まつ毛のタイプ=睫毛类型
+
+化粧=补偿
+アイシャドウ=眼影
+チーク=脸颊
+リップ=唇
+
+//------------------------------------------------------------
+// Body
+//------------------------------------------------------------
+ボディ=身体
+
+体型=体型
+//Breasts#
+上半身=上半身
+下半身=下半身
+//Arm#
+//Leg#
+
+//Skin#
+
+肌の種類=皮肤类型
+日焼け跡=晒斑
+乳首=乳头
+アンダーヘア=阴毛
+爪の色=指甲颜色
+
+特殊=特殊情景
+ふたなり=阴阳人
+
+//------------------------------------------------------------
+// Hair
+//------------------------------------------------------------
+ヘアー=头发
+
+前髪と後ろ髪の色を統一=统一前后头发的颜色
+根本と毛先の色を自動設定=自动设置发根和发梢颜色
+髪の調整をまとめて行う=统一头发调整
+
+後ろ髪=后面头发
+後ろ髪の設定=设置后面头发
+
+前髪=前面头发
+前髪の設定=前发设置
+
+横髪=两侧头发
+横髪の設定=设置鬓角类型
+
+エクステ=接发
+エクステの設定=扩展发型设置
+
+描画設定=渲染设置
+
+//------------------------------------------------------------
+// Clothing
+//------------------------------------------------------------
+//Clothing#
+
+衣装=服装
+トップス=上衣
+ボトムス=下装
+インナー上=胸罩
+インナー下=内裤
+手袋=手套
+パンスト=连裤袜
+靴下=袜子
+靴=鞋子
+
+衣装カード=服装卡
+//Save / Delete
+// Load
+
+//------------------------------------------------------------
+// Accessory
+//------------------------------------------------------------
+アクセサリー=配饰
+スロット=插槽
+コピー=复制
+コピーする=复制
+
+頭=头
+//Ears#
+//Glasses#
+//Face#
+//Neck#
+//Shoulder#
+//Breasts#
+//Waist#
+背中=背部
+//Arm#
+//Hands#
+//Leg#
+下腹部=小腹
+
+//------------------------------------------------------------
+// Options
+//------------------------------------------------------------
+オプション=选项
+
+//Character Setting#
+名前・誕生日=姓名/生日
+
+キャラカード=角色卡
+保存・消去=保存/删除
+読込み=读取
+
+システム=系统
+状態設定表示=状态设置显示
+ウィンドウ配置の初期化=初始化窗口布局
+スライダーホイール操作=滑轮操作
+
+コンフィグ=配置
+注視点の表示=显示注视点
+BGM音量=BGM音量
+SE音量=效果音量
+
+//************************************************************
+// Sub Menues (Right side)
+//************************************************************
+
+//------------------------------------------------------------
+// Face -> Face Type
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ft_detail_f_00
+// RedirectedResources\assets\abdata\list\characustom\00\mt_detail_f_00\
+
+輪郭=轮廓
+//Skin#
+シワ=皱纹
+
+//Type#
+//Sample#
+
+強さ=强度
+
+//------------------------------------------------------------
+// Face -> Overall
+//------------------------------------------------------------
+顔全体横幅=全脸宽度
+顔上部前後=脸上部前后位置
+顔上部上下=面部上方和下方
+顔下部前後=下脸前后位置
+顔下部横幅=脸下部宽度
+
+//------------------------------------------------------------
+// Face -> Jaw
+//------------------------------------------------------------
+顎横幅=下颚宽度
+顎上下=下巴上下位置
+顎前後=下巴前后位置
+顎角度=下颚角度
+顎下部上下=下颚底部上下位置
+顎先幅=下巴宽度
+顎先上下=下巴上下位置
+顎先前後=下巴前后
+
+//------------------------------------------------------------
+// Face -> Cheeks
+//------------------------------------------------------------
+頬下部上下=脸颊下部上下位置
+頬下部前後=下颊前后
+頬下部幅=下颊宽度
+頬上部上下=脸颊上部上下位置
+頬上部前後=上颊前后
+頬上部幅=脸上部宽度
+
+//------------------------------------------------------------
+// Face -> Eyebrows
+//------------------------------------------------------------
+眉の幅=眉宽
+眉の高さ=眉高
+眉の位置X=眉位置X
+眉の位置Y=眉位置Y
+眉の傾き=眉毛倾斜
+
+//------------------------------------------------------------
+// Face -> Eye
+//------------------------------------------------------------
+目の縦幅=眼宽
+目横位置=眼位
+目前後=眼睛前后
+目の横幅=眼宽
+目上下=眼睛上下
+目の角度Z軸=眼角Z轴
+目の角度Y軸=视角Y轴
+目尻上下位置=眼角上下位置
+目尻左右位置=左右眼位置
+目頭上下位置=眼角上下位置
+目頭左右位置=左右眼位置
+まぶた形状１=眼皮形状1
+まぶた形状２=眼皮形状2
+
+//------------------------------------------------------------
+// Face -> Nose
+//------------------------------------------------------------
+鼻全体上下=整个鼻子上下位置
+鼻全体前後=整个鼻子前后
+鼻全体角度X軸=鼻子整体角度X轴
+鼻全体横幅=鼻子的整个宽度
+鼻筋高さ=鼻梁高度
+鼻筋横幅=鼻梁宽度
+鼻筋形状=鼻梁形状
+小鼻横幅=鼻宽
+小鼻上下=上下鼻子
+小鼻前後=鼻子前后
+小鼻角度X軸=机头角度X轴
+小鼻角度Z軸=机头角度Z轴
+鼻先高さ=鼻子高度
+鼻先角度X軸=鼻尖X轴
+鼻先サイズ=鼻尖大小
+
+//------------------------------------------------------------
+// Face -> Mouth
+//------------------------------------------------------------
+口上下=嘴上下
+口横幅=口宽
+口縦幅=嘴唇宽
+口前後位置=嘴前后位置
+口形状上=上嘴唇形
+口形状下=下嘴唇形
+口形状口角=嘴形嘴角
+
+//------------------------------------------------------------
+// Face -> Ears
+//------------------------------------------------------------
+耳サイズ=耳长
+耳角度Y軸=耳角Y轴
+耳角度Z軸=耳角Z轴
+耳上部形状=上耳形
+耳下部形状=耳下部形状
+
+//------------------------------------------------------------
+// Face -> Moles
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\st_mole_00\
+// RedirectedResources\assets\abdata\list\characustom\00\mole_layout_00\
+
+//Arrangement
+ホクロの幅=痣的宽度
+ホクロの高さ=鼠高度
+ホクロの位置X=位X
+ホクロの位置Y=痣的位置Y
+
+//------------------------------------------------------------
+// Face -> Left/Right Eye
+//------------------------------------------------------------
+白目=白眼
+瞳の種類=瞳孔的种类
+//Eye Settings#
+瞳孔種類=学生类型
+瞳孔設定=设置瞳孔
+
+発光=发光的
+
+//------------------------------------------------------------
+// Face -> Eye Settings
+//------------------------------------------------------------
+設定=设置
+高さ調整=高度调整
+影の範囲=阴影范围
+
+//------------------------------------------------------------
+// Body -> Overall
+//------------------------------------------------------------
+身長=身高
+頭サイズ=头部尺寸
+
+//------------------------------------------------------------
+// Body -> Breast
+//------------------------------------------------------------
+胸サイズ=乳房大小
+胸上下位置=胸部上下位置
+胸の左右開き=左右胸口
+胸の左右位置=胸部左右位置
+胸上下角度=胸部上下角度
+胸の尖り=胸部尖锐度
+胸の柔らかさ=乳房柔软
+胸の重さ=胸部重量
+乳輪の膨らみ=乳晕膨胀度
+乳輪の大きさ=乳晕大小
+乳首太さ=乳头粗细
+乳首立ち=乳头高度
+
+//------------------------------------------------------------
+// Body -> Upper Body
+//------------------------------------------------------------
+首周り幅=颈宽
+首周り奥=脖子上围
+胴体肩周り奥=肩厚度
+胴体肩周り幅=肩宽度
+胴体上幅=上身宽度
+胴体上奥=躯干上部厚度
+胴体下幅=身体下部宽度
+胴体下奥=身体下部厚度
+
+//------------------------------------------------------------
+// Body -> Lower Body
+//------------------------------------------------------------
+ウエスト位置=腰部位置
+腰上幅=腰上部宽度
+腰上奥=腰上部厚度
+腰下幅=腰下宽
+腰下奥=腰下部厚度
+尻=屁股
+尻角度=臀部角度
+
+//------------------------------------------------------------
+// Body -> Arm
+//------------------------------------------------------------
+//Shoulder#
+上腕=上臂
+前腕=前臂
+
+//------------------------------------------------------------
+// Body -> Legs
+//------------------------------------------------------------
+太もも上=大腿上围
+太もも下=大腿下围
+ふくらはぎ=小腿
+足首=脚踝
+
+//------------------------------------------------------------
+// Body -> Skin Type
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ft_detail_b_00\
+// RedirectedResources\assets\abdata\list\characustom\30\ft_detail_b_30\
+// Male editor:
+// RedirectedResources\assets\abdata\list\characustom\00\mt_detail_b_00\
+// RedirectedResources\assets\abdata\list\characustom\30\mt_detail_b_30\
+
+肉感=肉感
+肉感の強さ=肉感的强度
+
+//------------------------------------------------------------
+// Body -> Suntan
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ft_sunburn_00\
+
+//------------------------------------------------------------
+// Body -> Public Hair
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\st_underhair_00\
+
+
+//------------------------------------------------------------
+// Hair -> Back Hair
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\so_hair_b_00\
+// RedirectedResources\assets\abdata\list\characustom\05\so_hair_b_05\
+// RedirectedResources\assets\abdata\list\characustom\06\so_hair_b_06\
+// RedirectedResources\assets\abdata\list\characustom\07\so_hair_b_07\
+// RedirectedResources\assets\abdata\list\characustom\08\so_hair_b_08\
+// RedirectedResources\assets\abdata\list\characustom\10\so_hair_b_10\
+// RedirectedResources\assets\abdata\list\characustom\13\so_hair_b_13\
+// RedirectedResources\assets\abdata\list\characustom\14\so_hair_b_14\
+// RedirectedResources\assets\abdata\list\characustom\30\so_hair_b_30\
+// RedirectedResources\assets\abdata\list\characustom\34\so_hair_b_34\
+// RedirectedResources\assets\abdata\list\characustom\40\so_hair_b_40\
+// RedirectedResources\assets\abdata\list\characustom\41\so_hair_b_41\
+
+
+//------------------------------------------------------------
+// Hair -> Bangs
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\so_hair_f_00\
+// RedirectedResources\assets\abdata\list\characustom\05\so_hair_f_05\
+// RedirectedResources\assets\abdata\list\characustom\08\so_hair_f_08\
+// RedirectedResources\assets\abdata\list\characustom\10\so_hair_f_10\
+// RedirectedResources\assets\abdata\list\characustom\13\so_hair_f_13\
+// RedirectedResources\assets\abdata\list\characustom\14\so_hair_f_14\
+// RedirectedResources\assets\abdata\list\characustom\30\so_hair_f_30\
+// RedirectedResources\assets\abdata\list\characustom\34\so_hair_f_34\
+// RedirectedResources\assets\abdata\list\characustom\40\so_hair_f_40\
+// RedirectedResources\assets\abdata\list\characustom\41\so_hair_f_41\
+
+
+
+//------------------------------------------------------------
+// Hair -> Extentions
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\so_hair_o_00\
+
+髪設定=头发设置
+滑らかさ=光滑度
+基本カラー=基色
+根本カラー=根色
+毛先カラー=发色
+ツヤカラー=光泽颜色
+
+装飾設定=设置装饰
+
+//------------------------------------------------------------
+// Clothing -> Tops
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_top_00\
+// RedirectedResources\assets\abdata\list\characustom\02\fo_top_02\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_top_03\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_top_05\
+// RedirectedResources\assets\abdata\list\characustom\10\fo_top_10\
+// RedirectedResources\assets\abdata\list\characustom\12\fo_top_12\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_top_30\
+// RedirectedResources\assets\abdata\list\characustom\32\fo_top_32\
+// RedirectedResources\assets\abdata\list\characustom\34\fo_top_34\
+// RedirectedResources\assets\abdata\list\characustom\35\fo_top_35\
+// RedirectedResources\assets\abdata\list\characustom\40\fo_top_40\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_top_41\
+// Male tops:
+// RedirectedResources\assets\abdata\list\characustom\00\mo_top_00\
+// RedirectedResources\assets\abdata\list\characustom\30\mo_top_30\
+
+
+//------------------------------------------------------------
+// Clothing -> Bottoms
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_bot_00\
+// RedirectedResources\assets\abdata\list\characustom\02\fo_bot_02\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_bot_03\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_bot_30\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_bot_41\
+// Male Bottom:
+// RedirectedResources\assets\abdata\list\characustom\00\mo_bot_00\
+// RedirectedResources\assets\abdata\list\characustom\30\mo_bot_30\
+
+
+//------------------------------------------------------------
+// Clothing -> Inner Top
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_inner_t_00\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_inner_t_03\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_inner_t_05\
+// RedirectedResources\assets\abdata\list\characustom\07\fo_inner_t_07\
+// RedirectedResources\assets\abdata\list\characustom\08\fo_inner_t_08\
+// RedirectedResources\assets\abdata\list\characustom\12\fo_inner_t_12\
+// RedirectedResources\assets\abdata\list\characustom\13\fo_inner_t_13\
+// RedirectedResources\assets\abdata\list\characustom\14\fo_inner_t_14\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_inner_t_30\
+// RedirectedResources\assets\abdata\list\characustom\31\fo_inner_t_31\
+// RedirectedResources\assets\abdata\list\characustom\32\fo_inner_t_32\
+// RedirectedResources\assets\abdata\list\characustom\34\fo_inner_t_34\
+// RedirectedResources\assets\abdata\list\characustom\36\fo_inner_t_36\
+// RedirectedResources\assets\abdata\list\characustom\38\fo_inner_t_38\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_inner_t_41\
+
+
+//------------------------------------------------------------
+// Clothing -> Inner Bottom
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_inner_b_00\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_inner_b_03\
+// RedirectedResources\assets\abdata\list\characustom\04\fo_inner_b_04\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_inner_b_05\
+// RedirectedResources\assets\abdata\list\characustom\10\fo_inner_b_10\
+// RedirectedResources\assets\abdata\list\characustom\12\fo_inner_b_12\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_inner_b_30\
+// RedirectedResources\assets\abdata\list\characustom\31\fo_inner_b_31\
+// RedirectedResources\assets\abdata\list\characustom\38\fo_inner_b_38\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_inner_b_41\
+
+
+//------------------------------------------------------------
+// Clothing -> Gloves
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_gloves_00\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_gloves_03\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_gloves_05\
+// RedirectedResources\assets\abdata\list\characustom\12\fo_gloves_12\
+// RedirectedResources\assets\abdata\list\characustom\13\fo_gloves_13\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_gloves_30\
+// RedirectedResources\assets\abdata\list\characustom\31\fo_gloves_31\
+// RedirectedResources\assets\abdata\list\characustom\32\fo_gloves_32\
+// RedirectedResources\assets\abdata\list\characustom\34\fo_gloves_34\
+// RedirectedResources\assets\abdata\list\characustom\40\fo_gloves_40\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_gloves_41\
+// Male Gloves:
+// RedirectedResources\assets\abdata\list\characustom\00\mo_gloves_00\
+// RedirectedResources\assets\abdata\list\characustom\30\mo_gloves_30\
+
+
+//------------------------------------------------------------
+// Clothing -> Pantyhose
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_panst_00\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_panst_05\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_panst_30\
+// RedirectedResources\assets\abdata\list\characustom\35\fo_panst_35\
+// RedirectedResources\assets\abdata\list\characustom\40\fo_panst_40\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_panst_41\
+
+
+//------------------------------------------------------------
+// Clothing -> Socks
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_socks_00\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_socks_03\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_socks_05\
+// RedirectedResources\assets\abdata\list\characustom\10\fo_socks_10\
+// RedirectedResources\assets\abdata\list\characustom\12\fo_socks_12\
+// RedirectedResources\assets\abdata\list\characustom\13\fo_socks_13\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_socks_30\
+// RedirectedResources\assets\abdata\list\characustom\31\fo_socks_31\
+// RedirectedResources\assets\abdata\list\characustom\32\fo_socks_32\
+// RedirectedResources\assets\abdata\list\characustom\34\fo_socks_34\
+// RedirectedResources\assets\abdata\list\characustom\40\fo_socks_40\
+
+
+//------------------------------------------------------------
+// Clothing -> Shoes
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\fo_shoes_00\
+// RedirectedResources\assets\abdata\list\characustom\02\fo_shoes_02\
+// RedirectedResources\assets\abdata\list\characustom\03\fo_shoes_03\
+// RedirectedResources\assets\abdata\list\characustom\05\fo_shoes_05\
+// RedirectedResources\assets\abdata\list\characustom\10\fo_shoes_10\
+// RedirectedResources\assets\abdata\list\characustom\12\fo_shoes_12\
+// RedirectedResources\assets\abdata\list\characustom\13\fo_shoes_13\
+// RedirectedResources\assets\abdata\list\characustom\30\fo_shoes_30\
+// RedirectedResources\assets\abdata\list\characustom\31\fo_shoes_31\
+// RedirectedResources\assets\abdata\list\characustom\32\fo_shoes_32\
+// RedirectedResources\assets\abdata\list\characustom\34\fo_shoes_34\
+// RedirectedResources\assets\abdata\list\characustom\40\fo_shoes_40\
+// RedirectedResources\assets\abdata\list\characustom\41\fo_shoes_41\
+// Male Shoes:
+// RedirectedResources\assets\abdata\list\characustom\00\mo_shoes_00\
+// RedirectedResources\assets\abdata\list\characustom\30\mo_shoes_30\
+
+
+//------------------------------------------------------------
+// Clothing -> Costume Card
+//------------------------------------------------------------
+服読込み=显示衣服
+装飾読込み=读取装饰
+全て読込み=阅读全部
+コーディネート名=座标名称
+//Return
+決定=确定
+
+//------------------------------------------------------------
+// Accessories - Head
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_head_00\
+// RedirectedResources\assets\abdata\list\characustom\02\ao_head_02\
+// RedirectedResources\assets\abdata\list\characustom\03\ao_head_03\
+// RedirectedResources\assets\abdata\list\characustom\05\ao_head_05\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_head_07\
+// RedirectedResources\assets\abdata\list\characustom\08\ao_head_08\
+// RedirectedResources\assets\abdata\list\characustom\09\ao_head_09\
+// RedirectedResources\assets\abdata\list\characustom\10\ao_head_10\
+// RedirectedResources\assets\abdata\list\characustom\12\ao_head_12\
+// RedirectedResources\assets\abdata\list\characustom\13\ao_head_13\
+// RedirectedResources\assets\abdata\list\characustom\14\ao_head_14\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_head_30\
+// RedirectedResources\assets\abdata\list\characustom\31\ao_head_31\
+// RedirectedResources\assets\abdata\list\characustom\32\ao_head_32\
+// RedirectedResources\assets\abdata\list\characustom\33\ao_head_33\
+// RedirectedResources\assets\abdata\list\characustom\34\ao_head_34\
+// RedirectedResources\assets\abdata\list\characustom\37\ao_head_37\
+// RedirectedResources\assets\abdata\list\characustom\40\ao_head_40\
+
+//------------------------------------------------------------
+// Accessories - Ears
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_ear_00\
+// RedirectedResources\assets\abdata\list\characustom\12\ao_ear_12\
+
+
+//------------------------------------------------------------
+// Accessories - Glasses
+//------------------------------------------------------------
+//RedirectedResources\assets\abdata\list\characustom\00\ao_glasses_00\
+
+
+//------------------------------------------------------------
+// Accessories - Face
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_face_00\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_face_07\
+// RedirectedResources\assets\abdata\list\characustom\14\ao_face_14\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_face_30\
+// RedirectedResources\assets\abdata\list\characustom\41\ao_face_41\
+
+
+//------------------------------------------------------------
+// Accessories - Neck
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_neck_00\
+// RedirectedResources\assets\abdata\list\characustom\05\ao_neck_05\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_neck_07\
+// RedirectedResources\assets\abdata\list\characustom\09\ao_neck_09\
+// RedirectedResources\assets\abdata\list\characustom\10\ao_neck_10\
+// RedirectedResources\assets\abdata\list\characustom\12\ao_neck_12\
+// RedirectedResources\assets\abdata\list\characustom\13\ao_neck_13\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_neck_30\
+// RedirectedResources\assets\abdata\list\characustom\31\ao_neck_31\
+// RedirectedResources\assets\abdata\list\characustom\40\ao_neck_40\
+// RedirectedResources\assets\abdata\list\characustom\41\ao_neck_41\
+
+
+//------------------------------------------------------------
+// Accessories - Shoulder
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_shoulder_00\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_shoulder_07\
+// RedirectedResources\assets\abdata\list\characustom\09\ao_shoulder_09\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_shoulder_30\
+// RedirectedResources\assets\abdata\list\characustom\31\ao_shoulder_31\
+
+
+//------------------------------------------------------------
+// Accessories - Breasts
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_chest_00\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_chest_07\
+
+
+//------------------------------------------------------------
+// Accessories - Waist
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_waist_00\
+// RedirectedResources\assets\abdata\list\characustom\05\ao_waist_05\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_waist_07\
+// RedirectedResources\assets\abdata\list\characustom\09\ao_waist_09\
+// RedirectedResources\assets\abdata\list\characustom\10\ao_waist_10\
+// RedirectedResources\assets\abdata\list\characustom\13\ao_waist_13\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_waist_30\
+// RedirectedResources\assets\abdata\list\characustom\31\ao_waist_31\
+// RedirectedResources\assets\abdata\list\characustom\32\ao_waist_32\
+// RedirectedResources\assets\abdata\list\characustom\33\ao_waist_33\
+
+
+//------------------------------------------------------------
+// Accessories - Back
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_back_00\
+// RedirectedResources\assets\abdata\list\characustom\02\ao_back_02\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_back_07\
+// RedirectedResources\assets\abdata\list\characustom\08\ao_back_08\
+// RedirectedResources\assets\abdata\list\characustom\37\ao_back_37\
+
+//------------------------------------------------------------
+// Accessories - Arm
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_arm_00\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_arm_07\
+// RedirectedResources\assets\abdata\list\characustom\08\ao_arm_08\
+// RedirectedResources\assets\abdata\list\characustom\10\ao_arm_10\
+// RedirectedResources\assets\abdata\list\characustom\13\ao_arm_13\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_arm_30\
+// RedirectedResources\assets\abdata\list\characustom\40\ao_arm_40\
+
+
+//------------------------------------------------------------
+// Accessories - Hand
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_hand_00\
+// RedirectedResources\assets\abdata\list\characustom\05\ao_hand_05\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_hand_07\
+// RedirectedResources\assets\abdata\list\characustom\12\ao_hand_12\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_hand_30\
+// RedirectedResources\assets\abdata\list\characustom\31\ao_hand_31\
+// RedirectedResources\assets\abdata\list\characustom\34\ao_hand_34\
+
+
+//------------------------------------------------------------
+// Accessories - Leg
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_leg_00\
+// RedirectedResources\assets\abdata\list\characustom\03\ao_leg_03\
+// RedirectedResources\assets\abdata\list\characustom\07\ao_leg_07\
+// RedirectedResources\assets\abdata\list\characustom\30\ao_leg_30\
+// RedirectedResources\assets\abdata\list\characustom\34\ao_leg_34\
+
+
+//------------------------------------------------------------
+// Accessories - Lower Belly
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\ao_kokan_00
+
+
+//------------------------------------------------------------
+// Accessories - Make a copy
+//------------------------------------------------------------
+コピー元を選択=选择复制源
+コピー先を選択=选择目的地
+左右の親を変更=更改左右佩戴位置
+スロットをコピー=复制插槽
+調整値のコピー=调整值拷贝
+調整①=调整①
+調整②=调整②
+調整①を上下反転=调整①上下颠倒
+調整②を上下反転=上下调整②
+調整①を左右反転=左右反转调整①
+調整②を左右反転=左右调整②
+
+
+//------------------------------------------------------------
+// Accessories - Extra
+//------------------------------------------------------------
+髪の毛の色を取得=染发
+初期親=复位
+初期化=初始化
+
+//------------------------------------------------------------
+// Options -> Name / Birthday
+//------------------------------------------------------------
+//Name#
+ランダム=随机
+誕生日=生日
+
+// CharaCustom/CustomControl/CanvasSub/SettingWindow/WinOption/DefaultWin/O_Chara/ddBirthday/textKindTitle
+//--------------------------------------------------
+月=月
+日=日
+
+//------------------------------------------------------------
+// Options -> Type
+//------------------------------------------------------------
+声質=音质
+
+//------------------------------------------------------------
+// Options -> Save / Delete
+//------------------------------------------------------------
+消去=删除
+新規保存=新建保存
+上書き保存=覆盖保存
+
+//------------------------------------------------------------
+// Options -> Load
+//------------------------------------------------------------
+//Face#
+体=身体
+髪=头发
+//Clothing#
+//Character Setting#
+
+//------------------------------------------------------------
+// Options -> Search
+//------------------------------------------------------------
+ソート=排序
+//Name#
+日付=日期
+
+//------------------------------------------------------------
+// Options -> Fusion
+//------------------------------------------------------------
+キャラカードA=角色卡A
+キャラカードB=角色卡B
+融合=融合
+掛け合わせる=保险卡
+終了=结束
+
+//************************************************************
+// Prompts
+//************************************************************
+終了しますか？=您要退出吗？
+キャラメイクを終了しますか？=你要结束角色制作吗?
+
+確定=确定
+キャンセル=取消
+
+
+//************************************************************
+// Editing girls when you click in "edit"
+//************************************************************
+保存して終了=保存并退出
+保存しないで終了=不保存即退出
+編集に戻る=返回编辑
+撮影=拍照
+撮影し直す=重新拍摄
+
+//Dialogue
+キャラ編集を終了しますか？=您要退出这个角色的编辑吗?
+
+//************************************************************
+// Unsorted
+//************************************************************
+ホクロのタイプ=痣的类型
+肌のタイプ=皮肤类型
+メッシュ=网格
+肌の色に合わせる=保持肤色一致
+メッシュ設定=网格设置

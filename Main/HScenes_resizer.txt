@@ -1,0 +1,11 @@
+#set level 7
+
+// H GUI
+
+/UI/ClothPanel/CoordinatesCard/CoodenatePanel/Scroll View/Viewport/Content/CoordinatesNode(Clone)/Text
+/UI/ClothPanel/CoordinatesCard/CoodenatePanel/Scroll View/Viewport/Content/CoordinatesNode(Clone)/Text
+
+
+/UI/ClothPanel/ScrollView/Viewport/Acs
+/UI/ClothPanel/ScrollView/Viewport/Acs
+/UI/ClothPanel/ScrollView/Viewport/Acs

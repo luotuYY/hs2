@@ -1,0 +1,9 @@
+//------------------------------------------------------------
+// HS2_Lipsync
+//------------------------------------------------------------
+HS{{A}}Lipsync {{B}}\n...=唇型同步插件 {{B}}\n▼HS{{A}}Lipsync {{B}}▼
+HS{{A}}Lipsync {{B}}=▲唇型同步插件 {{B}}▲
+
+Overdrive Factor=驱使倍数
+How much would this plugin try to overdrive when morphing the mouth shape. Making it too large could lead to weird faces.=使用此插件时驱使嘴部变形的程度，过大会导致脸很奇怪。
+         

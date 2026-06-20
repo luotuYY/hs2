@@ -1,0 +1,16 @@
+//------------------------------------------------------------
+// XUnity Resource Redirector
+//------------------------------------------------------------
+XUnity Resource Redirector {{A}}\n...=XUnity资源重定向器 {{A}}\n▼XUnity Resource Redirector {{A}}▼
+XUnity Resource Redirector {{A}}=▲XUnity资源重定向器 {{A}}▲
+
+
+//Settings=
+Log all loaded resource=记录所有加载的资源
+Indicates whether or not all loaded resources should be logged to the console. Prepare for spam if enabled.=指示是否应将所有加载的资源记录到控制台。如果启用做好被刷屏的准备。
+Log callback order=日志回调顺序
+After registering a new callback, list all callbacks for a given event in their firing order. Prepare for spam if enabled.=注册新回调后，按触发顺序列出给定事件的所有回调。如果启用做好被刷屏的准备。
+
+//General=
+LogAllLoadedResources=记录所有加载的资源
+LogCallbackOrder=日志回调顺序

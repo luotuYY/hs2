@@ -1,0 +1,24 @@
+//------------------------------------------------------------
+// pklllzxRandomGirlPlugins
+//------------------------------------------------------------
+pklllzxRandomGirlPlugins {{A}}\n...=随机脸部数据生成插件 {{A}}\n▼pklllzxRandomGirlPlugins {{A}}▼
+pklllzxRandomGirlPlugins {{A}}=▲随机脸部数据生成插件 {{A}}▲
+
+Random Base On The Loaded Girl=在加载的女孩基础上随机
+Turn On=开启
+Turn on this Toggle, and you can random parameters based on the girl you loaded now.=启用此切换，你可以在当前加载的女孩基础上进行随机。
+DISPLAY/HIDE GUI=显示/隐藏 图形界面
+Set the GUI display/hide HotKeys.=设置显示/隐藏图形界面的快捷键。
+Revert the Prev Girl/the Next Girl=返回上一个女孩
+Just like the Ctrl+Z functions in the .txt docunment.=就类似Ctrl+Z函数保存在.txt文件内。
+
+Random the GIRL {{A}} |=随机脸部数据生成 {{A}} |
+Random the GIRL {{A}} | Undo!=随机脸部数据生成 {{A}} | 撤销!
+Powered by: pklllzx@ZODGAME=技术支持: pklllzx@ZODGAME
+Ctrl + Q to display/hide the GUI.=Ctrl+Q 显示/隐藏图形界面
+RandomBest=优秀随机
+RandomPart+=发型随机
+Base Value: {{A}}=基础数值: {{A}}
+Base Value: -{{A}}=基础数值: -{{A}}
+Novelty Level: {{A}}=随机范围: {{A}}
+RandoM=随机

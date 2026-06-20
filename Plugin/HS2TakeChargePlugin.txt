@@ -1,0 +1,65 @@
+//------------------------------------------------------------
+// HS2_TakeChargePlugin
+//------------------------------------------------------------
+HS{{A}}TakeChargePlugin {{B}}\n...=自动H插件 {{B}}\n▼HS{{A}}TakeChargePlugin {{B}}▼
+HS{{A}}TakeChargePlugin {{B}}=▲自动H插件 {{B}}▲
+
+Enable Take Charge Mode=开启接管模式
+Enable Auto Mode=开启自动模式
+Stop Male Arousal=锁定男性快感
+Stop Female Arousal=锁定女性快感
+Manual H-Anim Visual Speed (Increase)=手动H动画影像速度(加快)
+Note: Controls VISUAL H-Anim speed, stacks with mousewheel speed.=注意:控制动画影像速度会与鼠标滚轮调速叠加。
+Manual H-Anim Visual Speed (Decrease)=手动H动画影像速度(减慢)
+Note: Controls VISUAL H-Anim speed, stacks with mousewheel speed.=注意:控制动画影像速度会与鼠标滚轮调速叠加。
+Manual H-Anim Visual Speed (Reset)=手动H动画影像速度(重置)
+Note: Controls VISUAL H-Anim speed, stacks with mousewheel speed.=注意:控制动画影像速度会与鼠标滚轮调速叠加。
+  
+
+
+Reset to Idle on Pos Change=更换姿势重置为待机
+Reset to Idle loop animation when changing positions=换姿势的时候重置待机循环动画
+Reset Arousal Meters on Pos Change=更换姿势重置快感值
+Reset arousal gauge when changing positions=换姿势的时候重置快感条
+Auto Mode - Ignore Location Animation Limits=自动模式-忽略动画位置限制
+Some Animations Won't Fit the Location...=某些动画不适合特定位置
+Enable Auto Speed Override=自动模式速度覆盖
+Override normal speed control/limits in auto mode=自动模式下覆盖正常速度控制/限制
+Speed Override All Modes=全部模式速度覆盖
+Override normal speed control/limits in all modes=所有模式下覆盖正常速度控制/限制
+Anim Rules File=动画规则文件
+Rules File Location=规则文件位置
+Manual H-Anim Visual Speed Increment=手动H动画影像速度增量
+How much to increase/decrease visual h-anim speed per hotkey press=快捷键调节H动画影像速度的增减量
+
+
+Start Wait Min=等待开始最小时长
+Minimum Time (Seconds) to Wait at Start of Position [Change Requires Restart]=等待开始姿势的最小时长(秒)[需要重启生效]
+Start Wait Max=等待开始最大时长
+Maximum Time (Seconds) to Wait at Start of Position [Change Requires Restart]=等待开始姿势的最大时长(秒)[需要重启生效]
+Restart Wait Min=重新开始最小时长
+Minimum Time (Seconds) to Wait before Restarting Position [Change Requires Restart]=重新开始后姿势的最小时长(秒)[需要重启生效]
+Restart Wait Max=重新开始最大时长
+Maximum Time (Seconds) to Wait before Restartign Position [Change Requires Restart]=重新开始后姿势的最大时长(秒)[需要重启生效]
+Loop Change Wait Min=循环切换最小时长
+Minimum Time (Seconds) before switching Loops (Slow->Fast or Fast->Slow) [Change Requires Restart]=变更循环前(慢->快 或 快->慢)的最小时长(秒)[需要重启生效]
+Loop Change Wait Max=循环切换最大时长
+Maximum Time (Seconds) before switching Loops (Slow->Fast or Fast->Slow) [Change Requires Restart]=变更循环前(慢->快 或 快->慢)的最大时长(秒)[需要重启生效]
+Position Change Wait Min=姿势切换最小时长
+Minimum Time (Seconds) before switching Positions (different H Scene) [Change Requires Restart]=变更姿势前(不同的H场景)的最小时长(秒)[需要重启生效]
+Position Change Wait Max=姿势切换最大时长
+Maximum Time (Seconds) before switching Positions (different H Scene) [Change Requires Restart]=变更姿势前(不同的H场景)的最大时长(秒)[需要重启生效]
+Pullout Wait Min=拔出等待最小时长
+Minimum Time (Seconds) wait before pulling out after finish (if relevant). [Change Requires Restart]=完事儿后拔出前(如果有)的最小时长(秒)[需要重启生效]
+Pullout Wait Max=拔出等待最大时长
+Maximum Time (Seconds) wait before pullout out after finish (if relevant). [Change Requires Restart]=完事儿后拔出前(如果有)的最大时长(秒)[需要重启生效]
+Spanking Wait Min=拍打等待最小时长
+Minimum Time (Seconds) between spanks [Change Requires Restart]=拍打间隔的最小时长(秒)[需要重启生效]
+Spanking Wait Max=拍打等待最大时长
+Maximum Time (Seconds) between spanks [Change Requires Restart]=拍打间隔的最大时长(秒)[需要重启生效]
+% Position Change=切换姿势几率
+Percentage chance to change positions after finish [Change Requires Restart]=完事儿后切换姿势的百分比[需要重启生效]
+% Chance to Pull Out=拔出几率
+Percentage chance to pull out after finish (Doesn't effect finish type selection). Applies only if inserted. [Change Requires Restart]=完事儿后拔出的百分比(不影响选择完事儿类型)。仅适用插入时。[需要重启生效]
+% Chance to Pull Out When Not Inserted=未插入时拔出的几率
+<facepalm> - Apparently a position can have a Pull Out animation even when not inserted. % chance to play that if relevant. [Change Requires Restart]=<捂脸>-从所不周知即使没插入也能有拔出动画。播放的百分比，如果有的话。[需要重启生效]

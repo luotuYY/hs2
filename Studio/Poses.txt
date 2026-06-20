@@ -1,0 +1,137 @@
+#set exe StudioNEOV2
+
+// Should be covered by assets, but putting regexes here for future proofing
+
+// Animation Assets
+// RedirectedResources\assets\abdata\studio\info\*\animegroup_*
+// RedirectedResources\assets\abdata\studio\info\*\animecategory_*
+// RedirectedResources\assets\abdata\studio\info\*\hanime_*
+
+// Animation Poses
+r:"^立ち([０-９0-9]+)$"=基本$1
+
+// Animation Menu -> Character Animation -> Character -> Pose
+r:"^ポーズ([０-９0-9]+)$"=姿势$1
+
+// Animation Menu -> Character Animation -> Character -> Emotions
+r:"^喜([０-９0-9]+)$"=喜$1
+r:"^怒([０-９0-9]+)$"=怒$1
+r:"^哀([０-９0-9]+)$"=哀$1
+r:"^驚恥他([０-９0-9]+)$"=惊耻等其它$1
+
+// Animation Menu -> Character Animation -> Character -> Walking & Running
+r:"^歩く([０-９0-9]+)$"=走$1
+r:"^走る([０-９0-9]+)$"=跑$1
+
+// Animation Menu -> Character Animation -> Character -> Standing
+r:"^壁立ち([０-９0-9]+)$"=靠墙$1
+
+// Animation Menu -> Character Animation -> Character -> Conversation
+r:"^待機([０-９0-9]+)$"=待机$1
+r:"^話す([０-９0-9]+)$"=说话$1
+
+// Animation Menu -> Character Animation -> Character -> Chairs
+r:"^本を読む([０-９0-9]+)$"=读书$1
+r:"^足を組み待機([０-９0-9]+)$"=交叉腿等待$1
+r:"^足を組み換える([０-９0-9]+)$"=换腿$1
+
+// Animation Menu -> Character Animation -> Character -> Sitting At Desk
+r:"^本を読む待機([０-９0-9]+)$"=读书等待$1
+r:"^姿勢を変える([０-９0-9]+)$"=改变姿势$1
+
+// Animation Menu -> Character Animation -> Character -> Sitting On Floor
+r:"^しゃがみ([０-９0-9]+)$"=蹲下$1
+
+// Animation Menu -> Character Animation -> Character -> Eating
+r:"^食事([Ａ-ＺA-Z][０-９0-9]+)$"=吃饭$1
+
+// Animation Menu -> Character Animation -> Character -> Action
+r:"^チアダンス練習([０-９0-9]+)$"=练习啦啦队$1
+r:"^ストレッチ([０-９0-9]+)$"=伸展运动$1
+r:"^ストレッチ([０-９0-9]+)$"=伸展运动$1
+r:"^プール座り([０-９0-9]+)$"=坐在游泳池旁$
+
+// Animation Menu -> Character Animation -> Character -> Reaction
+r:"^恥ずかしがる([０-９0-9]+)$"=害羞$1
+r:"^胸を触られ隠す([０-９0-9]+)$"=捂胸触摸$1
+
+//Laying
+r:"^ベンチで寝る([０-９0-9]+)$"=长凳睡觉$1
+r:"^添い寝([０-９0-9]+)$"=一起睡觉$1
+
+// Animation Menu -> Character Animation -> Character -> Live Concert
+r:"^シーン([０-９0-9]+)$"=场景$1
+
+// Animation Menu -> Character Animation -> Character -> Additional 1
+r:"^立ちポーズ([０-９0-9]+)$"=站姿$1
+r:"^座り([０-９0-9]+)$"=坐着$1
+r:"^寝([０-９0-9]+)$"=躺着$1
+
+//
+// Animation Menu -> Character Animation -> Studio
+//
+
+// Animation Menu -> Character Animation -> Studio -> Dancing
+ポールダンス=钢管舞
+// Character Design Addon Pack Vol. 2
+r:"^ダンス([０-９0-9]+)$"=跳舞$1
+
+// Animation Menu -> Character Animation -> Studio -> Gravure
+// WHY DID THEY SWITCH TO FULLWIDTH HERE, FUCK
+r:"^立ち([０-９0-9]+)$"=基本$1
+r:"^座り([０-９0-9]+)$"=坐着$1
+r:"^寝([０-９0-9]+)$"=躺着$1
+r:"^椅子([０-９0-9]+)$"=椅子$1
+
+
+// Animation Menu -> Character Animation -> Battle Poses -> Cut-In
+r:"^格闘([A-Z][０-９0-9]+)$"=格斗$1
+r:"^気弾([０-９0-9]+)$"=气弹$1
+r:"^片手剣([０-９0-9]+)$"=单手剑$1
+r:"^盾と剣([０-９0-9]+)$"=盾牌和剑$1
+r:"^小太刀([０-９0-9]+)$"=大$1
+r:"^小太刀二刀([０-９0-9]+)$"=大两刀$1
+r:"^拳銃([０-９0-9]+)$"=手枪$1
+r:"^二丁拳銃([０-９0-9]+)$"=二丁手枪$1
+r:"^投擲([０-９0-9]+)$"=投掷$1
+r:"^魔法杖([０-９0-9]+)$"=魔法杖$1
+r:"^魔法本([０-９0-9]+)$"=魔法书$1
+r:"^両手剣([０-９0-9]+)$"=双手剑$1
+r:"^棒・槍([０-９0-9]+)$"=棒、矛$1
+r:"^槌・鎌([０-９0-9]+)$"=锤子、镰刀$1
+r:"^ライフル([０-９0-9]+)$"=步枪$1
+r:"^弓矢([０-９0-9]+)$"=弓箭$1
+
+// Animation Menu -> Character Animation -> Battle Poses -> Battle Poses
+r:"^攻撃([０-９0-9]+)$"=攻击$1
+
+// Animation Menu -> Character Animation -> Lesbian
+r:"^具合わせ([A-Z])$"=剪刀姿势 $1
+r:"^椅子クンニ([A-Z])$"=坐着舔阴$1
+r:"^互い弄り([A-Z])$"=彼此爱抚$1
+
+// Animation Menu -> Character Animation -> Outdoors -> Moving Around Types
+r:"^動き回る([０-９0-9]+)$"=到处转转$1
+
+// Animation Menu -> Character Animation -> Outdoors -> Diving Types
+r:"^ダイブ([０-９0-9]+)$"=潜水$1
+
+// Animation Menu -> Character Animation -> Summer -> Action
+r:"^ビーチボール([０-９0-9]+)$"=沙滩球$1
+r:"^着替え([０-９0-9]+)$"=换洗衣服$1
+
+
+// Unsorted
+
+r:"^寝返り([０-９0-9]+)$"=翻身$1
+r:"^料理([０-９0-9]+)$"=料理$1
+r:"^依存([０-９0-9]+)$"=依赖$1
+r:"^恥([０-９0-9]+)$"=耻辱$1
+r:"^釣り([０-９0-9]+)$"=钓鱼$1
+r:"^御辞儀([０-９0-9]+)$"=辞职$1
+r:"^登場([０-９0-9]+)$"=登场$1
+r:"^中腰([０-９0-9]+)$"=半坐$1
+r:"^チッチッチ([０-９0-9]+)$"=纠正$1
+
+// TODO: move to assets once dump updated
+セクシーダンス=性感舞蹈

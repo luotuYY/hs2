@@ -1,0 +1,10 @@
+//------------------------------------------------------------
+// Screen (Switch Cloths Options)
+//------------------------------------------------------------
+// limiting these to level 7, safe to abbreviate
+#set level 7
+Swap Girls=切换女性
+Swap Boys=切换男性
+Refreshen=刷新
+Switch=切换
+#unset level 7

@@ -1,0 +1,81 @@
+//————————————————————
+//■ 男性解码
+//————————————————————
+cur pole=普通直杆
+Dildo=假阴茎
+Mosaic Penis=马赛克阴茎
+SAC Sausage=SAC香肠
+TAMA_Cur_pole_type1=TAMA直杆类型1
+TAMA_Cur_pole_type2=TAMA直杆类型2
+TAMA_Cur_pole_type3=TAMA直杆类型3
+cur ball=普通球
+Mosaic Balls=马赛克球
+SAC Sack=SAC袋囊
+Sack=袋囊
+TAMA_Cur_ball_type1=TAMA球类型1
+TAMA_Cur_ball_type2=TAMA球类型2
+TAMA_Cur_ball_type3=TAMA球类型3
+
+//————————————————————
+//■ 女性解码
+//————————————————————
+[Female] bp.sac_roastiePn=[女][动态]蝴蝶穴-褶皱无阴道
+[Female] bp.sac_roastieIn2=[女][动态]馒头穴-光滑
+[Female] bp.sac_roastieIn1=[女][动态]蝴蝶穴-褶皱1
+[Female] bp.sac_roastie_smooth=[女][动态]蝴蝶穴-光滑
+[Female] bp.sac_meaty_smooth=[女][动态]肉穴-光滑
+[Female] bp.sac_innie_smooth=[女][动态]馒头穴-光滑白
+[Female] bp.sac_innie_Pn=[女][动态]馒头穴-光滑粉3
+[Female] bp.sac_innie_In2=[女][动态]馒头穴-光滑粉2
+[Female] bp.sac_innie_In1=[女][动态]馒头穴-光滑粉1
+[Female] bp.pj.hp_sacinnie2=[女][动态]馒头穴-褶皱
+[Female] [BPv4] Profundis Vagina OL=[女][动态4]鲍鱼穴-洞开-惨白
+[Female] [BPv4] Profundis Vagina=[女][动态4]鲍鱼穴-洞开-红润
+[Female] [BPv4] Maliwei Vagina Z2=[女][动态4]鱿鱼穴-洞开2
+[Female] [BPv4] Maliwei Vagina Z=[女][动态4]鱿鱼穴-洞开1
+[Female] [BPv4] Maliwei Vagina C OL=[女][动态4]阴蒂穴-惨白
+[Female] [BPv4] Maliwei Vagina C=[女] [动态4]阴蒂穴-红润
+[Female] [BPv4] Maliwei Vagina B OL=[女][动态4]鲍鱼穴-惨白
+[Female] [BPv4] Maliwei Vagina B=[女][动态4]鲍鱼穴-红润
+[Female] [BPv4] Maliwei Vagina A OL=[女][动态4]鱿鱼穴-惨白
+[Female] [BPv4] Maliwei Vagina A=[女][动态4]鱿鱼穴-红润
+[Female] [BPv4] Demonic Vagina A-3=[女][动态4]獠牙穴A-3
+[Female] [BPv4] Demonic Vagina A-2=[女][动态4]獠牙穴A-2
+[Female] [BPv4] Demonic Vagina A-1=[女][动态4]獠牙穴A-1
+[Female] [BPv4] Alien Vagina B=[女][动态4]异形穴B
+[Female] [BPv4] Alien Vagina A=[女][动态4]异形穴A
+[Female] [BP4] Roastie 1=[女][动态4]蝴蝶穴-褶皱
+[Female] [BP4] Puffy 2=[女][动态4]一线天-光滑2
+[Female] [BP4] Puffy 1=[女][动态4]一线天-光滑1
+[Female] [BP4] Meaty 1=[女][动态4]肉穴-褶皱
+[Female] [BP4] Innie 1=[女][动态4]馒头穴-褶皱
+[Female] Default Body F=[女]移除阴部F
+[Female] HighPoly=[女]深馒头穴-皱褶
+[Female] HighPoly Feet=[女]宽馒头穴-皱褶
+[Female] HighPoly NoVag=[女]移除阴部
+[Female] Maliwei Vagina BP=[女]鱿鱼穴-动态
+[Female] OpenPussy=[女]馒头穴-全开
+[Female] OpenPussy2=[女]馒头穴-全开
+[Female] pj.muscle_arms_test=[女]馒头穴-皱褶_测试
+[Female] Profundis Vagina=[女]鲍鱼穴-开
+[Female] Profundis Vagina BP=[女]鲍鱼穴-开-动态
+[Female] Puffy Beaver=[女]一线天-光滑
+[Female] sac.innie=[女]馒头穴-皱褶
+[Female] sac.innie_smooth=[女]馒头穴-光滑
+[Female] sac.innie2=[女]馒头穴2-褶皱
+[Female] sac.innie2_smooth=[女]馒头穴2-光滑
+[Female] sac.innie3=[女]馒头穴3
+[Female] sac.innie3_smooth=[女]馒头穴3-光滑
+[Female] sac.kupaa=[女] 阴唇张开-褶皱
+[Female] sac.kupaa_smooth=[女]阴唇张开-光滑
+[Female] sac.meaty=[女]肉穴-褶皱
+[Female] sac.puffy=[女]一线天-光滑
+[Female] sac.puffy2=[女]一线天-光滑2
+[Female] sac.roastie=[女]蝴蝶穴-褶皱
+[Female] sac.roastie2=[女]蝴蝶穴2-褶皱
+[Female] sac.roastie2_smooth=[女]蝴蝶穴2-光滑
+[Female] sac.slit=[女]紧闭穴-褶皱
+[Female] sac.slit_smooth=[女] 紧闭穴-光滑
+[Female] sjjpl.No body=[女]隐藏躯干
+[Female] z_daa33_S06=[女]绳缚勒痕
+[Female] z_ddaa33.D1=[女]紧闭穴-断臂

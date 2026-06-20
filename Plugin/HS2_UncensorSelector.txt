@@ -1,0 +1,84 @@
+//------------------------------------------------------------
+// Uncensor Selector
+//------------------------------------------------------------
+//Plugin/modsettings
+Uncensor Selector {{A}}\n...=解码选择器 {{A}}\n▼Uncensor Selector {{A}}▼
+Uncensor Selector {{A}}=▲解码选择器 {{A}}▲
+
+Config
+Genderbender Allowed
+Whether or not genderbender characters are allowed. When disabled, girls will always have a female body with no penis, boys will always have a male body and a penis. Genderbender characters will still load in Studio for scene compatibility.=ConfigurationManagerAttributes 
+
+
+
+
+
+Default Male Body=默认男性身体解码
+Default Male Penis=默认男性阴茎解码
+Default Male Balls=默认男性睾丸解码
+Default Female Body=默认女性身体解码
+Default Female Penis=默认女性阴茎解码
+Default Female Balls=默认女性睾丸解码
+Body to use if the character does not have one set. The censored body will not be selected randomly if there are any alternatives.=角色无设置的情况下身体解码的设置。如果已经有其他设置了则不会生效。
+Penis to use if the character does not have one set. The mosaic penis will not be selected randomly if there are any alternatives.=角色无设置的情况下阴茎解码的设置。如果已经有其他设置了则不会生效。
+Balls to use if the character does not have one set. The mosaic balls will not be selected randomly if there are any alternatives.=角色无设置的情况下睾丸解码的设置。如果已经有其他设置了则不会生效。
+Default Female Balls Display=默认女性睾丸解码显示
+Whether balls will be displayed on females if not otherwise configured.=无其他设置情况下女性是否显示睾丸。
+Use separate exclusions for studio=对工作室使用单独额外设置
+Whether separate exclusion lists will be used for studio (requires restart)=是否位工作室使用单独额外的解码选项(重启生效)
+//Restart required for updated setting to take effect.
+Random=随机
+
+Random Excluded=随机排除
+Random Excluded for Studio=工作室随机排除
+Male Body=男性身体解码
+Male Penis=男性阴茎解码
+Male Balls=男性睾丸解码
+Female Body=女性身体解码
+Female Penis=女性阴茎解码
+Female Balls=女性睾丸解码
+Body uncensors to exclude from random selection for males=男性随机选择中排除的身体解码
+Penis uncensors to exclude from random selection for males=男性随机选择中排除的阴茎解码
+Balls uncensors to exclude from random selection for males=男性随机选择中排除的睾丸解码
+Body uncensors to exclude from random selection for females=女性随机选择中排除的身体解码
+Penis uncensors to exclude from random selection for females=女性随机选择中排除的阴茎解码
+Balls uncensors to exclude from random selection for females=女性随机选择中排除的睾丸解码
+Body uncensors to exclude from random selection for males in studio=工作室男性随机选择中排除的身体解码
+Penis uncensors to exclude from random selection for males in studio=工作室男性随机选择中排除的阴茎解码
+Balls uncensors to exclude from random selection for males in studio=工作室男性随机选择中排除的睾丸解码
+Body uncensors to exclude from random selection for females in studio=工作室女性随机选择中排除的身体解码
+Penis uncensors to exclude from random selection for females in studio=工作室女性随机选择中排除的阴茎解码
+Balls uncensors to exclude from random selection for females in studio=工作室女性随机选择中排除的睾丸解码
+Configure uncensors to exclude for Male Body=设置男性排除的身体解码
+Configure uncensors to exclude for Male Penis=设置男性排除的阴茎解码
+Configure uncensors to exclude for Male Balls=设置男性排除的睾丸解码
+Configure uncensors to exclude for Female Body=设置女性排除的身体解码
+Configure uncensors to exclude for Female Penis=设置女性排除的阴茎解码
+Configure uncensors to exclude for Female Balls=设置女性排除的睾丸解码
+Uncensors To Exclude For Male Body For Game=主游戏男性排除的身体解码
+Uncensors To Exclude For Male Penis For Game=主游戏男性排除的阴茎解码
+Uncensors To Exclude For Male Balls For Game=主游戏男性排除的睾丸解码
+Uncensors To Exclude For Female Body For Game=主游戏女性排除的身体解码
+Uncensors To Exclude For Female Penis For Game=主游戏女性排除的阴茎解码
+Uncensors To Exclude For Female Balls For Game=主游戏女性排除的睾丸解码
+Uncensors To Exclude For Male Body For Studio=工作室男性排除的身体解码
+Uncensors To Exclude For Male Penis For Studio=工作室男性排除的阴茎解码
+Uncensors To Exclude For Male Balls For Studio=工作室男性排除的睾丸解码
+Uncensors To Exclude For Female Body For Studio=工作室女性排除的身体解码
+Uncensors To Exclude For Female Penis For Studio=工作室女性排除的阴茎解码
+Uncensors To Exclude For Female Balls For Studio=工作室女性排除的睾丸解码
+Select uncensors to exclude from random selection=选择随机要排除的解码
+Done=完成
+
+
+
+//------------------------------------------------------------
+//ModUI
+
+Uncensor Selector=解码选择
+Uncensor=解码
+Body=身体
+Penis=阴茎
+Balls=睾丸
+Default=默认
+None=无

@@ -1,0 +1,10 @@
+#set level 3
+
+/CharaCustom/CustomControl
+/CharaCustom/CustomControl
+/CharaCustom/CustomControl/CanvasSub/SettingWindow
+/CharaCustom/CustomControl/CanvasSub/SettingWindow
+/CharaCustom/CustomControl/CanvasDraw/DrawWindow
+/CharaCustom/CustomControl/CanvasDraw/DrawWindow
+
+/CharaCustom/CustomControl/CanvasSub/SettingWindow/WinAccessory

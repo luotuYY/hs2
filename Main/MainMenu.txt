@@ -1,0 +1,20 @@
+// Some commented lines have translations also in Generic.txt
+
+#set level 2
+
+プレイ=开始
+メイク=角色
+ネットワーク=网络
+オプション=选项
+終了=结束
+
+女キャラ=女性角色
+男キャラ=男性角色
+//戻る
+
+アップロード=上传
+ハニーダウンロード=下载甜心
+AIダウンロード=下载AI少女
+
+//Dialogue
+ゲームを終了しますか？=结束游戏吗？

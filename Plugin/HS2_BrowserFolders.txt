@@ -1,0 +1,55 @@
+//------------------------------------------------------------
+// Maker/Studio Browser Folders
+//------------------------------------------------------------
+//Plugin/modsettings
+Maker/Studio Browser Folders {{A}}\n...=人物创建/工作室文件夹浏览器{{A}}\n▼Maker/Studio Browser Folders {{A}}▼
+Maker/Studio Browser Folders {{A}}=▲人物创建/工作室文件夹浏览器{{A}}▲
+
+Main game=主游戏
+Enable character folder browser in main game=在主游戏中开启角色文件夹浏览器
+NOTE: This will patch the game to allow nested folder paths in the save file. If you turn this feature off or remove this plugin, any cards that are in subfolders will be removed from your game save (the cards themselves will not be affected, you will just have to readd them to your groups). Changes take effect on game restart=注意：这会修补游戏保存文件路径允许嵌套文件夹。如果关闭此功能或删除本插件，子文件夹内的卡片人物将被移除无法从游戏内读取(卡片文件本身并不受影响，你只需将他们重新添加到组内就行)。修改后需重启游戏生效。
+Enable character folder browser in maker=在角色创建中开启角色文件夹浏览器
+Changes take effect on game restart=修改后需重启游戏生效。
+Enable clothes folder browser in maker=在角色创建中开启服饰文件夹浏览器
+Changes take effect on game restart=修改后需重启游戏生效。
+
+Chara Studio=角色工作室
+Enable folder browser in scene browser=在工作室中开启场景文件夹浏览器
+Changes take effect on game restart=修改后需重启游戏生效。
+Enable folder browser in character browser=在工作室中开启角色文件夹浏览器
+Changes take effect on game restart=修改后需重启游戏生效。
+Enable folder browser in outfit browser=在工作室中开启服饰文件夹浏览器
+Changes take effect on game restart=修改后需重启游戏生效。
+Save scenes to current folder=保存场景到当前文件夹
+When you select a custom folder to load a scene from, newly saved scenes will be saved to this folder.\nIf disabled, scenes are always saved to default folder (studio/scene).=当你从指定的文件夹内读取场景时，保存时场景也将保存在指定的文件夹内。\n如果关闭，场景将保存至默认文件夹(studio/scene)。
+
+General=主要设置
+Automatically refresh when files change=文件发生变化时自动刷新
+When files are added/deleted/updated the list will automatically update. If disabled you have to hit the refresh button manually when files are changed.=当添加/删除/更新文件时列表会自动更新。如果禁用那更改文件后就得手动点击刷新按钮。
+
+
+//------------------------------------------------------------
+//ModUI
+
+Select character folder=选择人物文件夹
+Search: =搜索: 
+Refresh thumbnails=刷新缩略图
+Current folder=打开当前文件夹
+Screenshot folder=打开截屏文件夹
+Main game folder=打开游戏根目录
+
+Select clothes folder=选择服饰文件夹
+
+Select folder with scenes to view=选择要浏览的场景文件夹
+Refresh scene thumbnails=刷新场景缩略图
+Open main game folder in explorer=在资源管理器中打开游戏目录
+Open character folder in explorer=在资源管理器中打开人物目录
+Open screenshot folder in explorer=在资源管理器中打开截屏目录
+Open current folder in explorer=在资源管理器中打开当前目录
+
+Select folder with cards to view=选择要浏览的人物文件夹
+Refresh characters=刷新角色
+
+Folder with outfits to view=浏览服饰文件夹
+Select Folder with outfits to view=选择要浏览的服饰文件夹
+Refresh outfits=刷新服饰

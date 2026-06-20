@@ -1,0 +1,21 @@
+#set level 8
+
+// Call Girl
+
+// Use items dropdown
+
+/LobbyScene/Canvas/Panel/Select/StatusChange/Item/ItemMask/Item
+/LobbyScene/Canvas/Panel/Select/StatusChange/Item/ItemMask/Item
+/LobbyScene/Canvas/Panel/Select/StatusChange/Item/ItemMask/Item
+/LobbyScene/Canvas/Panel/Select/StatusChange/Item/ItemMask/Item
+/LobbyScene/Canvas/Panel/Parameter/param
+
+// top left character status
+
+/LobbyScene/Canvas/Panel/Parameter/param/imgParamBack
+/LobbyScene/Canvas/Panel/Parameter/param/imgParamBack
+/LobbyScene/Canvas/Panel/Parameter/param/imgParamBack
+/LobbyScene/Canvas/Panel/Parameter/param/imgParamBack
+
+
+/LobbyScene/Canvas/Panel/Select/Select/SelectView/btnChange

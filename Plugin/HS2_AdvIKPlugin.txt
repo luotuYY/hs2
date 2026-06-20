@@ -1,0 +1,223 @@
+//------------------------------------------------------------
+//AdvIKPlugin
+//------------------------------------------------------------
+//Plugin/modsettings
+
+AdvIKPlugin {{A}}\n...=高级IK呼吸插件 {{A}}\n▼AdvIKPlugin {{A}}▼
+AdvIKPlugin {{A}}=▲高级IK呼吸插件 {{A}}▲
+Breathe in Main Game=主游戏人物呼吸
+Characters in the Main Game will Breathe=主游戏中的人物产生呼吸效果
+Main Game Breath Size Scale=主游戏人物呼吸幅度
+Multiplier applied to default breath sizing=应用于默认呼吸幅度的倍数
+Main Game Breath Rate Scale=主游戏人物呼吸速率
+Multiplier applied to default breath rate (BPM)=应用于默认呼吸速率（BPM）的乘数
+HScene Size Adjustment=H场景中幅度调整
+Multiplier applied (on top of above option) in HScenes to breath size=将H场景中的倍增应用于呼吸幅度（在上述选项之上）
+HScene Rate Adjustment=H场景中速率调整
+Multiplier applied (on top of above option) in HScenes to breath rate=在H场景中应用乘数（在上述选项之上）以提高呼吸频率
+Breathe in Maker=人物创建呼吸
+Characters in the Maker will Breathe=在人物创建界面中人物的呼吸效果
+Maker Breath Scale=人物创建呼吸比例
+Maker Breath Rate Scale=人物创建呼吸速率
+Studio - Auto Resize on Reload=工作室-重新加载时自动调整幅度
+Automatically Apply Configured IK Adjustment on Reloading Characters=在重新加载角色时自动应用配置的 IK 调整
+Studio - Enable Resize on Folder Control=工作室-在目录控件启用调整尺寸
+Trigger resize with a folder of name -RESIZE:CENTROID_NAME - see readme for list of valid centroid names=工作室内开启调整尺寸目录 -RESIZE:CENTROID_NAME - 有效质心列表详见readme
+
+
+//Studio
+Undo Resize Adjustment=撤销大小调整
+Apply Resize Adjustment=应用大小调整
+
+//BreathShape
+Overall Breath Scale=总呼吸比例
+//BreathShapeX
+//BreathShapeY
+//BreathShapeZ
+
+//Slider Size
+//UpperChestShape
+Upper Chest Scale=胸部上围比例
+//UpperChestX
+//UpperChestY
+//UpperChestZ
+
+//LowerChestShape
+Lower Chest Scale=胸部下围比例
+//LowerChestX
+//LowerChestY
+//LowerChestZ
+
+//AbdomenShape
+Abdomen Scaling=腹部比例
+//AbdomenShapeX
+//AbdomenShapeY
+//AbdomenShapeZ
+
+//Neck Motion
+Neck Motion=颈部运动
+NeckMotion=颈部运动
+//Neck Motion: ({0:0.00})
+sr:"^Neck Motion: \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"="颈部运动: (${dq}.${ds})"
+
+
+//IKS Opts
+IK Solver=IK解算
+//Breath Opts
+Breath=呼吸
+Resize=调整大小
+
+//ResizeCentroidDesc
+Center - Adjust In/Out From Here=中心 - 此项调整 出/入
+//ResizeCentroidDesc
+Body - For Lying Poses=身体 - 平躺姿势
+//ResizeCentroid
+Off:=关闭:
+Auto:=自动:
+Body:=身体:
+
+//ResizeFeetDesc
+Feet - Standing Poses=脚部 - 站立姿势
+Left:=左边:
+Cntr:=中心:
+Rgt:=右边:
+
+//ResizeThighDesc
+Thigh - Seated Poses=大腿 - 坐姿
+//Left:
+//Cntr:
+//Rgt:
+
+//ResizeHandDesc
+Hands - Dangling Poses=手部 - 摇晃姿势
+//Left:
+//Cntr:
+//Rgt:
+
+//ResizeShldrDesc
+Shoulder - Some Back Poses=肩部 - 来回姿势
+//Left:
+//Cntr:
+//Rgt:
+
+//ResizeShldrDesc
+Knee - Kneeling Poses=膝盖 - 跪姿
+//Left:
+//Cntr:
+//Rgt:
+
+//ResizeShldrDesc
+Elbow - Some Back Poses=肘部 - 来回姿势
+//Left:
+//Cntr:
+//Rgt:
+
+//ResizeCentroid
+Rescale Chara:=重新调节角色:
+
+//ResizeLAChainDesc
+Turn On/Off Ind. Limbs=开启/关闭 独立. 四肢
+Left Arm:=左臂:
+Right Arm:=右臂:
+Left Leg:=左腿:
+Right Leg:=右腿:
+
+Undo Resize=撤销调整大小
+//Undo Resize Adjustment
+//Apply Resize Adjustment
+
+
+//BreathingEnabled
+Enable Breathing=开启呼吸
+//BreathingToggle
+
+//Slider Size
+//BreathMagnitude
+Breath Size %=呼吸幅度 %
+//Breath Size % ({0:0.000})
+sr:"^Breath Size % \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"="呼吸幅度 % (${dq}.${ds})"
+
+//IntakePause
+Intake Pause %=吸气停顿 %
+//Intake Pause % ({0:0.000})
+sr:"^Intake Pause % \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"="吸气停顿 % (${dq}.${ds})"
+
+//HoldPause
+Hold Pause %=保持停顿 %
+sr:"^Hold Pause % \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"="保持停顿 % (${dq}.${ds})"
+
+//InhalePercent
+Inhale %=吸气 %
+//Inhale % ({0:0.000})
+sr:"^Inhale % \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"="吸气 % (${dq}.${ds})"
+
+//BPM
+Breath Per Min=每分钟呼吸次数
+//Breath Per Min ({0:0})
+sr:"^Breath Per Min \((?<cs>[\d]+)\)$"="每分钟呼吸次数 (${cs})"
+
+//ShoulderDamp
+Shldr Damp %=肩部减幅 %
+//Shldr Damp % ({0:0.000})
+sr:"^Shldr Damp % \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"="肩部减幅 % (${dq}.${ds})"
+
+Restore Default=恢复默认
+
+//OpenShapePanel
+Adv Shape Opts >>=高级形状设置
+
+//ShoulderRotationEnabled
+Shoulder Rotation=肩膀旋转
+
+//IndependentShoulders
+Independent Shoulders=独立肩膀
+
+//ReverseShoulders
+Rev Shlder Reach L=肩部旋转速率     L
+
+//Slider Size
+//WeightSlider
+Shoulder Weight=肩膀重量
+
+//OffsetSlider
+Shoulder Offset=肩膀偏移
+
+//WeightRightSlider
+R Shoulder Weight=R 肩膀重量
+
+//OffsetRightSlider
+R Shoulder Offset=R 肩膀偏移
+
+//SpineSlider
+Spine Stiffness=脊柱刚度
+
+//Enable Spine FK Hints
+Enable Spine FK Hints=启用脊柱FK提示
+
+//Enable Shoulder FK Hints
+Enable Shoulder FK Hints=启用肩膀FK提示
+
+//Enable Toe FK Hints
+Enable Toe FK Hints=启用脚趾FK提示
+
+
+//Shoulder Weight ({0:0.000})
+sr:"^Shoulder Weight \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"=肩膀重量 (${dq}.${ds})
+
+//Shoulder Offset ({0:0.000})
+sr:"^Shoulder Offset \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"=肩膀偏移 (${dq}.${ds})
+
+//R Shoulder Weight ({0:0.000})
+sr:"^R Shoulder Weight \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"=R 肩膀重量 (${dq}.${ds})
+
+//R Shoulder Offset ({0:0.000})
+sr:"^R Shoulder Offset \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"=R 肩膀偏移 (${dq}.${ds})
+
+//Spine Stiffness ({0:0.000})
+sr:"^Spine Stiffness \((?<dq>[\d]+)\.(?<ds>[\d]+)\)$"=脊柱刚度 (${dq}.${ds})
+
+//Text Neck
+//Toggle Neck
+
+AdvIK=高级IK
+Adv IK=高级 IK

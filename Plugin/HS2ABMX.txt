@@ -1,0 +1,357 @@
+//------------------------------------------------------------
+// HS2_ABMX (BonemodX)
+//------------------------------------------------------------
+HS{{A}}ABMX (BonemodX) {{B}}\n...=高级骨骼编辑器 {{B}}\n▼HS{{A}}ABMX (BonemodX) {{B}}▼
+HS{{A}}ABMX (BonemodX) {{B}}=▲ 高级骨骼编辑器 {{B}}▲
+
+
+Make advanced window transparent=使用高级透明窗口
+If false, the window has a solid background, else it's see-through=禁用，窗口背景纯色，启用为透明
+Open bonemod editor=开启骨骼编辑
+Opens advanced bonemod window if there is a character that can be edited.=设置一个快捷键，如果存在可编辑的角色则打开骨骼mod编辑窗口。
+Increase slider limits {{A}}x=增加滑块上限{{A}}x
+Maximum values of all sliders in maker are increased twofold. Can cause even more horrifying results. Recommended to only enable when working on furries and superdeformed charas.\n\nThe setting takes effect after maker restart.=人物创建中所有滑块的最大值增加2倍。可能会导致惊悚的效果。建议只在处理皮肤毛孔和超级形变时使用。\n\n设置在重启人物创建后生效。
+Use XYZ scale sliders=使用XYZ缩放滑块
+When enabled, all scale sliders in maker are split into XYZ sliders (one for each direction). Cards made with this option will automatically enable it for relevant sliders.\n\nNote that using uneven scaling on some parts can skew the model in some animations, especially in H mode.\n\nThe setting takes effect immediately while inside maker.=开启时，所有人物创建缩放滑块都会拆分成XYZ滑块(每个轴单独一个)。开启此项制作的人物卡片将会自动启用对应的滑块项。\n\n注意在某些情况下使用讲会导致动画中的模型扭曲，尤其是在H模式中。\n\n修改设置后在人物创建内即时生效。
+
+
+//r:"^Advanced Bone Sliders - ([\S\s]+)$"=
+No bone modifiers to show. You can add new modifiers by using the search box above, or by using the yellow in-game sliders in maker.=没有修改的骨骼可以显示。可以使用上面的搜索框添加新的修改项，或者可以使用游戏人物创建界面内的黄色字体滑块后自动生成。
+No bone modifiers were found. Change your search parameters or add a new bone above.=找不到修改的骨骼。修改搜索参数或在上方添加新骨骼。
+Search:=搜索
+Add new=新增
+Revert=恢复
+Only new=仅新项
+Only per coordinate=仅配套服饰
+Increment:=增量:
+
+Link R/L bones=关联左/右骨骼
+Length:=长度:
+Scale=比例
+Offset=偏移
+Tilt=倾斜
+
+//------------------------------------------------------------
+//GUI
+
+Face Bonemod=面部骨骼
+Body Bonemod=身体骨骼
+Split XYZ scale sliders=拆分XYZ缩放滑块
+Advanced Bonemod Window=高级骨骼编辑窗口
+Show Bonemod=显示高级骨骼
+
+Hand=手
+Both=两者
+Left=左
+Right=右
+Finger=手指
+All=全部
+Segment=关节
+Base=根部
+Center=中间
+Tip=末端
+Scale X=比例X
+Scale Y=比例Y
+Scale Z=比例Z
+Side to edit=同步编辑
+
+Head Scale=头部比例
+Head Scale X=头部比例X
+Head Scale Y=头部比例Y
+Head Scale Z=头部比例Z
+Head Position=头部位置
+Head + Neck Scale=头部+颈部比例
+Head + Neck Scale X=头部+颈部比例X
+Head + Neck Scale Y=头部+颈部比例Y
+Head + Neck Scale Z=头部+颈部比例Z
+Lower Head Cheek Scale=头下部比例
+Lower Head Cheek Scale X=头下部比例X
+Lower Head Cheek Scale Y=头下部比例Y
+Lower Head Cheek Scale Z=头下部比例Z
+Upper Head Scale=头上部比例
+Upper Head Scale X=头上部比例X
+Upper Head Scale Y=头上部比例Y
+Upper Head Scale Z=头上部比例Z
+Upper Front Head Scale=额头比例
+Upper Front Head Scale X=额头比例X
+Upper Front Head Scale Y=额头比例Y
+Upper Front Head Scale Z=额头比例Z
+
+Jaw Scale=下颌比例
+Jaw Scale X=下颌比例X
+Jaw Scale Y=下颌比例Y
+Jaw Scale Z=下颌比例Z
+Jaw Offset=下颌偏移
+Chin Scale=下颏比例
+Chin Scale X=下颏比例X
+Chin Scale Y=下颏比例Y
+Chin Scale Z=下颏比例Z
+Chin Tip Scale=颏尖比例
+Chin Tip Scale X=颏尖比例X
+Chin Tip Scale Y=颏尖比例Y
+Chin Tip Scale Z=颏尖比例Z
+
+Upper Cheek Scale=脸颊上部比例
+Upper Cheek Scale X=脸颊上部比例X
+Upper Cheek Scale Y=脸颊上部比例Y
+Upper Cheek Scale Z=脸颊上部比例Z
+Lower Cheek Scale=脸颊下部比例
+Lower Cheek Scale X=脸颊下部比例X
+Lower Cheek Scale Y=脸颊下部比例Y
+Lower Cheek Scale Z=脸颊下部比例Z
+Cheek Offset=脸颊偏移
+
+Eyebrow Scale=眉毛比例
+Eyebrow Scale X=眉毛比例X
+Eyebrow Scale Y=眉毛比例Y
+Eyebrow Scale Z=眉毛比例Z
+Inner Eyebrow Scale=内眉比例
+Inner Eyebrow Scale X=内眉比例X
+Inner Eyebrow Scale Y=内眉比例Y
+Inner Eyebrow Scale Z=内眉比例Z
+Outer Eyebrow Scale=外眉比例
+Outer Eyebrow Scale X=外眉比例X
+Outer Eyebrow Scale Y=外眉比例Y
+Outer Eyebrow Scale Z=外眉比例Z
+
+Eye Scale=眼睛比例
+Eye Scale X=眼睛比例X
+Eye Scale Y=眼睛比例Y
+Eye Scale Z=眼睛比例Z
+
+Nose + Bridge Scale=鼻子+鼻梁比例
+Nose + Bridge Scale X=鼻子+鼻梁比例X
+Nose + Bridge Scale Y=鼻子+鼻梁比例Y
+Nose + Bridge Scale Z=鼻子+鼻梁比例Z
+Nose Scale=鼻子比例
+Nose Scale X=鼻子比例X
+Nose Scale Y=鼻子比例Y
+Nose Scale Z=鼻子比例Z
+Nose Tip Scale=鼻尖比例
+Nose Tip Scale X=鼻尖比例X
+Nose Tip Scale Y=鼻尖比例Y
+Nose Tip Scale Z=鼻尖比例Z
+Nose Tip Offset=鼻尖偏移
+Nose Bridge Scale=鼻梁比例
+Nose Bridge Scale X=鼻根比例X
+Nose Bridge Scale Y=鼻根比例Y
+Nose Bridge Scale Z=鼻根比例Z
+
+Mouth Scale=嘴部比例
+Mouth Scale X=嘴部比例X
+Mouth Scale Y=嘴部比例Y
+Mouth Scale Z=嘴部比例Z
+Lips Scale=嘴唇比例
+Lips Scale X=嘴唇比例X
+Lips Scale Y=嘴唇比例Y
+Lips Scale Z=嘴唇比例Z
+Mouth Side Scale=嘴角比例
+Mouth Side Scale X=嘴角比例X
+Mouth Side Scale Y=嘴角比例Y
+Mouth Side Scale Z=嘴角比例Z
+Upper Lip Scale=上唇比例
+Upper Lip Scale X=上唇比例X
+Upper Lip Scale Y=上唇比例Y
+Upper Lip Scale Z=上唇比例Z
+Lower Lip Scale=下唇比例
+Lower Lip Scale X=下唇比例X
+Lower Lip Scale Y=下唇比例Y
+Lower Lip Scale Z=下唇比例Z
+
+Ear Scale=耳朵比例
+Ear Scale X=耳朵比例X
+Ear Scale Y=耳朵比例X
+Ear Scale Z=耳朵比例Z
+Upper Ear Scale=上耳比例
+Upper Ear Scale X=上耳比例X
+Upper Ear Scale Y=上耳比例Y
+Upper Ear Scale Z=上耳比例Z
+Lower Ear Scale=下耳比例
+Lower Ear Scale X=下耳比例X
+Lower Ear Scale Y=下耳比例Y
+Lower Ear Scale Z=下耳比例Z
+
+Inner Eyelashes Scale=内睫毛比例
+Inner Eyelashes Scale X=内睫毛比例X
+Inner Eyelashes Scale Y=内睫毛比例Y
+Inner Eyelashes Scale Z=内睫毛比例Z
+Upper Eyelashes Scale=上睫毛比例
+Upper Eyelashes Scale X=上睫毛比例X
+Upper Eyelashes Scale Y=上睫毛比例Y
+Upper Eyelashes Scale Z=上睫毛比例Z
+Outer Eyelashes Scale=外睫毛比例
+Outer Eyelashes Scale X=外睫毛比例X
+Outer Eyelashes Scale Y=外睫毛比例Y
+Outer Eyelashes Scale Z=外睫毛比例Z
+Lower Eyelashes Scale=下睫毛比例
+Lower Eyelashes Scale X=下睫毛比例X
+Lower Eyelashes Scale Y=下睫毛比例Y
+Lower Eyelashes Scale Z=下睫毛比例Z
+
+Body Scale=身体比例
+Body Scale X=身体比例X
+Body Scale Y=身体比例Y
+Body Scale Z=身体比例Z
+
+Breast Scale 1=乳房比例1
+Breast Scale 1 X=乳房比例1 X
+Breast Scale 1 Y=乳房比例1 Y
+Breast Scale 1 Z=乳房比例1 Z
+Breast Scale 2=乳房比例2
+Breast Scale 2 X=乳房比例2 X
+Breast Scale 2 Y=乳房比例2 Y
+Breast Scale 2 Z=乳房比例2 Z
+Breast Scale 3=乳房比例3
+Breast Scale 3 X=乳房比例3 X
+Breast Scale 3 Y=乳房比例3 Y
+Breast Scale 3 Z=乳房比例3 Z
+Breast Tip Scale=胸尖比例
+Breast Tip Scale X=胸尖比例X
+Breast Tip Scale Y=胸尖比例Y
+Breast Tip Scale Z=胸尖比例Z
+Areola Scale=乳晕比例
+Areola Scale X=乳晕比例X
+Areola Scale Y=乳晕比例Y
+Areola Scale Z=乳晕比例Z
+Areola Protrusion=乳晕突起度
+Nipple Scale=乳头比例
+Nipple Scale X=乳头比例X
+Nipple Scale Y=乳头比例Y
+Nipple Scale Z=乳头比例Z
+Nipple Tip Scale=乳尖比例
+Nipple Tip Scale X=乳尖比例X
+Nipple Tip Scale Y=乳尖比例Y
+Nipple Tip Scale Z=乳尖比例Z
+Breast Collision Scale=乳房碰撞比例
+Breast Collision Scale X=乳房碰撞比例X
+Breast Collision Scale Y=乳房碰撞比例Y
+Breast Collision Scale Z=乳房碰撞比例Z
+
+Neck Scale=颈部比例
+Neck Scale X=颈部比例X
+Neck Scale Y=颈部比例Y
+Neck Scale Z=颈部比例Z
+Shoulder Scale=肩膀比例
+Shoulder Scale X=肩膀比例X
+Shoulder Scale Y=肩膀比例Y
+Shoulder Scale Z=肩膀比例Z
+Shoulder Shape=肩膀形状
+Upper Torso Scale=肩部比例
+Upper Torso Scale X=肩部比例X
+Upper Torso Scale Y=肩部比例Y
+Upper Torso Scale Z=肩部比例Z
+Middle Torso Scale=胸部比例
+Middle Torso Scale X=胸部比例X
+Middle Torso Scale Y=胸部比例Y
+Middle Torso Scale Z=胸部比例Z
+Lower Torso Scale=腰部比例
+Lower Torso Scale X=腰部比例X
+Lower Torso Scale Y=腰部比例Y
+Lower Torso Scale Z=腰部比例Z
+
+Ass Scale=屁股比例
+Ass Scale X=屁股比例X
+Ass Scale Y=屁股比例Y
+Ass Scale Z=屁股比例Z
+Ass Position=屁股位置
+Ass Collision Scale=屁股碰撞比例
+Ass Collision Scale X=屁股碰撞比例X
+Ass Collision Scale Y=屁股碰撞比例Y
+Ass Collision Scale Z=屁股碰撞比例Z
+Pelvis Scale=骨盆比例
+Pelvis Scale X=骨盆比例X
+Pelvis Scale Y=骨盆比例Y
+Pelvis Scale Z=骨盆比例Z
+Hips Scale=臀部比例
+Hips Scale X=臀部比例X
+Hips Scale Y=臀部比例Y
+Hips Scale Z=臀部比例Z
+Pelvis & Legs Scale X=骨盆&腿部比例X
+Pelvis & Legs Scale Z=骨盆&腿部比例Z
+Hips & Legs Scale X=臀部和腿部比例X
+Hips & Legs Scale Z=臀部和腿部比例Z
+Genital Area Scale=性器区域比例
+Genital Area Scale X=性器区域比例X
+Genital Area Scale Y=性器区域比例Y
+Genital Area Scale Z=性器区域比例Z
+Anus Scale=肛门比例
+Anus Scale X=肛门比例X
+Anus Scale Y=肛门比例Y
+Anus Scale Z=肛门比例Z
+
+Whole Arm Scale=手臂比例
+Whole Arm Scale X=手臂比例X
+Whole Arm Scale Y=手臂比例Y
+Whole Arm Scale Z=手臂比例Z
+Arm Offset=手臂偏移
+Upper Arm Deltoids Scale X=上臂三角肌比例X
+Upper Arm Deltoids Scale Z=上臂三角肌比例Z
+Upper Arm Triceps Scale X=上臂肱三头肌比例X
+Upper Arm Triceps Scale Z=上臂肱三头肌比例Z
+Upper Arm Lower Scale X=上臂下部比例X
+Upper Arm Lower Scale Z=上臂下部比例Z
+Elbow Scale X=肘部比例X
+Elbow Scale Z=肘部比例Z
+Elbow Cap Scale X=肘关节比例X
+Elbow Cap Scale Z=肘关节比例Z
+Forearm Upper Scale X=小臂上部比例X
+Forearm Upper Scale Z=小臂上部比例Z
+Forearm Lower Scale X=小臂下部比例X
+Forearm Lower Scale Z=小臂下部比例Z
+Wrist Scale X=手腕比例X
+Wrist Scale Z=手腕比例Z
+Hand Scale=手部比例
+Hand Scale X=手部比例X
+Hand Scale Y=手部比例Y
+Hand Scale Z=手部比例Z
+
+Whole Leg Scale=腿部比例
+Whole Leg Scale X=腿部比例X
+Whole Leg Scale Y=腿部比例Y
+Whole Leg Scale Z=腿部比例Z
+Leg Offset=腿部偏移
+Outer Upper Thigh Scale X=大腿上部外侧比例X
+Outer Upper Thigh Scale Z=大腿上部外侧比例Z
+Upper Thigh Scale X=大腿上部比例X
+Upper Thigh Scale Z=大腿上部比例Z
+Center Thigh Scale X=大腿中部比例X
+Center Thigh Scale Z=大腿中部比例Z
+Lower Thigh Scale X=大腿下部比例X
+Lower Thigh Scale Z=大腿下部比例Z
+Kneecap Scale=膝盖比例
+Kneecap Scale X=膝盖比例X
+Kneecap Scale Y=膝盖比例Y
+Kneecap Scale Z=膝盖比例Z
+Kneecap Back Scale=腘窝比例
+Kneecap Back Scale X=腘窝比例X
+Kneecap Back Scale Y=腘窝比例Y
+Kneecap Back Scale Z=腘窝比例Z
+Upper Calve Scale X=小腿上部比例X
+Upper Calve Scale Z=小腿上部比例Z
+Center Calve Scale X=小腿中部比例X
+Center Calve Scale Z=小腿中部比例Z
+Lower Calve Scale X=小腿下部比例X
+Lower Calve Scale Z=小腿下部比例Z
+Foot Scale 1=足部比例1
+Foot Scale 1 X=足部比例1 X
+Foot Scale 1 Y=足部比例1 Y
+Foot Scale 1 Z=足部比例1 Z
+Foot Scale 2=足部比例2
+Foot Scale 2 X=足部比例2 X
+Foot Scale 2 Y=足部比例2 Y
+Foot Scale 2 Z=足部比例2 Z
+Foot Toes Scale=脚趾比例
+Foot Toes Scale X=脚趾比例X
+Foot Toes Scale Y=脚趾比例Y
+Foot Toes Scale Z=脚趾比例Z
+Foot Toes Offset=脚趾偏移
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+//------------------------------------------------------------
+// Autosave
+//------------------------------------------------------------
+Autosave {{A}}\n...=自动保存插件 {{A}}\n▼Autosave {{A}}▼
+Autosave {{A}}=▲自动保存 {{A}}▲
+Autosave Enabled=自动保存
+_autosave=_自动保存
+Whether to do autosaves=是否试用自动保存
+Autosave Interval=时间间隔(分)
+Minutes between autosaves=多长时间自动保存一次
+Autosave Countdown=倒计时(秒)
+Seconds of countdown before autosaving=自动保存前的倒计时秒数
+Autosave File Limit=文件数量限制
+Number of autosaves to keep, older ones will be deleted=要保留的自动保存文件数量，超出限制数量将被删除最旧的
+
+//------------------------------------------------------------
+// Autostart
+//------------------------------------------------------------
+Autostart {{A}}\n...=界面自动载入插件 {{A}}\n▼Autostart {{A}}▼
+Autostart {{A}}=▲界面自动载入插件 {{A}}▲
+Automatic start mode=自动启动模式
+//General#
+Choose which mode to start automatically when launching the game. Hold esc or F1 during startup to cancel automatic behaviour or hold another shortcut to use that instead. You can create game shortcuts that automatically load a specific mode after startup, check readme for details.=选择启动游戏时自动启动的模式。\n在启动期间按住ESC或F1可取消自动行为，\n或者按住另一个快捷方式可使用该快捷方式。\n你可以创建游戏的快捷方式，自动加载\n一个特定的模式启动后，检查自述文件的详细信息。
+Male maker=创建男性人物界面
+Female maker=创建女性人物界面
+
+//------------------------------------------------------------
+// Beaver plugin
+//------------------------------------------------------------
+Beaver plugin {{A}}\n...=阴部遮挡插件 {{A}}\n▼Beaver plugin {{A}}▼
+Beaver plugin {{A}}=▲Beaver plugin {{A}}▲
+Hide Accessories/pussy shape when wearing=只穿着下列物件时隐藏配件/阴部的形状
+Accessories parented to the lower abdomen will be hidden when wearing:=穿戴下列服饰时将隐藏配件:
+Beaver=阴部遮挡
+Panties=内裤
+Bottom=下装
+Pantyhose=裤袜
+
+//------------------------------------------------------------
+// FemaleParameterInfo
+//------------------------------------------------------------
+FemaleParameterInfo {{A}}\n...=女性参数信息查看 {{A}}\n▼FemaleParameterInfo {{A}}▼
+FemaleParameterInfo {{A}}=▲女性参数信息查看 {{A}}▲
+Visible=可见
+
+//------------------------------------------------------------
+// FPS Counter
+//------------------------------------------------------------
+FPS Counter {{A}}\n...=FPS帧率计数器 {{A}}\n▼FPS Counter {{A}}▼
+FPS Counter {{A}}=▲FPS帧率计数器 {{A}}▲
+Monitor performance statistics and show them on the screen. When disabled the plugin has no effect on performance.=监控性能统计信息并在屏幕上显示它们。\n禁用时，该插件对性能没有影响。
+Enable monitoring plugins=启用监控插件
+Count time each plugin takes every frame to execute. Only detects MonoBehaviour event methods, so results might be lower than expected. Has a small performance penalty.=计算每个插件每帧执行的时间。\n只检测单行为事件方法，因此结果可能低于预期。\n性能损失很小。 
+Show detailed frame stats=显示详细的帧统计
+Show how much time was spent by Unity in each part of the frame, for example how long it took to run all Update methods.=显示Unity在框架的每个部分花费了多少时间，例如运行所有更新方法花费了多长时间。
+Show memory and GC stats=显示内存和GC统计数据
+Show memory usage of the process, free available physical memory and garbage collector statistics (if available).=显示进程的内存使用情况，可用物理内存和垃圾收集器统计信息（如若可行）。
+Toggle counter and reset stats=切换计数器并重置统计信息 
+Key to enable and disable the plugin.=设置启用和禁用插件的快捷键。
+Color of the text=文本显示颜色
+Color of the displayed stats. Outline has a performance hit but it always easy to see.=显示统计数据的颜色。\n轮廓有一个绩效命中，但它总是很容易看到。
+White=白色
+Black=黑色
+Outline=轮廓
+Screen position=屏幕位置
+Which corner of the screen to display the statistics in.=在屏幕的哪个方位显示统计信息。
+Lower Right=右下角
+Lower Center=中间靠下
+Lower Left=左下角
+Middle Right=中间靠右
+Middle Center=正中央
+Middle Left=中间靠左
+Upper Right=右上角
+Upper Center=中间靠上
+Upper Left=左上角
+
+
+//------------------------------------------------------------
+// Graphics Settings
+//------------------------------------------------------------
+Graphics {{A}}\n...=游戏光效设置{{A}}.\n▼Graphics {{A}}▼
+Graphics {{A}}=▲游戏光效设置{{A}}.▲
+Cubemap path=全光背景Cubemap文件路径
+Where cubemaps are stored=存放全光背景Cubemap文件夹位置
+Font Size=字体大小
+Language=语言
+Default Language=默认语言
+Chinese Simplified=简体中文
+Korean=韩语
+Japanese=日语
+English=英语
+Lens dirt texture path=脏镜贴图路径
+Where lens dirt textures are stored=存储脏镜贴图文件的位置
+Localization path=本地化路径
+Where localizations are stored=存储本地化数据的位置
+Preset Location=预设路径
+Where presets are stored=存储预设的位置
+Window Height=窗口高度
+Window Position Offset Y=窗口位置偏移量Y
+Window Position Offset X=窗口位置偏移量X
+Window Width=窗口宽度
+Load Main Game DEFAULT=加载主游戏默认值
+Save Current as Main Game DEFAULT=将当前保存为主游戏默认值
+Reset Main Game DEFAULT=重置主游戏默认值
+Load Title DEFAULT=加载标题默认值
+Save Current as Title DEFAULT=将当前保存为标题默认值
+Reset Title DEFAULT=重置标题默认值
+Load Maker DEFAULT=加载制造商默认值
+Save Current as Maker DEFAULT=保存当前作为制造商默认值
+Reset Maker DEFAULT=重置制造商默认值
+Load VR DEFAULT=加载VR默认值
+Save Current as VR DEFAULT=将当前保存为VR默认值
+Reset VR DEFAULT=重置VR默认值
+Load Studio DEFAULT=加载工作室默认值
+Save Current as Studio DEFAULT=将当前保存为工作室默认值
+Reset Studio DEFAULT=重置工作室默认值
+
+//------------------------------------------------------------
+// Grey.MeshExporter
+//------------------------------------------------------------
+Grey.MeshExporter.HS{{A}} {{B}}\n...=人物模型导出插件.HS{{A}} {{B}}.\n▼Grey.MeshExporter.HS{{A}} {{B}}▼
+Grey.MeshExporter.HS{{A}} {{B}}=▲人物模型导出插件.HS{{A}} {{B}}.▲
+ExportShortcut=导出快捷键
+Shortcut used to trigger the mesh export process.=用于触发导出模型FBX数据过程的快捷键。
+
+//------------------------------------------------------------
+// HS2 Plug
+//------------------------------------------------------------
+hs{{A}} Plug {{B}}\n...=H时为所欲为插件\n▼hs{{A}} Plug {{B}▼
+hs{{A}} Plug {{B}}=▲H时为所欲为插件▲
+¤        First Person View        ¤=¤       第一人称视角       ¤
+- Focal in FPV=FPV焦距
+Camera Focal value in First person view=第一人称视角中的相机焦距值
+- Trigger FPV at H start=H开始时触发FPV
+FPV is activated when H starts=开始H时第一人称视角被激活
+¤        H Common Settings         ¤=¤        H常用设置        ¤
+- Action make her sweaty=行动使其汗流浃背
+Action with the girl will increase the sweat effect on body shader=与女孩一起运动会增加身体着色器的汗水效果
+- Add Eye darts move to girl=添加眼标移到少女身上
+Add Small Eye movement to make the face of the girl a little more alive=添加细微眼动，让女孩的脸更生动些
+- Heals faintness with sync-orgasm=用同步性高潮治愈虚弱
+Orgasms together during faintness can make the girl recover=虚弱时的性高潮可以使女孩恢复
+- Heals required sync-orgasm count=治愈所需的同步性高潮计数
+When Heals faintness is on, defines the number of orgasm to wake up the girl=当治愈虚弱开启时，定义唤醒女孩的性高潮次数
+- Orgasm make her wet=性高潮使其湿透
+Each girl orgasm will increase the wet effect on body shader=每个女孩的高潮都会增加身体着色器的潮湿效果
+- Orgasms to reach full wetness=达到完全湿润的性高潮
+When Orgasm make her wet is on, defines the number of orgasm to reach the maximum wet value=当性高潮使她湿润时，定义达到最大湿润值的性高潮次数
+- Reduce UI at H start=在H开始时减少UI
+Smart UI is triggered at H starts=智能UI在H开始时触发
+¤        H Custom Shortcuts        ¤=¤        自定义H快捷键        ¤
+- Move to next spot=移至下一个地点
+Defines a key to go to the next available location over a map=定义一个键以转到地图中的下一个可用位置
+- Move to previous spot=移至上一个地点
+Defines a key to go to the previous available location over a map=定义一个键以转到地图中的上一个可用位置
+- Open Invitation menu in H=在H中打开邀约菜单
+Defines a key that open or close the inviation menu during H scene=定义在H场景中打开或关闭邀约菜单的快捷键
+- Toggle Smart UI=切换智能UI
+Defines key to toggle Smart UI ( alternatve key is keypad dot )=定义切换智能UI的键（备用键是小键盘的小数点）
+¤        Temporary Settings        ¤=¤        临时设置        ¤
+- Change Penis Material=改变阴茎材质
+Replace the mosaic texture with the body one=将马赛克纹理替换为主体纹理
+
+//------------------------------------------------------------
+// HS2_Lipsync
+//------------------------------------------------------------
+HS{{A}}Lipsync {{B}}\n...=唇型同步插件 {{B}}\n▼HS{{A}}Lipsync {{B}}▼
+HS{{A}}Lipsync {{B}}=▲唇型同步插件 {{B}}▲
+
+//------------------------------------------------------------
+// Jiggle Plugin
+//------------------------------------------------------------
+Jiggle Plugin {{A}}\n...=增强乳摇插件 {{A}}\n▼Jiggle Plugin {{A}}▼
+Jiggle Plugin {{A}}\n...=▲增强乳摇插件{{A}}▲
+
+//------------------------------------------------------------
+// KK_OrthographicCamera
+//------------------------------------------------------------
+KK_OrthographicCamera {{A}}\n...=正交投影相机 {{A}}\n▼KK_OrthographicCamera {{A}}▼
+KK_OrthographicCamera {{A}}=▲KK_正交投影相机 {{A}}▲
+
+//------------------------------------------------------------
+//HS2_Measurements
+//------------------------------------------------------------
+//Plugin/modsettings
+
+Chara Measurements {{A}}\n...=人物测定 {{A}}\n▼Chara Measurements {{A}}▼
+Chara Measurements {{A}}=▲人物测定 {{A}}▲
+
+Enable logging of measurements (Debug mode)=启用测量记录(调试模式)
+Will log all measurements to the console.=将所有测量记录到控制台.
+Use metric measurements=使用公制测量
+True to show values in centimeters. False to show values in inches.=启用以厘米为单位显示值.禁用以英寸为单位显示值.
+Region=地区
+Cup sizes differ by region because bra makers are dumb. Select the one you like most.=罩杯尺寸各地区不同.因为文胸制造商都很笨.选择一个你最喜欢的.
+US=美国
+UK=英国
+Europe=欧盟

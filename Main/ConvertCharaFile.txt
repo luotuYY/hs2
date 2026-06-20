@@ -1,0 +1,10 @@
+//
+// Shared strings for the Character Card conversion screen
+//
+
+Sexyビーチ プレミアムリゾート 及び ハニーセレクトのキャラデータを\nハニーセレクト パーティー用のキャラデータに変換します。=把Sexy Beach Premium Resort和Honey Select的角色数据转换成 Honey Select Party
+「キャラメイク体験版」のデータを「AI＊少女」のデータに変換します。=将“角色化妆试用版”的数据转换为“ AI *女孩”格式。
+※ インストールフォルダ/UserData/chara/ に入っていた以前のデータは/UserData/chara_old/ に移動します。=*以前来自/UserData/chara/文件夹的数据将被移动到/UserData/chara_old/。
+※ インストールフォルダ/UserData/chara/ に入っていた体験版のデータは/UserData/chara/old/ に移動します。=*从/UserData/chara/文件夹中的试用版本数据将移动到/UserData/chara/old/。
+※ ファイル数が多いと時間がかかる可能性があります。=*这个过程可能需要一些时间，取决于文件的数量。
+何かキーを押して下さい=按任意键继续

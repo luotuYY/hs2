@@ -1,0 +1,9 @@
+//------------------------------------------------------------
+// HS2_ColorPanelX
+//------------------------------------------------------------
+HS{{A}}_ColorPanelX {{B}}\n...=拾色器面板X {{B}}\n▼HS{{A}}_ColorPanelX {{B}}▼
+HS{{A}}_ColorPanelX {{B}}=▲拾色器面板X {{B}}▲
+
+ShowColorPanelOptions=显示拾色器面板选项
+Transpa=透明度
+Alpha=Alpha透明度

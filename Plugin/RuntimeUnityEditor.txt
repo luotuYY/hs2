@@ -1,0 +1,267 @@
+//------------------------------------------------------------
+// Runtime Unity Editor
+//------------------------------------------------------------
+Runtime Unity Editor {{A}}\n...=Unity运行编辑器 {{A}}\n▼Runtime Unity Editor {{A}}▼
+Runtime Unity Editor {{A}}=▲Unity运行编辑器 {{A}}▲
+
+Runtime Unity Editor=Unity运行编辑器
+
+Inspector=检查器
+Path to dnSpy.exe=dnSpy.exe路径
+Full path to dnSpy that will enable integration with Inspector. When correctly configured, you will see a new ^ buttons that will open the members in dnSpy.=dnSpy的完整路径，该路径将启用与巡查器的集成。正确配置后，您将看到一个新的^按钮，该按钮将在dnSpy中打开成员。
+Optional dnSpy arguments=可选dnSpy参数
+Additional parameters that are added to the end of each call to dnSpy.=添加到dnSpy末尾的每次调用的其他参数。
+
+General=主要设置
+Show REPL console=显示REPL控制台
+Enable Mouse Inspector=启用鼠标检查器
+Open/close runtime editor=打开/关闭运行编辑器
+
+
+//------------------------------------------------------------
+//ModUI
+
+//Gizmo
+Gizmos=3D线框
+Show selection=选中时显示
+When closed=退出后保留
+
+
+//InspectorTab
+Export Texture to file=将纹理导出到文件
+Encode the texture to a PNG and save it to a new file=将纹理编码为PNG并将其保存为新文件
+Open in Scene Object Browser=在场景对象浏览器中打开
+Navigate to GameObject this Component is attached to=导航到此组件所链接的游戏对象
+//Open in Scene Object Browser=
+Navigate to this object in the Scene Object Browser=在场景对象浏览器中导航到此对象
+Child objects=子对象
+Components=组件
+//this
+//Invalid stack entry type: " + stackEntry.GetType().FullName
+HSceneFlagCtrl=H场景标记控制
+
+//InspectorFilterBox
+Use push and Show instead=使用推送和显示代替
+Use push instead=使用推送代替
+Filter:=过滤:
+Find:=查找:
+Instances=实例
+Components=组件
+//MonoBehaviours=
+Transforms=变换
+Help=帮助
+Close=关闭
+//"Tab {index + 1}: {LimitStringLengthForPreview(tab?.CurrentStackItem?.Name, 18)}"
+Close all=全部关闭
+//>
+Value/return type=值/返回 类型
+Member name=成员名称
+Value=值
+Nothing to show. Click on objects in the scene browser to open them in a new tab.=没有任何显示。在场景浏览器中单击对象以在新选项卡中打开它们。
+Tip: You can right click on a member inside inspector to open in a new tab, and on a tab to close it.=小贴示: 您可以右键单击检查器中的成员以在新选项卡中打开,并可以右键单击选项卡来关闭。
+
+//Inspector Help
+Help{{A}}=帮助{{A}}
+//This window displays contents of game classes in real time. You can go deeper by clicking on the buttons with member names on the left (here it's 'Help1'), and in some cases you can edit the data (try clicking on this text and typing).To apply changes you have to click outside of the field.=
+//When you go deeper you can return to the original class by clicking on the history list above.=
+//On the far left you can see the type that a member holds. In this case this is a string. Only some types can be edited.You can copy the value even if it can't be edited.=
+//You can run methods by clicking their names on the list. Try clicking on GetHashCode below to run it. Return value will appear. If a class is returned by the method click the method's name to open it (try S/Create method below).=
+//WARNING - Running methods arbitraliy can have unforeseen consequences! You might even crash the game in some cases!=
+//If something goes wrong while getting a member's value, you will see an EXCEPTION or ERROR message in the value field.Usually you can click on the member's name again to view details of the error.=
+//Above you can find various objects to display in the inspector. WARNING - If you search a heavily populated scene, you will get A LOT of results. Your FPS will drop, that's normal.=
+//'IS ENUMERABLE' means that opening the member will give you anywhere from 0 to infinitely many values. They might even be generated as you view them. If the number of values is known, it will be displayed instead of this text.=
+//If REPL is supported (the C# command prompt), you can pull and push object to and from inspector by using the 'geti()' and 'set(obj)' commands. Type 'help' in REPL for more info.=
+S/HelpS=S/帮助S
+//If a member name has an S/ in front of it, it means that this is a static member. It will be the same in all instances of an object.=
+HelpTabs=帮助选项卡
+//Right click on any member to open it in a tab. Right click a tab to close it.=
+
+
+//ToStringConverter
+Count=总数
+IS ENUMERABLE=可枚举
+Key=键
+Value=值
+[NULL]=[无效]
+[Event index out of range]=[事件索引超出范围]
+
+
+//VariableFieldDrawer
+//True=
+//False=
+View=查看
+
+//ObjectTreeViewer
+Scene Browser - RuntimeUnityEditor v{{A}}=场景浏览器 - Unity运行编辑器 v{{A}}
+Time=时间
+Dump=转储
+Log=日志
+//REPL=读取-求值-输出 循环(Read-Evaluate-Print Loop)
+Wireframe=线框图
+Run in bg=后台运行
+Mouse inspect=鼠标检查
+No object selected=未选择任何对象
+Search components =搜索组件 
+Clear=清除
+
+//sr:"^Layer (?<num>[0-9]+) \((?<name>[\w]+)\)$"="阶层 ${num} (${name})"
+Layer {{A}} (Default)=阶层 {{A}} (默认)
+isStatic=静态
+Active=激活
+Inspect=检查
+position=位置
+localPosition=相对位置
+localScale=相对比例
+eulerAngles=坐标轴旋转
+localEulerAngles=相对坐标轴旋转
+localEuler=相对旋转
+Can't display texture=不能显示纹理
+[No material]=[无素材]
+rect =矩形 
+//searchbox
+Clear=清除
+Search scene=搜索场景
+Deep scene=深层场景
+Search static=搜索静态
+Static type search=静态类型搜索
+
+
+
+
+
+
+//PreviewWindow
+//"Unsupported object type: {objToDisplay.GetType()}\n{new System.Diagnostics.StackTrace()}"
+//"Object preview window - " + (objName ?? "NULL"
+Close=关闭
+Save=保存
+
+//UnityREPL
+//mscorlib=
+//System.Core=
+//System=
+//System.Xml=
+//Log cleared=
+//  clear;                   - Clear this log\n=
+//In addition, the following helper methods are provided:=
+//MB - A dummy MonoBehaviour for accessing Unity.
+//find<T>() - find a UnityEngine.Object of type T.
+//findAll<T>() - find all UnityEngine.Object of type T.
+//runCoroutine(enumerator) - runs an IEnumerator as a Unity coroutine.
+//endCoroutine(co) - ends a Unity coroutine.
+//type<T>() - obtain type info about a type T. Provides some Reflection helpers.
+//type(obj) - obtain type info about object obj. Provides some Reflection helpers."
+//dir(obj) - lists all available methods and fiels of a given obj.
+//dir<T>() - lists all available methods and fields of type T.
+//findrefs(obj) - find references to the object in currently loaded components.
+//parent
+/parentInternal
+//root
+//transform
+//gameObject
+//REPL > 
+//geti() - get object currently opened in inspector. Will get expanded upon accepting. Best to use like this: var x = geti()
+//No object is opened in inspector or a static type is opened
+//geti<T>() - get object currently opened in inspector. Use geti() instead.
+//seti(obj) - send the object to the inspector. To send a static class use the setis(type) command.
+//setis(type) - send the static class to the inspector.
+//getTree() - get the transform currently selected in tree view.
+//findTree(Transform) - find and select the transform in the tree view.
+//findTree(GameObject) - find and select the object in the tree view.
+//dnspy(type) - open the type in dnSpy if dnSpy path is configured.
+//dnspy(memberInfo) - open the type member in dnSpy if dnSpy is configured.
+//echo(string) - write a string to REPL output.
+//message(string) - write a string to log.
+
+//REPLWindow
+//Welcome to C# REPL (read-evaluate-print loop)! Enter \"help\" to get a list of common methods.
+//using System
+//using UnityEngine
+//using System.Linq
+//using System.Collections
+//using System.Collections.Generic
+//"Executing code from " + autostartFilename
+C# REPL Console=C# REPL控制台
+//This is a list of saved snipplets of code that you can load later into the input field.\n\nTo save a snipplet, type someting in the input field and click the Save button.\nTo load a snipplet, make sure the input field is empty, click the Load button, then choose a snipplet.\nTo remove a snipplet you can edit the snipplet file by choosing the bottom option on the snipplet list.\n\nClose this menu without loading anything by clicking the Cancel button below.=
+//>> Edit snipplet list in external editor <<
+//Opening snipplet file at " + _snippletFilename
+//replInput
+Run=运行
+Cancel=取消
+Load=载入
+Save=保存
+//Saved current command to snipplets. Clear the input box and click Load to load it.
+Autostart=自动启动
+//"Opening autostart file at " + _autostartFilename
+//// This C# code will be executed by the REPL near the end of plugin initialization. Only single-line statements are supported. Use echo(string) to write to REPL log and message(string) to write to global log.\n\n
+History=历史
+//# History of executed commands:
+//using
+//replInput
+//cursorIndex
+//selectIndex
+//pos
+//selectPos
+
+//ReplHelper
+
+//TypeHelper
+//Field is not static, but instance is missing.
+//No field or settable property of name {name} was found!
+//Property is not static, but instance is missing.
+//Field is not static, but instance is missing.
+//No field or settable property of name {name} was found!
+//Property is not static, but instance is missing.
+//No method of name {name} was found!
+//Method is not static, but instance is missing.
+//Info about {type.FullName}
+//Methods
+//public
+//private
+
+//AssetBundleManager
+ManifestBundlePack=软件包清单
+UnloadAssetBundle=未加载资源包
+Clear Bundle Cache=清除软件包缓存
+LoadedAssetBundles=已加载资源包
+Failed to get LoadedAssetBundles dictionary=未能获取已加载资源包词典
+
+
+//BoundsUtils
+Need at least one renderer=至少需要一个渲染器
+Bounds3D=3D边界
+Bounds2D=2D边界
+
+//Extensions
+//Argumnent {typeof(T).FullName} is not an Enum
+//Cannot open items of type " + centry.GetType().FullName
+//NULL
+//NULL (Destroyed)
+
+//MouseInspect
+//_hoverText += "\nClick to select";
+
+//TextureUtils
+//EncodeToPNG
+//Could not find method EncodeToPNG, can't save to file.
+//Export texture to file...
+//null
+//.PNG file|*.png
+//.png
+//saveFileFlags
+//export.png
+//"Writing encoded texture data to file at " + filename[0]
+//Failed to encode texture
+//"Could not encode texture to PNG. Reason: " + e.Message
+
+//TomlTypeConverter
+//Invalid color string, expected hex #RRGGBBAA
+//Cannot convert from type {valueType}
+//Cannot convert to type {valueType.Name}
+
+//DnSpyHelper
+//Unsupported type with generic parameters
+//Unsupported type or method with generic parameters
+//Unsupported type with generic parameters
+//Unsupported type with generic parameters
+//"Unknown MemberInfo " + entry.GetType().FullName

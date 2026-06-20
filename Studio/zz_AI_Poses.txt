@@ -1,0 +1,551 @@
+// Poses from AI-Girl that may have been imported by a mod
+
+#set exe StudioNEOV2
+
+
+// TODO: clean up duplicated entries
+
+// Animation Menu -> Character Animation -> Character -> Basic
+初期ポーズ=初始姿势
+r:"^立ち([0-9]+)$"=站$1
+
+// Animation Menu -> Character Animation -> Character -> Pose
+r:"^ポーズ([0-9]+)$"=姿势$1
+
+// Animation Menu -> Character Animation -> Character -> Emotions
+r:"^喜([0-9]+)$"=喜$1
+r:"^怒([0-9]+)$"=怒$1
+r:"^哀([0-9]+)$"=哀$1
+r:"^驚恥他([0-9]+)$"=惊羞辱其他$1
+
+// Animation Menu -> Character Animation -> Character -> Walking & Running
+r:"^歩く([0-9])$"=步行$1
+r:"^走る([0-9])$"=跑步$1
+
+// Animation Menu -> Character Animation -> Character -> Standing
+//Idle 1
+//Idle 2
+//Idle 3
+本を探す=寻找书
+本を見る=看书
+スマホを眺める=看智能手机
+フリック操作=刷手机屏幕
+音楽を聴く=听音乐
+自撮り待機=准备自拍
+自撮り=自拍
+飲む待機=准备喝
+飲む=喝
+外を眺める=向窗外望去
+伸び=伸懒腰
+髪を直す=梳理头发
+容姿を確認する=检查外貌
+チラシを配る=发传单
+箒持ち待機=拿扫帚待命
+掃く=扫净
+箒持ち待機さぼり=拿扫帚等待
+机を拭く=擦桌子
+窓を拭く=擦窗户
+r:"^壁立ち([0-9])$"=靠墙站$1
+
+// Animation Menu -> Character Animation -> Character -> Conversation
+r:"^待機([0-9]+)$"=等待$1
+r:"^話す([0-9]+)$"=说话$1
+
+// Animation Menu -> Character Animation -> Character -> Chairs
+待機=等待
+r:"^本を読む([0-9])$"=读书$1
+//Looking At Smartphone
+//Swiping Smartphone Screen
+ゲームをする=打游戏
+//Listening To Music
+//About To Drink
+//Drinking
+//Stretching
+//Fixing Hair
+片足上げ抱え=抱着一条腿
+r:"^足を組み待機([0-9])$"=交叉腿$1
+r:"^足を組み換える([0-9])$"=换腿$1
+ソファーでまったり=沙发上休息
+
+// Animation Menu -> Character Animation -> Character -> Sitting At Desk
+r:"^本を読む待機([0-9])$"=要去读书$1
+r:"^姿勢を変える([0-9])$"=改变姿势$1
+勉強をする待機=将要学习
+勉強をする=学习
+絵を描く待機=将要画画
+絵を描く=画画
+//Looking At Smartphone
+//Swiping Smartphone Screen
+//Listening To Music
+//About To Drink
+//Drinking
+容姿を確認する待機=将要确认容貌
+//Examining Self
+横座り=侧身坐
+机に座る=坐在桌子上
+机によりかかる=靠在桌子上
+寝たふり=假装睡了
+
+// Animation Menu -> Character Animation -> Character -> Sitting On Floor
+r:"^しゃがみ([0-9])$"=蹲下$1
+正座=跪坐
+お茶をたてる待機=即将进行茶道
+お茶をたてる=茶道表演
+お茶を飲む待機=准备喝茶
+お茶を飲む=喝茶
+女の子座り=女孩坐
+お姉さん座り=姐姐坐
+
+// Animation Menu -> Character Animation -> Character -> Eating
+r:"^食事([Ａ-ＺA-Z][0-9])$"=吃饭 $1
+
+// Animation Menu -> Character Animation -> Character -> Action
+くしゃみ=打喷嚏
+あくび=打呵欠
+暑がる=热
+手を振る=挥手
+リップクリームを塗る待機=擦唇膏
+リップクリームを塗る=抹唇膏
+ポスターを貼る=贴海报
+チアダンス待機=啦啦队表演
+r:"^チアダンス練習([0-9])$"=啦啦队训练$1
+ダンス練習待機=舞蹈训练待命
+ダンス練習=舞蹈训练
+r:"^ストレッチ([0-9])$"=伸懒腰$1
+r:"^ストレッチ([０-９])$"=伸懒腰$1
+クロールで泳ぐ=自由泳
+r:"^プール座り([0-9])$"=坐在游泳池边$1
+
+// Animation Menu -> Character Animation -> Character -> Reaction
+r:"^恥ずかしがる([0-9])$"=害羞$1
+顔を見られ隠す=害羞的遮脸
+胸を見られ恥ずかしがる=害羞的遮掩胸部
+r:"^胸を触られ隠す([0-9])$"=抚胸口触摸$1
+頬を触られ嫌がられる=讨厌被摸到脸颊
+手を触れられ恥ずかしがる=手被碰到害羞
+手を触れられ嫌がられる=讨厌手被摸到了
+隠す=隐藏
+隠すループ=隐藏循环
+
+// Animation Menu -> Character Animation -> Character -> Laying
+寝返り待機=即将翻身
+寝返り=翻身
+//Laying
+机で寝る=桌子上睡觉
+椅子で寝る=椅子上睡觉
+r:"^ベンチで寝る([0-9])$"=长凳上睡觉$1
+r:"^添い寝([0-9])$"=休息$1
+
+// Animation Menu -> Character Animation -> Character -> Live Concert
+r:"^シーン([0-9])$"=场景$1
+フル=循环
+
+// Animation Menu -> Character Animation -> Character -> Male
+//Idle
+歩く=走
+走り=跑
+しゃがみ=蹲
+しゃがみ歩き=蹲下来走
+話す=说话
+呼び出し=呼叫
+//Reading Book 1
+//Reading Book 2
+パタパタ=拍打
+スクワット=下蹲
+しんきゃく=伸懒腰
+シャドーボクシング=影子拳击
+腰振り=摇动臀部
+//Studying
+// This might need a label override - conflicts with character maker
+座り=坐着
+
+// Animation Menu -> Character Animation -> Character -> Additional 1
+r:"^立ちポーズ([0-9]+)$"=站姿$1
+r:"^座り([0-9])$"=坐$1
+r:"^寝([0-9])$"=睡$1
+
+//
+// Animation Menu -> Character Animation -> Studio
+//
+
+ダンス=跳舞
+和=平静
+// Character Design Addon Pack Vol. 2
+//Mecha
+//Fantasy
+// Patch 0525
+グラビア=写真集
+// Patch 0629
+休日=假日
+// Patch 1026
+//Halloween
+// Patch 1221
+//Christmas
+
+// Animation Menu -> Character Animation -> Studio -> Dancing
+ポールダンス=钢管舞
+// Character Design Addon Pack Vol. 2
+r:"^ダンス([0-9])$"=舞蹈$1
+
+// Animation Menu -> Character Animation -> Studio -> Gravure
+// WHY DID THEY SWITCH TO FULLWIDTH HERE, FUCK
+r:"^立ち([０-９])$"=站$1
+中腰１=跪姿1
+中腰２=跪姿2
+中腰３=跪姿3
+中腰４=跪姿4
+中腰５=跪姿5
+中腰６=跪姿6
+中腰７=跪姿7
+r:"^座り([０-９]+)$"=坐姿$1
+r:"^寝([０-９])$"=睡姿$1
+r:"^椅子([０-９])$"=坐椅子$1
+
+// Animation Menu -> Character Animation -> Studio -> Vacation
+//Basic 1
+//Basic 2
+//Basic 3
+//Basic 4
+//Basic 5
+//Basic 6
+//Basic 7
+//Basic 8
+//Basic 9
+//Basic 10
+//Basic 11
+//Basic 12
+//Basic 13
+//Sitting 1
+//Sitting 2
+//Sitting 3
+//Sitting 4
+//Sitting 5
+//Sitting 6
+//Sitting 7
+スイング=蝙蝠摇摆
+orz=orz
+
+// Animation Menu -> Character Animation -> Studio -> Halloween
+//Pose 1
+//Pose 2
+//Pose 3
+//Animations - Cauldron Stirring, needs override
+
+// Animation Menu -> Character Animation -> Studio -> Christmas
+//Pose 1
+//Pose 2
+
+//
+// Animation Menu -> Character Animation -> H-Caressing
+//
+
+//Standing
+仰向け=仰卧
+四つん這い=匍匐
+椅子座り=坐在椅子上
+椅子バック=对着椅子后入式
+机バック=对着桌子后入式
+壁バック=对墙后入式
+机座り=坐在桌子上
+机しゃがみ=蹲桌子上
+本棚=书架上
+いたずら=恶作剧
+
+// Animation Menu -> Character Animation -> H-Caressing -> Poses
+//Idle
+胸反応開始=胸部开始反应
+胸触り待機=准备摸胸
+股間反応開始=阴部反应开始
+股間触り待機=准备摸阴部
+尻反応開始=屁股反应开始
+尻触り待機=准备摸屁股
+キス反応開始=反应开始接吻
+キス反応ループ=接吻反应循环
+前嫌がりループ=厌恶循环之前
+後嫌がりループ=厌恶循环之后
+絶頂開始=要高潮
+絶頂ループ=高潮循环
+事後=事后
+
+//
+// Animation Menu -> Character Animation -> Service
+//
+
+前待機=开始前等待
+亀頭いじり=摩擦龟头
+片手コキ=单手手交
+両手コキ=双手手交
+先舐め＋竿舐め=尖舔+棒舔
+片手フェラ=单手吹箫
+両手フェラ=双手吹箫
+パイズリ=乳交
+腕はさみパイズリ=手扶乳交
+押し付けパイズリ=按着乳交
+パイズリ+咥え=乳交+吸
+椅子亀頭いじり=坐着摩擦龟头
+椅子片手コキ=坐着单手交
+椅子先舐め＋竿舐め=坐着尖舔+棒舔
+椅子ノーハンド先舐め=坐着没有手的舔尖
+椅子両手フェラ=坐着双手口交
+椅子パイズリ=椅上乳交
+椅子腕はさみパイズリ=坐着手扶乳交
+椅子パイズリ+舐め=坐着乳交+舔
+椅子パイズリ+咥え=坐着乳交+吸
+立ち亀頭いじり=站着龟头摩擦
+立ち片手コキ=站着单手手交
+立ち玉舐め手コキ=站着手交和舔球
+立ち手コキ玉いじり=站着手交和揉球
+立ち片手フェラ=站着单手使用的口交
+立ち両手フェラ=站着双手口交
+立ちノーハンドフェラ=站着无手扶口交
+立ちパイズリ=立姿乳交
+立ち腕はさみパイズリ=站着手扶乳交
+立ちパイズリ+咥え=站着乳交+吸
+立ちオナホ手コキ=站着洞中手交
+プールパイズリ=水池乳交
+// Patch 0727
+椅子またがりフェラ=坐着口交
+ベンチフェラ=板凳上口交
+// Afterschool DLC
+密着手コキ=亲密的手交
+
+// Animation Menu -> Character Animation -> Service -> Poses
+弱ループ=慢循环
+強ループ=快循环
+絶頂前ループ=高潮前循环
+外出し開始=开始射外面
+外出しループ=射外面循环
+外出し事後=射外面高潮之后
+中出し開始=内射开始
+中出しループ=内射循环
+口内待機IN=等待口爆IN
+口内待機=等待口爆
+のむIN=开始吞咽IN
+のむ=吞咽
+のむ事後=吞咽之后
+はくIN=开始吐痰IN
+はく=吐出
+はく事後=吐出之后
+
+//
+// Animation Menu -> Character Animation -> Insertion
+//
+
+正常位=正常位
+開脚正常位=抱着腿正常位
+後背位=后入式
+後背位アナル=后入肛交
+腕引っ張り後背位=拉胳膊后入式
+腕引っ張り後背位アナル=拉胳膊后入式肛交
+騎乗位=骑乘位
+側位=侧入位
+立位=立位
+駅弁=挂立位
+椅子対面=面对面坐姿
+椅子背面=背对坐姿
+//Doggystyle Against Chair
+椅子バックアナル=扶椅子后入式肛交
+腕引っ張り椅子バック=扶椅子拉胳膊后入式
+腕引っ張り椅子バックアナル=扶椅子拉胳膊后入式肛交
+机寝位=躺在桌上
+//Doggystyle Against Desk
+机バックアナル=靠着桌后入式肛交
+腕引っ張り机バック=靠着桌拉胳膊后入式
+腕引っ張り机バックアナル=靠着桌拉胳膊后入式肛交
+机側位=桌上位
+壁対面片足上げ=面向墙壁抬腿
+//Doggystyle Against Wall
+壁バックアナル=靠墙后入肛交
+片足上げ壁バック=抬腿靠墙后入
+片足上げ壁バックアナル=抬腿靠墙后入肛交
+プールバック=池中后入式
+フェンス後背位=靠栅栏后入式
+フェンス掴まり駅弁=抓栅栏挂立位
+種付けプレス=配种机
+// Patch 0629
+マングリ正常位=蜷曲正常位
+跳び箱バック=跳马后入式
+// Patch 0727
+寝バック=俯卧位
+ソファ騎乗位=沙发骑乘位
+// Emotion Creators Preorder DLC
+押し付けバック=从后面压着做
+
+// Animation Menu -> Character Animation -> Insertion -> Poses
+挿入前待機=准备插入
+挿入=插入
+挿入待機=插入循环
+//Slow Loop
+//Fast Loop
+//Before Climax Loop
+//Come Inside Start
+//Come Inside Loop
+女絶頂弱開始=女孩弱高潮开始
+女絶頂弱ループ=女孩弱高潮循环
+同時絶頂弱開始=同时弱高潮启动
+同時絶頂弱ループ=同时弱高潮循环
+絶頂弱事後=同时弱高潮后
+女絶頂強開始=女孩强烈高潮开始
+女絶頂強ループ=女孩强烈高潮循环
+同時絶頂強開始=同时强烈高潮开始
+同時絶頂強ループ=同时强高潮循环
+絶頂強事後=同时强高潮后
+中出し事後=中出后
+//Come Outside Start
+//Come Outside Loop
+//Come Outside End
+抜く=拔出来
+汁垂れ=汁液流下
+
+//
+// Animation Menu -> Character Animation -> Special H
+//
+
+角オナニー=桌角自慰
+椅子オナニー=椅上自慰
+立ちオナニー=站立自慰
+トイレ覗き=厕所偷窥
+シャワー覗き=淋浴偷窥
+// Patch 0629
+ハードルオナニー=障碍自慰
+
+// Animation Menu -> Character Animation -> Special H -> Poses
+//Slow Loop
+中ループ=中循环
+//Fast Loop
+//Before Climax Loop
+絶頂=高潮
+絶頂事後=高潮后
+//Afterglow
+ループIN=循环开始
+ループ=循环
+ループOUT=循环结束
+
+// Animation Menu -> Character Animation -> Battle Categories
+女 カットイン=女:切入
+女 格闘A=女:格斗A
+女 格闘B=女:格斗B
+女 気弾=女:气功波
+女 片手剣=女:单手剑
+女 盾と剣=女:剑与盾
+女 小太刀1=女:短剑1
+女 小太刀2=女:短剑2
+女 拳銃1=女:手枪1
+女 拳銃2=女:手枪2
+女 投擲=女:投掷
+女 魔法杖=女:魔法杖
+女 魔法本=女:魔法书
+女 両手剣=女:双手剑
+女 棒・槍=女:长柄/矛
+女 槌・鎌=女:锤子/镰刀
+女 ライフル=女:步枪
+女 弓矢=女:弓和箭
+男 カットイン=男:切入
+男 格闘A=男:格斗A
+男 格闘B=男:战斗B
+男 気弾=男:气功波
+男 片手剣=男:单手剑
+男 盾と剣=男:剑与盾
+男 小太刀1=男:短剑1
+男 小太刀2=男:短剑2
+男 拳銃1=男:手枪1
+男 拳銃2=男:手枪2
+男 投擲=男:投掷
+男 魔法杖=男:魔法杖
+男 魔法本=男:魔法书
+男 両手剣=男:双手剑
+男 棒・槍=男:长柄/矛
+男 槌・鎌=男:锤子/镰刀
+男 ライフル=男:步枪
+男 弓矢=男:弓箭
+
+// Animation Menu -> Character Animation -> Battle Poses -> Cut-In
+r:"^格闘([A-Z][０-９])$"=格斗 $1
+r:"^気弾([０-９])$"=气功波$1
+r:"^片手剣([０-９])$"=单手剑$1
+r:"^盾と剣([０-９])$"=盾与剑$1
+r:"^小太刀([０-９])$"=小太刀$1
+r:"^小太刀二刀([０-９])$"=双手小太刀$1
+r:"^拳銃([０-９])$"=手枪$1
+r:"^二丁拳銃([０-９])$"=二丁手枪$1
+r:"^投擲([０-９])$"=投掷$1
+r:"^魔法杖([０-９])$"=魔法杖$1
+r:"^魔法本([０-９])$"=魔法书$1
+r:"^両手剣([０-９])$"=双手剑$1
+r:"^棒・槍([０-９])$"=棒、矛$1
+r:"^槌・鎌([０-９])$"=锤子、镰刀$1
+r:"^ライフル([０-９])$"=步枪$1
+r:"^弓矢([０-９])$"=弓箭$1
+
+// Animation Menu -> Character Animation -> Battle Poses -> Battle Poses
+r:"^攻撃([０-９])$"=攻击$1
+防御=防御
+倒れる=倒下了
+
+// Animation Menu -> Character Animation -> Lesbian
+r:"^具合わせ([A-Z])$"=剪刀姿势 $1
+r:"^椅子クンニ([A-Z])$"=坐着舔阴$1
+r:"^互い弄り([A-Z])$"=彼此爱抚$1
+
+// Animation Menu -> Character Animation -> Outdoors
+ストレッチ=伸懒腰
+動き回る=到处走
+ダイブ=潜水
+
+// Animation Menu -> Character Animation -> Outdoors -> Stretching Types
+//Stretching 1
+//Stretching 2
+//Stretching 3
+//Stretching 4
+
+// Animation Menu -> Character Animation -> Outdoors -> Moving Around Types
+r:"^動き回る([０-９])$"=到处走$1
+
+// Animation Menu -> Character Animation -> Outdoors -> Diving Types
+r:"^ダイブ([０-９])$"=潜水$1
+
+// Animation Menu -> Character Animation -> Summer
+//Pose
+//Action
+
+// Animation Menu -> Character Animation -> Summer -> Pose
+//Basic 1
+
+// Animation Menu -> Character Animation -> Summer -> Action
+r:"^ビーチボール([0-9])$"=沙滩球$1
+女 準備体操=女 准备活动
+女 水を掛ける=女 泼水
+女 水を掛けられる=女 被泼水
+男 準備体操=男 准备活动
+男 水を掛ける=男 泼水
+男 水を掛けられる=男 被泼水
+//Ukelele
+シューティング=滋水枪
+r:"^着替え([0-9])$"=换衣服$1
+
+// Animation Menu -> Character Animation -> Multi-Girl H
+男 Wフェラ=男 W双吹箫
+女 WフェラA=女 W双吹箫A
+女 WフェラB=女 W双吹箫B
+男 騎乗位クンニ=男 骑乘位舔阴
+女 騎乗位クンニA=女 骑乘位舔阴A
+女 騎乗位クンニB=女 骑乘位舔阴B
+男 後背位手マン=男 后背位指交
+女 後背位手マンA=女 后背位指交A
+女 後背位手マンB=女 后背位指交B
+
+// Animation Menu -> Character Animation -> Afterschool
+//Pose
+
+// Animation Menu -> Character Animation -> Afterschool -> Pose
+//Basic 1
+//Basic 2
+//Basic 3
+//Basic 4
+
+// Emotion Creators Preorder DLC
+// Animation Menu -> Character Animation -> EC
+//Pose
+
+// Animation Menu -> Character Animation -> EC -> Pose
+//Basic 1

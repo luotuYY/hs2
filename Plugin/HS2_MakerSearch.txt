@@ -1,0 +1,20 @@
+//------------------------------------------------------------
+// HS2_MakerSearch
+//------------------------------------------------------------
+HS{{A}}_MakerSearch {{B}}\n...=人物创建搜索 {{B}}\n▼HS{{A}}_MakerSearch {{B}}▼
+HS{{A}}_MakerSearch {{B}}=▲人物创建搜索 {{B}}▲
+
+General=主要设置
+Case sensitive=区分大小写
+Search translated cache=搜索翻译缓存
+Search in translated cache, if nonexistant then translate. Only works when search includes name=在翻译缓存中搜索，如果不存在则翻译。仅当搜索包含有效名称。
+Search text memory=记忆搜索关键词
+Global - search text is same for all boxes, \nSeparate - different for each box/category, \nNone - reset after search=全局-所有搜索框同步，\n单独-每个搜索框不同、\n无-搜索后重置关键词
+Search=搜索
+Include assetbundle=包含资源类型(assetbundle)
+Include author=包含作者(author)
+Include name=包含名字(name)
+Separate=单独
+Global=全局
+None=无
+Reset=重置

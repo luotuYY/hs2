@@ -1,0 +1,35 @@
+//------------------------------------------------------------
+// Maker Defaults
+//------------------------------------------------------------
+Maker Defaults {{A}}\n...=人物创建默认设置 {{A}}\n▼Maker Defaults {{A}}▼
+Maker Defaults {{A}}=▲人物创建默认设置 {{A}}▲
+
+//Settings=
+Default Gaze Direction=默认视线朝向
+Default gaze direction=默认视线朝向
+Default Head Direction=默认头部朝向
+Default head direction=默认头部朝向
+Default Pose=默认姿势
+Default pose=默认姿势
+Default Eyebrow Pattern=默认眉毛形状
+Default eyebrow pattern=默认眉毛形状
+Default Eye Pattern=默认眼睛形状
+Default eye pattern=默认眼睛形状
+Default Mouth Pattern=默认嘴巴形状
+Default mouth pattern=默认嘴巴形状
+Default Pause=默认暂停
+Default pause state=默认暂停状态
+Default Clothing State=默认服装
+Default clothing state=默认服装状态
+Default Background=默认背景
+Default background type=默认背景类型
+
+Camera=镜头
+Forward=向前
+Pose=姿势
+Automatic=自动
+Clothed=穿上
+Underwear=内衣
+Naked=全裸
+Image=图片
+Color=颜色

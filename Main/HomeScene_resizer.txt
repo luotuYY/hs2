@@ -1,0 +1,42 @@
+#set level 4
+
+/HomeScene/Canvas/Panel
+
+// Leave Room
+
+/HomeScene/Canvas/Panel/Home/Menu/tglGoToRoom/imgBase/Background/Label
+
+/HomeScene/Canvas/Panel/MapSelect/panel
+/HomeScene/Canvas/Panel/MapSelect/panel/MapSelect
+
+// Achievements
+
+/HomeScene/Canvas/Panel/Concierge
+
+/HomeScene/Canvas/Panel/Concierge/Achievement/Achievement/Title
+/HomeScene/Canvas/Panel/Concierge/Achievement/Achievement/Title
+/HomeScene/Canvas/Panel/Concierge/Achievement/Achievement/Title
+
+/HomeScene/Canvas/Panel/Concierge/Achievement/AchievementExchange/Title
+/HomeScene/Canvas/Panel/Concierge/Achievement/AchievementExchange/Title
+/HomeScene/Canvas/Panel/Concierge/Achievement/AchievementExchange/Title
+
+/HomeScene/Canvas/Panel/Concierge/Achievement/Achievement/Scroll View/Viewport/Content
+/HomeScene/Canvas/Panel/Concierge/Achievement/Achievement/Scroll View/Viewport/Content
+/HomeScene/Canvas/Panel/Concierge/Achievement/Achievement/Scroll View/Viewport/Content
+
+/HomeScene/Canvas/Panel/Concierge/Achievement/AchievementExchange/Scroll View/Viewport/Content
+/HomeScene/Canvas/Panel/Concierge/Achievement/AchievementExchange/Scroll View/Viewport/Content
+/HomeScene/Canvas/Panel/Concierge/Achievement/AchievementExchange/Scroll View/Viewport/Content
+
+
+// Edit Chars
+
+/HomeScene/Canvas/Panel/CharaEdit/Coordinate/SelectCoordinate/Panel/Buttons/btnBatchRelease
+/HomeScene/Canvas/Panel/CharaEdit/Group/SelectCard1/Panel/btnCharaEdit
+/HomeScene/Canvas/Panel/CharaEdit/Group/SelectCard2/Panel/btnCharaEdit
+/HomeScene/Canvas/Panel/CharaEdit/Group/SelectChara/Panel/Buttons/btnEntry
+/HomeScene/Canvas/Panel/CharaEdit/Group/SelectGroups/Panel/Buttons/btnCancel
+/HomeScene/Canvas/Panel/CharaEdit/MaleSelect/SelectChara/Panel/Buttons/btnCharaEdit
+/HomeScene/Canvas/Panel/CharaEdit/MaleSelect/SelectChara/Panel/Buttons/btnPlayerSelect
+/HomeScene/Canvas/Panel/CharaEdit/MaleSelect/SelectChara/Panel/Buttons/btnSecondPlayerSelect

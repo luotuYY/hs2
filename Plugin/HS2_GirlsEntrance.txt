@@ -1,0 +1,19 @@
+//------------------------------------------------------------
+// HS2_GirlsEntrance
+//------------------------------------------------------------
+HS{{A}}_GirlsEntrance {{B}}\n...=女孩登场秀 {{B}}\n▼HS{{A}}_GirlsEntrance {{B}}▼
+HS{{A}}_GirlsEntrance {{B}}=▲女孩登场秀 {{B}}▲
+
+Whether the plugin is enabled=插件是否启用
+
+When make an entrance=何时显示登场秀
+When the entrance animation plays=播放登场动画的时机
+Where play the animation=在哪播放动画
+Which place do you want to play the animation=你想要在哪个界面播放登场动画
+
+On Girl's First Time=女孩第一次登场
+Every Time=每次
+Before Map Select=选择地图前
+When Select a Girl=选择女孩时
+
+Wait the Girl Enter=等待女孩入场

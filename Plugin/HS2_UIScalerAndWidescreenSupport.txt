@@ -1,0 +1,9 @@
+//------------------------------------------------------------
+// UIScalerAndWidescreenSupport
+//------------------------------------------------------------
+UIScalerAndWidescreenSupport {{A}}\n...=界面比例和超宽屏支持 {{A}}\n▼UIScalerAndWidescreenSupport {{A}}▼
+UIScalerAndWidescreenSupport {{A}}=▲界面比例和超宽屏支持 {{A}}▲
+
+Scale=比例
+Scale (might need restart)=比例(可能需要重启)
+Scale factor for the entire game UI.=整个游戏界面的缩放比例倍数

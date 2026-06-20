@@ -1,0 +1,24 @@
+//------------------------------------------------------------
+// Translation Helper
+//------------------------------------------------------------
+Translation Helper {{A}}\n...=翻译助手 {{A}}\n▼Translation Helper {{A}}▼
+Translation Helper {{A}}=▲翻译助手 {{A}}▲
+Maker=人物创建
+Save Translated Names=保存翻译后名字
+Translate Card Name Modes=翻译卡名模式
+MainGame=主游戏
+Translate Card Name Options=翻译卡名选项
+Characters to Trim=修剪人物
+Register Active Characters=注册活动人物
+Split Names Before Translate=翻译前拆分名字
+Use Suffix=使用后缀
+Attempt to translate card names when they are loaded in Maker=尝试在人物制作加载时翻译卡名
+Attempt to translate card names when they are loaded in Studio=尝试在装载工作室时翻译卡名
+Attempt to translate card names when they are loaded in MainGame=尝试在主游戏加载时翻译卡名
+Characters to trim from returned translations=从返回的翻译中修剪的人物
+Register active character names as replacements with translator=使用翻译器将活动人物名字注册为替换
+Split on space and translate names by sections=在空间中分开并通过部分翻译名称
+Append suffix to names before translating to send hint they are names=在翻译之前将后缀附加到名称，以发送提示他们是名称
+When enabled translated names will be saved with cards in maker, otherwise unmodified names will be restored=启用已启用的翻译名称将使用人物制作中的卡片保存，否则未修改的名称将恢复
+Acceleration=加速
+Enable game specific optimizations=启用游戏特定优化

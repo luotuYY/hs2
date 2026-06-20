@@ -1,0 +1,22 @@
+//------------------------------------------------------------
+// HS2_PositionSelector
+//------------------------------------------------------------
+PositionSelector {{A}}\n...=姿势挑选器 {{A}}\n▼PositionSelector {{A}}▼
+PositionSelector {{A}}=▲姿势挑选器 {{A}}▲
+
+Edit Mode=编辑模式
+Edit mode=编辑模式
+Toggle to switch to edit mode and start hidding/unhidding some animation. You can also use the bellow shortcut to switch more easily.=切换开关编辑模式去隐藏/取消隐藏某些姿势动画。你还可以试用下方快捷键更方便的切换开关。
+
+Toggle edit mode shortcut=切换编辑模式快捷键
+
+User Preset=用户预设
+Save changes in...=保存更改至...
+Save the set of hidden position into : one preset for each card, or one of the 5 global presets that will be shared between cards.=保存隐藏列表至: 每个人物卡一个预设或者5个全局预设之一
+
+Miscs=其他
+Unlock everything=解锁全部姿势
+Show all animations regardless of personality. NB : Some animation might not work if not available on the current map or with that set of character.=忽略性格显示所有姿势动画。注意: 如果地图不支持，某些姿势动画可能无法正常运作。
+
+one preset for each card=一张人物卡一个预设
+global preset {{A}}=全局预设{{A}}

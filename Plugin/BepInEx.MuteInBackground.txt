@@ -1,0 +1,8 @@
+//------------------------------------------------------------
+// Mute In Background
+//------------------------------------------------------------
+Mute In Background {{A}}\n...=游戏失焦静音 {{A}}\n▼Mute In Background {{A}}▼
+Mute In Background {{A}}=▲游戏失焦静音 {{A}}▲
+
+Mute In Background=失焦静音
+Whether to mute the game when in the background, i.e. alt-tabbed.=游戏为非活动窗口时是否静音，即按下Alt+Tab。

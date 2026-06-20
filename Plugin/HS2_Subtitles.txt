@@ -1,0 +1,47 @@
+//------------------------------------------------------------
+// Subtitles
+//------------------------------------------------------------
+Subtitles {{A}}\n...=对白字幕插件 {{A}}\n▼Subtitles {{A}}▼
+Subtitles {{A}}=▲对白字幕插件 {{A}}▲
+
+Config=配置
+Show Subtitles=显示字幕
+Enable or disable showing subtitles.=启用或禁用显示字幕。
+Subtitle Directory=字幕目录
+Directory containing subtitle xml info, relative to the BepInEx folder.=包含字幕信息的xml文件所在目录,相对路径于BepInEx文件夹。
+Font Size=字体大小
+Font size of subtitles.=字幕的字体大小。
+Font Style=字体样式
+Font style of subtitles, i.e. bold, italic, etc.=字幕的字体样式，即粗体、斜体等。
+Normal=标准
+Bold=粗体
+Italic=斜体
+Bold And Italic=粗斜体
+Text Align=文本对齐
+Text alignment of subtitles.=字幕的文本对齐。
+Upper Left=左上角
+Upper Center=中间靠上
+Upper Right=右上角
+Middle Left=中间靠左
+Middle Center=正中央
+Middle Right=中间靠右
+Lower Left=左下角
+Lower Center=中间靠下
+Lower Right=右下角
+Text Vertical Offset=文本垂直偏移
+Distance from top and bottom edges of the screen.=距离屏幕上下边缘的距离
+Text Horizontal Offset=文本水平偏移
+Distance from left and right edges of the screen.=距离屏幕左右边缘的距离
+Outline Thickness=描边厚度
+Outline thickness for subtitle text.=字幕文本的描边厚度。
+//Fade In/Out=淡入淡出
+//Adds a gradual fade effect to the subtitles like the one when talking to someone. You can control the speed by setting the global ADV text fade speed setting in game settings.=为字幕添加渐变效果比如和某人说话的时候。你可以通过全局高级设置字幕渐变的速度。
+Text Color=文本颜色
+Subtitle text color.=字幕文本的颜色。
+Outline Color=描边颜色
+Subtitle text outline color.=字幕文本的描边颜色。
+//VR=
+VR Text Offset=VR文本偏移
+Subtitle text position in VR.=VR模式中字幕文本的偏移。
+VR Text {{A}} Offset=VR文本{{A}}偏移
+Subtitle text position in VR. For {{A}}P when two subtitles may be displayed at once.=VR模式中字幕文本的偏移。{{A}}P模式下可显示两个字幕。

@@ -1,0 +1,9 @@
+//------------------------------------------------------------
+// Message Center
+//------------------------------------------------------------
+Message Center {{A}}\n...=消息中心{{A}}\n▼Message Center {{A}}▼
+Message Center {{A}}=▲消息中心{{A}}▲
+
+General=主要设置
+Show messages in UI=在界面中显示消息
+Allow plugins to show on screen messages=允许插件在屏幕上显示消息

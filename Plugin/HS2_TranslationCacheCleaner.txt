@@ -1,0 +1,9 @@
+//------------------------------------------------------------
+// Translation Cache Cleaner
+//------------------------------------------------------------
+Translation Cache Cleaner {{A}}\n...=翻译缓存清理器 {{A}}\n▼Translation Cache Cleaner {{A}}▼
+Translation Cache Cleaner {{A}}=▲翻译缓存清理器 {{A}}▲
+
+Keyboard Shortcuts=快捷键
+Clean Cache Hotkey=清除缓存热键
+Pressing this will attempt to clean your auto-translation cache.=按此键将尝试清理自动翻译缓存。

@@ -1,0 +1,42 @@
+#set level 9
+
+/FursRoom/Canvas/Panel
+
+// Leave Room
+
+/FursRoom/Canvas/Panel/Home/Menu/tglGoToRoom/imgBase/Background/Label
+
+/FursRoom/Canvas/Panel/MapSelect/panel
+/FursRoom/Canvas/Panel/MapSelect/panel/MapSelect
+
+// Achievements
+
+/FursRoom/Canvas/Panel/Concierge
+
+/FursRoom/Canvas/Panel/Concierge/Achievement/Achievement/Title
+/FursRoom/Canvas/Panel/Concierge/Achievement/Achievement/Title
+/FursRoom/Canvas/Panel/Concierge/Achievement/Achievement/Title
+
+/FursRoom/Canvas/Panel/Concierge/Achievement/AchievementExchange/Title
+/FursRoom/Canvas/Panel/Concierge/Achievement/AchievementExchange/Title
+/FursRoom/Canvas/Panel/Concierge/Achievement/AchievementExchange/Title
+
+/FursRoom/Canvas/Panel/Concierge/Achievement/Achievement/Scroll View/Viewport/Content
+/FursRoom/Canvas/Panel/Concierge/Achievement/Achievement/Scroll View/Viewport/Content
+/FursRoom/Canvas/Panel/Concierge/Achievement/Achievement/Scroll View/Viewport/Content
+
+/FursRoom/Canvas/Panel/Concierge/Achievement/AchievementExchange/Scroll View/Viewport/Content
+/FursRoom/Canvas/Panel/Concierge/Achievement/AchievementExchange/Scroll View/Viewport/Content
+/FursRoom/Canvas/Panel/Concierge/Achievement/AchievementExchange/Scroll View/Viewport/Content
+
+
+// Edit Chars
+
+/FursRoom/Canvas/Panel/CharaEdit/Coordinate/SelectCoordinate/Panel/Buttons/btnBatchRelease
+/FursRoom/Canvas/Panel/CharaEdit/Group/SelectCard1/Panel/btnCharaEdit
+/FursRoom/Canvas/Panel/CharaEdit/Group/SelectCard2/Panel/btnCharaEdit
+/FursRoom/Canvas/Panel/CharaEdit/Group/SelectChara/Panel/Buttons/btnEntry
+/FursRoom/Canvas/Panel/CharaEdit/Group/SelectGroups/Panel/Buttons/btnCancel
+/FursRoom/Canvas/Panel/CharaEdit/MaleSelect/SelectChara/Panel/Buttons/btnCharaEdit
+/FursRoom/Canvas/Panel/CharaEdit/MaleSelect/SelectChara/Panel/Buttons/btnPlayerSelect
+/FursRoom/Canvas/Panel/CharaEdit/MaleSelect/SelectChara/Panel/Buttons/btnSecondPlayerSelect

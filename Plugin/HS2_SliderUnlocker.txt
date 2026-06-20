@@ -1,0 +1,10 @@
+//------------------------------------------------------------
+//Slider Unlocker
+//------------------------------------------------------------
+Slider Unlocker {{A}}\n...=滑块数值解锁器 {{A}}\n▼Slider Unlocker {{A}}▼
+Slider Unlocker {{A}}=▲滑块数值解锁器 {{A}}▲
+
+Slider Limits=滑块极限
+Minimum slider value=最小滑块值
+Maximum slider value=最大滑块值
+Changes will take effect next time the editor is loaded or a character is loaded.=更改将在下次加载编辑器或加载角色时生效。

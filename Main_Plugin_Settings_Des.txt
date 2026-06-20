@@ -1,0 +1,698 @@
+//------------------------------------------------------------
+// BepInEx
+//------------------------------------------------------------
+Enable/disable assembly metadata cache\nEnabling this will speed up discovery of plugins and patchers by caching the metadata of all types BepInEx discovers.=启用/禁用程序集元数据缓存\n启用此功能将通过缓存BepInEx发现的所有类型的元数据来加快插件和修补程序的发现。
+
+If enabled, hides BepInEx Manager GameObject from Unity.\r\nThis can fix loading issues in some games that attempt to prevent BepInEx from being loaded.\r\nUse this only if you know what this option means, as it can affect functionality of some older plugins.\r\n=如果启用，则对Unity隐藏BepInEx Manager游戏对象。\r\n这可以修复某些游戏中试图阻止加载BepInEx的加载问题。\r\n只有知道此选项的含义时才使用此选项，因为它可能会影响某些旧插件的功能。\r
+
+Specifies which Harmony log channels to listen to.\nNOTE: IL channel dumps the whole patch methods, use only when needed!=指定要侦听的和声日志通道。\n注意：IL通道转储整个修补程序方法，仅在需要时使用！
+
+If enabled, writes Standard Output messages to Unity log\r\nNOTE: By default, Unity does so automatically. Only use this option if no console messages are visible in Unity log\r\n=如果已启用，将标准输出消息写入Unity Log\r\n注意：默认情况下，Unity会自动执行。\n如果Unity日志中没有可见控制台消息，则仅使用此选项\r\n
+Enables showing unity log messages in the BepInEx logging system.=允许在BepInEx日志记录系统中显示unity日志消息。
+
+Enables showing a console for log output.=允许显示控制台以便输出日志。
+Which log levels to show in the console output.=在控制台输出中显示哪些日志级别。
+If enabled, will prevent closing the console (either by deleting the close button or in other platform-specific way).=如果启用，将阻止关闭控制台（通过删除关闭按钮或其他特定于平台的方式）。
+If true, console is set to the Shift-JIS encoding, otherwise UTF-{{A}} encoding.=如果可以实现，控制台设置为Shift-JIS编码，否则设置为UTF-{{A}}编码。
+Appends to the log file instead of overwriting, on game startup.=在游戏启动时附加到日志文件而不是覆盖。
+Enables writing log messages to disk.=允许将日志消息写入磁盘。
+Which log leves are saved to the disk log output.=哪些日志级别保存到磁盘日志输出。
+Include unity log messages in log file output.=在日志文件输出中包含unity日志消息。
+
+Enable/disable assembly metadata cache\nEnabling this will speed up discovery of plugins and patchers by caching the metadata of all types BepInEx discovers.=启用/禁用程序集元数据缓存\n启用此选项将通过缓存BepInEx发现的所有类型的元数据来加快插件和修补程序的发现。
+If enabled, BepInEx will call Debugger.Break() once before loading patched assemblies.\nThis can be used with debuggers like dnSpy to install breakpoints into patched assemblies before they are loaded.=如果启用，BepInEx将在加载修补程序集之前调用Debugger.Break（一次）。\n这可与dnSpy之类的调试器一起使用，以便在加载修补程序集之前将断点安装到修补程序集中。
+If enabled, BepInEx will save patched assemblies into BepInEx/DumpedAssemblies.\nThis can be used by developers to inspect and debug preloader patchers.=如果启用，BepInEx将修补的程序集保存到BepInEx / 转储程序集中。\n 开发人员可以使用它来检查和调试预加载器修补程序。
+
+The local filename of the assembly to target.=要定位的程序集的本地文件名。
+The name of the type in the entrypoint assembly to search for the entrypoint method.=入口点程序集中要搜索入口点方法的类型的名称。
+The name of the method in the specified entrypoint assembly and type to hook and load Chainloader from.=指定入口点程序集中的方法名称和类型，用于从中挂钩和加载 Chainloader。
+
+//------------------------------------------------------------
+//Additional Accessory Controls
+//------------------------------------------------------------
+
+Enable This to Allow Advanced Parented Accessories to Animate with Head Bones (Vanilla Game does not do this, only for custom bone work)=启用此项以允许高级父级饰品使用头部骨骼进行动画处理（原版游戏不是这样处理，仅在自定义骨骼工作）
+Threshold of Fast Movement Forcing Mesh Update=网格父级快速移动更新阀值
+Number of back frames to extrapolate from=要从身体网格父级中后往推断的帧数
+Clears and resets the slot data, used to recover desync'd accessory info. Only applicable in Maker.=清除并重置饰品槽位数据，用于恢复不同步的饰品信息。 仅适用于【创建角色】界面。
+Adds a button to the mod tab in maker to allow clearing and resyncing the slot data for the slot.=在【创建角色】中的【Mods】选项卡中添加一个按钮，以允许清除和重新同步插槽的插槽数据。
+
+
+Fix a Bug in More Accessories That Disables Dynamic Bones in More Accessory Slots=修复在<更多配饰>插件槽位内配饰的动态骨骼关闭问题
+Extra Accessory Slots Past Actual Accessories Removed on Save=额外饰品插槽超过实际配饰数保存时删除
+{{A}} Updates Every Frame, {{B}} Every other, etc={{A}} 每帧都刷新，{{B}} 两帧刷新，以此类推
+
+//------------------------------------------------------------
+//AdvIKPlugin
+//------------------------------------------------------------
+Characters in the Main Game will Breathe=主游戏中的人物产生呼吸效果
+Multiplier applied to default breath sizing=应用于默认呼吸幅度的倍数
+Multiplier applied to default breath rate (BPM)=应用于默认呼吸速率（BPM）的乘数
+Multiplier applied (on top of above option) in HScenes to breath size=将H场景中的倍增应用于呼吸幅度（在上述选项之上）
+Multiplier applied (on top of above option) in HScenes to breath rate=在H场景中应用乘数（在上述选项之上）以提高呼吸频率
+Characters in the Maker will Breathe=在人物创建界面中人物的呼吸效果
+Disables the Maker's IK syncing, allowing for Leg/Arm resize without pose breaking=禁角色创建的同步，允许在不破坏姿势的情况下调整腿部和手臂的比例
+Automatically Apply Configured IK Adjustment on Reloading Characters=在重新加载角色时自动应用配置的 IK 调整
+Trigger resize with a folder of name -RESIZE:CENTROID_NAME - see readme for list of valid centroid names=使用名称为 -RESIZE:CENTROID_NAME 的文件夹触发调整大小 - 有关有效矩形名称的列表，请参阅自述文件
+
+//------------------------------------------------------------
+// boopz
+//------------------------------------------------------------
+//------------------------------------------------------------
+// Character Export 
+//------------------------------------------------------------
+Whether to open the folder after exporting characters.=是否在导出人物后打开保存位置文件夹。
+Export all currently loaded characters in the game.=导出游戏中当前加载的所有人物。
+
+//------------------------------------------------------------
+// Character Loader
+//------------------------------------------------------------
+Number of character cards per row in the Studio Character Loader. Takes effect on restart=工作室人物加载程序中每行的人物卡数。重新启动时生效
+Close the Character Loader window in studio after loading a character=工作室读取角色后关闭角色读取窗口
+Show or hide folder list in the character maker when saving or loading characters=保存或加载人物时在人物生成器中显示或隐藏文件夹列表
+Replace the standard buttons to add female and male characters to the game with a single Characters button=将标准按钮替换为将女性和男性人物添加到游戏中的单个人物按钮
+Allow manually reordering the Studio character list. This is done by manipulation the card file timestamps, so the order will change also the character maker and windows explorer. Takes effect on restart=允许手动重新排序 Studio 角色列表。 这是通过处理卡片文件时间戳来完成的，因此【创建角色】和【Windows资源管理器】的顺序也会改变。 重启生效
+
+//------------------------------------------------------------
+// Character Replacer
+//------------------------------------------------------------
+Whether to replace selected cards.=是否替换选中的卡片。
+Browse for a card.=选择你需要替换的默认人物卡所在文件位置
+Path of the replacement card on disk.=所选卡在你电脑上的文件路径
+Browse for Default Female Replacement=浏览默认女性人物卡文件
+Browse for Default Male Replacement=浏览默认男性人物卡文件
+
+//------------------------------------------------------------
+// Cheat Tools
+//------------------------------------------------------------
+//------------------------------------------------------------
+// Colliders
+//------------------------------------------------------------
+Whether breast colliders are enabled. Makes breasts interact and collide with arms, hands, etc.=是否启用胸部碰撞器。\n使乳房与手臂、手等相互作用和碰撞。
+Adds a floor collider so hair doesn't clip through the floor when laying down.=添加了一个地面碰撞器，以便头发在躺下时不会穿过地面。
+Default state of colliders for new characters in Studio or for older scenes.\nScenes made with this plugin will load with colliders enabled or disabled depending on how the character in scene was configured.=工作室中新角色或旧场景的碰撞的默认状态. \n使用此插件制作的场景将在加载时启用或禁用碰撞, 具体取决于场景中角色的配置方式.
+
+//------------------------------------------------------------
+// Demosaic
+//------------------------------------------------------------
+Whether the plugin is enabled=插件是否启用
+
+//------------------------------------------------------------
+// Drag & Drop
+//------------------------------------------------------------
+Show a confirmation dialog box when loading the dropped scene would result in losing data in the currently loaded scene.=加载置入的场景时显示确认对话框会导致当前加载的场景中的数据丢失。
+
+//------------------------------------------------------------
+// DynamicBonesGravityPlugin
+//------------------------------------------------------------
+Enabled (Doubles Default)=启用（默认值的两倍）
+Stronger ({{A}} Times Default)=更强烈（默认值的{{A}}倍）
+Realish (Compensates for {{A}}x size with {{B}} Times Default)=实际强度(以{{A}}倍默认值补偿{{B}}倍大小)
+Realish (Compensates for {{A}}x size with {{A}} Times Default)=实际强度(以{{A}}倍默认值补偿{{A}}倍大小）
+Use the values below instead of defaults, control your own destiny!=使用下面的值而不是默认值，你自己控制数值！
+Y Gravity Adjustment=Y轴重力调整
+Calc in FixedUpdate Instead of LateUpdate=Calc在FixedUpdate而不是LateUpdate
+
+//------------------------------------------------------------
+// Enable Resize
+//------------------------------------------------------------
+Whether to allow the game window to be resized. Requires game restart to take effect.=是否允许调整游戏窗口大小。\n需要重新启动游戏以生效。
+
+//------------------------------------------------------------
+// GeBo Modding API
+//------------------------------------------------------------
+Leave enabled unless requested otherwise=除非另有要求，否则请保持启用。
+
+//------------------------------------------------------------
+// Graphics Settings
+//------------------------------------------------------------
+Optimize the game when it is the background and unfocused. Settings such as anti-aliasing will be turned off or reduced in this state.=在后台且无焦点时优化游戏。 在这种状态下\n诸如抗锯齿之类的设置将被关闭或降低。 
+Should the game be running when it is in the background (when the window is not focused)?\n=游戏是否应该在后台运行(当窗口无焦点时)?
+
+Dummy setting for the custom drawer. Resolution is saved automatically by the game after clicking apply.=自定义游戏窗口分辨率设置。\n点击应用后，游戏会自动保存分辨率
+VSync synchronizes the output video of the graphics card to the refresh rate of the monitor. This prevents tearing and produces a smoother video output.\nHalf vsync synchronizes the output to half the refresh rate of your monitor.=垂直同步(VSync)将显卡的输出视频与显示器的刷新率同步。 这可以防止撕裂并产生更流畅的视频输出。\n半垂直同步(Half VSync)将输出同步到显示器刷新率的一半。
+Limits your framerate to whatever value is set. -{{A}} equals unlocked framerate.\nVSync has to be disabled for this setting to take effect.=将帧率限制为设置的任何值。-{{A}}等于未限制的帧率。\n垂直同步(VSync)必须被禁用才能使此设置生效。
+Improves distant textures when they are being viewer from indirect angles.=改善从间接角度观察时的远距离纹理。
+Optimize the game when it is the background and unfocused. Settings such as anti-aliasing will be turned off or reduced in this state.=在后台且无焦点时优化游戏。 在这种状态下\n诸如抗锯齿之类的设置将被关闭或降低。
+Smooths out jagged edges on objects.=平滑物件上的锯齿状边缘。
+
+//------------------------------------------------------------
+// Gravure plugin
+//------------------------------------------------------------
+/------------------------------------------------------------
+// HeightBarX
+//------------------------------------------------------------
+Shows the position of the floor. Helps prevent floating characters when using yellow sliders.=显示地面位置。\n使用黄色滑块时帮助防止人物漂浮。
+Hotkey to toggle the height measurement bar in maker.=在【创建角色】中切换高度测量的热键。
+A foot to the face.=由脚部到脸部
+
+//------------------------------------------------------------
+// HideAllUI
+//------------------------------------------------------------
+//------------------------------------------------------------
+// HS2 Better Penetration
+//------------------------------------------------------------
+Set how close to body surface to limit penis for clipping purposes. Smaller values will result in more clipping through the body, larger values will make the shaft wander further away from the intended penetration point.=设置距离身体表面的距离以限制阴茎进行抽插. 较小的值会导致更多的身体抽插,较大的值会使轴远离预期的插入点.
+Individual offset on colision point, to improve clipping=碰撞点上的单独偏移，以改善插入
+
+Vertical offset of the mouth target=嘴巴目标的垂直偏移
+Vertical offset of the simplified inner mouth target=简化的嘴巴内部目标的垂直偏移
+Shortcut key to turn male colliders on or off=切换男性碰撞器 启用/禁用 状态的快捷键。\n说明: 用于控制睾丸(蛋蛋)的碰撞器
+Vertical offset of the simplified inner vagina target=简化的阴道内部目标的垂直偏移
+Vertical offset of the vagina target=阴道目标的垂直偏移
+
+Allows the belly to deform during certain vaginal positions.=允许腹部在某些阴道位置进行变形。
+How much to scale belly colliders=腹部碰撞器的缩放比例
+
+Enable adjustment of butt bones during Anal positions.=在肛门位置期间启用臀部骨骼的调整。
+Amount to adjust the butt bones position for Anal positions=在肛门位置的臀部骨骼位置的调整量
+Amount to adjust the butt bones rotation for Anal positions=在肛门位置的臀部骨骼旋转的调整量
+NOTE: There is an Illusion bug that causes the vagina to appear sunken in certain missionary positions.  It is best to use Advanced Bonemod and adjust your female character's cf_J_Kokan Offset Y to {{A}}.  If you don't do that, enabling this option will attempt to fix the problem by guessing where the bone should be=注意: 有一个I社错误会导致阴道在某些错误位置看起来凹陷. 最好使用[Advanced Bonemod]并将女性角色的 cf_J_Kokan Offset Y 调整为 {{A}}. 如果您不这样做, 启用此选项将尝试通过猜测骨骼的位置来解决问题
+Amount to adjust the Vagina bone rotation X for certain Missionary positions to correct its appearance=调整特定男上女下体位的阴道骨骼旋转X的量，以纠正其外观
+Amount to adjust the Vagina bone position Y for certain Missionary positions to correct its appearance=调整特定男上女下体位的阴道骨骼旋转Y的量，以纠正其外观
+Amount to adjust the Vagina bone position Z for certain Missionary positions to correct its appearance=调整特定男上女下体位的阴道骨骼旋转Z的量，以纠正其外观
+
+Use finger colliders=使用手指碰撞器
+Lenght of the finger colliders.=手指碰撞器的长度
+Radius of the finger colliders.=手指碰撞器的半径。
+Amount of movement to limit the penis to.  Smaller values result in smoother animations, but can cause clipping.=限制阴茎的运动量。较小的值会导致动画更流畅，但会导致裁剪。
+Limit the penis from moving laterally too much from frame to frame.=限制阴茎在每帧横向移动太多。
+How much to scale collider length=阴茎碰撞器的长度比例是多少
+How much to scale collider radius=阴茎碰撞器的半径比例是多少
+Vertical Center of the shaft collider=碰撞器的垂直中心
+Radius of the shaft collider.=碰撞器的轴半径
+Distance from the center of the head bone to the tip, used for collision purposes.=从头部骨骼中心到尖端的距离，用于碰撞
+How much the girth of the penis squishes after it has passed the squish threshold=超过挤压阈值后，阴茎的周长挤压了多少
+How much the length of the penis squishes after it has passed the squish threshold=阴茎超过挤压阈值后挤压的长度是多少
+Allows the penis to squish (increase girth) during oral.=允许阴茎在口腔内挤压（增加周长）
+Allows the penis to begin squishing (shorten length increase girth) after this amount of the penis has penetrated.=允许阴茎在这个量的阴茎穿透后开始挤压（缩短长度增加周长）
+If enabled, the base of the balls will be locked to the base of the shaft=如果启用,睾丸将被锁定到轴的底部
+Simplifys anal penetration calclation by always having it target the same internal point.  Only valid for BP penis uncensors.=通过始终使其目标相同的内部点来简化\n肛交计算,仅对BP动态阴茎有效。
+Simplifys oral penetration calclation by always having it target the same internal point.  Only valid for BP penis uncensors.=通过始终使其目标相同的内部点来简化\n口交计算,仅对BP动态阴茎有效。
+Simplifys penetration calclation by always having it target the same internal point.  Only valid for BP penis uncensors.=通过始终使其目标相同的内部点来简化\n抽插计算,仅对BP动态阴茎有效。
+Simplifys vaginal penetration calclation by always having it target the same internal point.  Only valid for BP penis uncensors.=通过始终使其目标相同的内部点来简化\n阴道抽插计算,仅对BP动态阴茎有效。
+
+Enable anus push/pull during penetration=在插入期间启用肛门的[推/拉]
+Maximum amount to pull the anus outwards during penetration=插入时将肛门向外拉的最大量
+Maximum amount to push the anus inwards during penetration=插入时将肛门向内推的最大量
+How quickly to push or pull the anus during penetration=在插入过程中推动或拉动肛门的速度有多快
+How quickly the anus returns to its original shape when there is no penetration=当没有插入时，肛门多快恢复到原来的形状
+Enable mouth push/pull during penetration=在插入期间启用嘴巴的[推/拉]
+Maximum amount to pull the mouth outwards during penetration=插入时将嘴巴向外拉的最大量
+Maximum amount to push the mouth inwards during penetration=插入时将嘴向内推的最大量
+How quickly to push or pull the mouth during penetration=在插入过程中推动或拉动嘴巴的速度有多快
+How quickly the mouth returns to its original shape when there is no penetration=当没有插入时，嘴巴多快恢复到原来的形状
+Offset of the simplified inner mouth target=简化嘴巴内部目标的偏移量
+Offset of the simplified inner vagina target=简化阴道内部目标的偏移量
+Offset of the mouth target=嘴巴目标的偏移
+Offset of the vagina target=阴道目标的偏移
+Enable vaginal push/pull during penetration=在插入期间启用阴道的[推/拉]
+Maximum amount to pull the vagina outwards during penetration=插入时将阴道向外拉的最大量
+Maximum amount to push the vagina inwards during penetration=插入时将阴道向内推的最大量
+How quickly to push or pull the vagina during penetration=在插入过程中推动或拉动阴道的速度有多快
+How quickly the vagina returns to its original shape when there is no penetration=当没有插入时，阴道多快恢复到原来的形状
+
+//------------------------------------------------------------
+// HS2 Boob Settings 
+//------------------------------------------------------------
+//------------------------------------------------------------
+// HS2 PoV X
+//------------------------------------------------------------
+Highest upward/downward angle the eyes can rotate.=视线可以上下旋转的最大角度。
+The farthest the eyes can rotate left/right=视线可以左右旋转的最大角度。
+Highest upward/downward angle the head can rotate.=头部可以上下旋转的最大角度。
+The farthest the head can rotate left/right=头部可以左右旋转的最大角度。
+
+Stops the camera from tilting. Always enabled when locked-on.=防止相机倾斜。启用后始终锁定。
+Sideway offset from the character's eyes.=左右偏移角色视野。
+Vertical offset from the character's eyes.=上下偏移角色视野。
+Forward offset from the character's eyes.=前后偏移角色视野。
+
+During PoV mode in HScenes, automatically lock/unlock the characters head to the default animation position depending on position.=第一人称模式在H场景下，\n将根据动画、位置自动锁定/解锁角色头部。
+Should the head be invisible when in PoV mode? Head is always invisible during H scenes or situations where the player can't move.=在第一人称模式下头部是否隐藏？\n在H场景或玩家不可移动的情况下，头部始终隐藏。
+Amount to scale Z when hiding head.=隐藏头部时Z轴的比例
+Should the head be shadow only when in PoV mode? =在第一人称(PoV)模式下，头部是否变为仅阴影模式？
+Should the cursor be locked during H scenes? Use the 'Cursor Release Key' to reveal the cursor. This also include situations where the focus is not the player.=在H场景中是否锁定鼠标？\n使用‘鼠标切换按键’显示鼠标。这也包括焦点不是玩家的情况。
+
+During PoV mode, holding down this key will move the camera if the mouse isn't locked.=第一人称模式下，如果鼠标没有锁定，按住此键可以移动相机。
+Switch between characters during PoV mode.=在第一人称模式下切换角色。
+Pressing this key will force the cursor to be revealed in any scenes. Press the key again to turn off.=按下此键将在任何模式下强制显示鼠标。再按一次关闭。
+During PoV mode in HScenes, pressing this key will lock/unlock the characters head to the default animation position.=第一人称模式在H场景下，按此键将锁定/解锁角色头部默认动画位置。
+Lock-on to any of the other characters during PoV mode. Press again to cycle between characters or exit lock-on mode.=在第一人称模式下锁定其他角色。再按一次可在角色间轮换或推出锁定模式。
+
+//------------------------------------------------------------
+// HS2_BetterHScenes
+//------------------------------------------------------------
+Apply previously saved character offsets for character pair / position during H=在H期间对人物位置应用先前保存的人物偏移
+Maximum limits of the body position slider bars.=身体移动滑块条的大小限制
+Maximum limits of the body rotation slider bars.=身体旋转滑块条的大小限制
+Maximum limits of the hint position slider bars.=微调移动滑块条的大小限制
+Path of the legacy offset file card on disk, will be converted to new offset file on startup.=旧版偏移量文件卡在硬盘上的路径位置，在启动的时候将转换为新的偏移量文件。
+Maximum limits of the limb position slider bars.=四肢移动滑块条的大小限制
+Maximum limits of the limb rotation slider bars.=四肢旋转滑块条的大小限制
+Path of the offset file card on disk.=新版偏移量文件卡在硬盘上的路径位置。
+Displays a UI that can be used to change the current animation motion.  Intended to be used with draggers UI to make adjustments.  May break the flow of an HScene so use with caution.=显示可用于更改当前动画动作的窗口。配合与调整窗口一起使用。可能会破坏H场景的流畅所以度请谨慎使用。
+If disabled, the Save button in the UI will only save the offsets for the current motion of the position.  A Default button will be added to save it for all motions of that position that don't already have an offset.=如果禁用，\n窗口中的“保存”按钮将仅保存当前运动位置的偏移量。\n将添加一个默认保存按钮以保存所有没有偏移的运动位置。
+If enabled, saving a default motion will save unique offsets for the current state the girl is in, either normal or weakness. This lets you save two separate default offsets, one for normal state and one for weakness.=如果启用，\n将保存当前女孩的默认状态(普通和虚脱)作为唯一偏移量使用。\n这可以使你保存两个默认偏移量，一个用于普通一个用于虚脱。
+
+Corrects most animations by using the other characters solutions if available. No other solver options will work without this enabled.=通过其他角色处理(如果可用)更正大多数动画。\n未启用此项则“动画 > 处理”选项无法使用。
+Corrects certain animations by attaching certain IK points to the correct location instead of leaving them dangling in air.=修正某些悬空动画将IK节点固定到正确的动画位置。
+Allows limb movement on certain positions by fixing their effector weights.=通过修复效果工具权重，允许肢体在当前位置移动。
+Apply an offset to the male character to align kiss animations=对男性角色使用偏移量以对齐轻吻动画。
+Default enable/disable state of joint corrections in Slider UI=窗口滑块中关节校正的默认启用/禁用状态
+Offset applied to the target location for kiss alignment=应用于接吻对齐目标的偏移
+Re-orders animation solving.  If the male animation is dependent on the female animation, the female animation will be solved first.  Some animations have both male and female dependencies.  These ones will run females first, so female dependencies will be broken.  This can be fixed by using last frame (see below)=重新规划动画处理。如果男性动画依赖于女性动画，将会先处理女性动画。有些动画两者具有同等依赖性的。将会先处理女性动画，这样女性的依赖将会被中止。这些可以被用来修复最后帧(详见下文)
+Use Last Frame's result as input to next frame.  This can fix problems when the female animations are solved before the male animations but are dependent on the male animations.  It will add a framerate dependent amount of jitter to the animations, which can be a good thing if your fps is high, or a bad thing if your fps is low.=使用上一帧的结果作为下一帧的输入。这可以解决女性动画处理都先于男性动画但却依赖于男性动画。这将为动画添加与帧率相关的偏差量，如果你的帧率(FPS)很高那这效果很好，反之则很糟糕。
+Use Last Frame's result as input to next frame.  This can fix problems when the male animations are solved before the female animatiosn but are dependent on the male animations.  It will add a framerate dependent amount of jitter to the animations, which can be a good thing if your fps is high, or a bad thing if your fps is low.=使用上一帧的结果作为下一帧的输入。这可以解决男性动画处理都先于女性动画但却依赖于女性动画。这将为动画添加与帧率相关的偏差量，如果你的帧率(FPS)很高那这效果很好，反之则很糟糕。
+
+Prevent default animation change clothes strip (pants, panties, top half state)=防止默认动画修改衣服状态（裤子、内裤、上衣半脱状态）
+Should strip female clothes during H=H中需要脱下的女性服装
+Should strip male clothes during H=H中需要脱下的男性服装
+Strip female bottom during H=H中脱掉女性下装
+Strip female bra during H=H中脱掉女性内衣
+Strip female gloves during H=H中脱掉女性手套
+Strip female panties during H=H中脱掉女性内裤
+Strip female pantyhose during H=H中脱掉女性裤袜
+Strip female shoes during H=H中脱掉女性鞋子
+Strip female socks during H=H中脱掉女性袜子
+Strip female top during H=H中脱掉女性上衣
+
+Strip male bottom during H=H中脱掉男性下装
+Strip male (futa) bra during H=H中脱掉男性(扶他)内衣
+Strip male gloves during H=H中脱掉男性手套
+Strip male (futa) panties during H=H中脱掉男性(扶他)内裤
+Strip male (futa) pantyhose during H=H中脱掉男性(扶他)裤袜
+Strip male shoes during H=H中脱掉男性鞋子
+Strip male (futa) socks during H=H中脱掉男性(扶他)袜子
+Strip male top during H=H中脱掉男性上衣
+
+Automatically finish inside when both gauges reach max=当两者快感条都到达最大值时自动内射
+Update method for detailed cum, use LateUpdate for best framerate=优化汁液细节算法，使用后刷新优化最佳帧率
+Preferred auto finish type. Will fall back to any available option if selected is not available=首选自动结束的类型。如果选择不可用将回退到任何可用选项。
+Preferred auto finish type. Will fall back to any available option if selected is not available=首选自动结束的类型。如果选择不可用将回退到任何可用选项。
+
+Unlock camera zoom out / distance limit during H=H时解锁相机缩小/距离限制
+
+Always hit gauge heart. Will cause progress to increase without having to scroll specific amount=始终处于心形判定下，将会增加快感条进度无需滚动滚轮到特定值
+Close girl eyes=让女孩闭眼
+Make girl cry=让女孩哭泣
+Stop blinking=让女孩停止眨眼
+How many times does the girl have to orgasm to reach weakness=女孩需要多少次高潮才能达到虚脱
+
+//------------------------------------------------------------
+// HS2_ColorPanelX
+//------------------------------------------------------------
+//------------------------------------------------------------
+// HS2_ExtraGroups 
+//------------------------------------------------------------
+Requires a restart to apply.=需要重新启动才能生效。
+
+//------------------------------------------------------------
+// HS2_GirlsEntrance
+//------------------------------------------------------------
+Whether the plugin is enabled=插件是否启用
+
+When the entrance animation plays=播放登场动画的时机
+Which place do you want to play the animation=你想要在哪个界面播放登场动画
+
+//------------------------------------------------------------
+// HS2_HLightControl
+//------------------------------------------------------------
+What resolution to apply when clicking 'Lower shadow resolution'=启用'降低阴影分辨率'后使用的阴影分辨率
+
+//------------------------------------------------------------
+// HS2_MakerSearch
+//------------------------------------------------------------
+Search in translated cache, if nonexistant then translate. Only works when search includes name=在翻译缓存中搜索，如果不存在则翻译。仅当搜索包含有效名称。
+Global - search text is same for all boxes, \nSeparate - different for each box/category, \nNone - reset after search=全局-所有搜索框同步，\n单独-每个搜索框不同、\n无-搜索后重置关键词
+
+//------------------------------------------------------------
+// HS2_UnlockPlayerHeight
+//------------------------------------------------------------
+If 'Height from card' is off, use this value instead'=如果 '玩家从卡片获取身高' 关闭，请用此项更改
+If 'Height from card' is off, use this value instead for {{A}}nd male=如果 '{{A}}号玩家从卡片获取身高' 关闭，请用此项更改{{A}}号玩家
+Set players height according to the value in the card=从卡片获取玩家的身高
+Set players height according to the value in the card for {{A}}nd male=从{{A}}号男性卡片获取{{A}}号玩家的身高
+
+//------------------------------------------------------------
+// HS2_ABMX (BonemodX)
+//------------------------------------------------------------
+If false, the window has a solid background, else it's see-through=若勾选禁用，则窗口具有纯色背景，反之则为透明背景
+Opens advanced bonemod window if there is a character that can be edited.=如果有一个可以编辑的角色,则打开高级骨骼编辑窗口。
+Maximum values of all sliders in maker are increased twofold. Can cause even more horrifying results. Recommended to only enable when working on furries and superdeformed charas.\n\nThe setting takes effect after maker restart.=角色创建中所有滑块的最大值增加了两倍\n可能会导致更糟糕的结果\n建议仅在处理毛发和超变角色时启用\n该设置在角色创建重新启动后生效
+When enabled, all scale sliders in maker are split into XYZ sliders (one for each direction). Cards made with this option will automatically enable it for relevant sliders.\n\nNote that using uneven scaling on some parts can skew the model in some animations, especially in H mode.\n\nThe setting takes effect immediately while inside maker.=启用后,角色创建中的所有比例滑块都被分成XYZ滑块(每个轴一个)。\n使用此选项进行的卡将自动为相关的滑块启用。\n请注意！！！在某些部件上使用不均匀的比例\n可能在某些动画中偏斜模型,尤其是在H模式下。\n在角色创建里时,该设置立即生效。
+
+//------------------------------------------------------------
+// HS2_ChicksDigMapModdersPlugin
+//------------------------------------------------------------
+Waste HD Space=浪费高额空间
+Not Recommended...Really Not Recommended, Crashes Possible, Weirdity Guaranteed=不推荐启用......真的不推荐,可能会导致游戏崩溃,保证很怪异
+Modded Maps are Selectable From Lobby for a First Meeting=第一次约会时可以从大厅中选择MOD地图
+Girls Will Show Up In Modded Maps for Standard Events=少女们在标准事件时将出现在MOD地图中
+
+//------------------------------------------------------------
+// HS2Heelz
+//------------------------------------------------------------
+Make Heelz Plugin load heel_manifest.xml file from game root folder. Useful for developing heels. Useless for most of users.=使Heelz插件从游戏根文件夹中加载heel_manifest.xml文件。\n 辅助开发高跟鞋。 对大多数用户而言无用。 
+Print Everything=列出所有内容
+
+Always rotate heels, even when the character isn't standing.=始终旋转高跟鞋，即使角色没有站立。
+Apply the foot scale associated with the heel clothing item.  This will override foot scaling done in character editor.=应用与后跟服饰道具相关的足部比例。 这将覆盖在角色编辑器中完成的足部缩放。
+Always adjust/rotate heels in HScenes, even when the character isn't standing.=始终在 H场景 中调整/旋转脚跟，即使角色没有站立。
+Always adjust/rotate heels on the World Map, even when the character isn't standing.=始终在世界地图上调整/旋转脚跟，即使角色没有站立。
+
+//------------------------------------------------------------
+// HS2_TakeChargePlugin
+//------------------------------------------------------------
+Note: Controls VISUAL H-Anim speed, stacks with mousewheel speed.=注意：控制视觉H动画速度，与鼠标滚轮速度叠加
+
+Rules File Location=规则文件的本地存储位置路径
+Some Animations Won't Fit the Location...=某些动画不适合该配置
+Override normal speed control/limits in auto mode=改写自动模式下的正常速度控制/限制
+How much to increase/decrease visual h-anim speed per hotkey press=每按一次快捷键可增加/减少多少视觉H动画速度
+Reset arousal gauge when changing positions=在更换体位时重置唤醒仪表
+Reset to Idle loop animation when changing positions=更换位置时重置为闲置循环动画
+Override normal speed control/limits in all modes=覆盖所有模式的正常速度控制/限制
+
+Percentage chance to pull out after finish (Doesn't effect finish type selection). Applies only if inserted. [Change Requires Restart]=完成做爱后拔出的几率百分比（不影响完成类型选择）\n仅在插入时适用[更改后需重启]
+<facepalm> - Apparently a position can have a Pull Out animation even when not inserted. % chance to play that if relevant. [Change Requires Restart]=<facepalm> - 显然,一个位置可以有一个拔出的动画,即使没有插入。N%的几率播放相关动画。 [更改需要重启游戏生效]
+Percentage chance to change positions after finish [Change Requires Restart]=完成后改变位置的机会百分比[更改需要重启游戏生效]
+Maximum Time (Seconds) before switching Loops (Slow->Fast or Fast->Slow) [Change Requires Restart]=切换循环(慢->快或快->慢)前的最大时间(秒)[更改需要重启游戏生效]
+Minimum Time (Seconds) before switching Loops (Slow->Fast or Fast->Slow) [Change Requires Restart]=切换循环(慢->快或快->慢)前的最小时间(秒)[更改需要重启游戏生效]
+Maximum Time (Seconds) before switching Positions (different H Scene) [Change Requires Restart]=切换位置前的最长时间(秒)(不同的H场景)[更改需要重启游戏生效]
+Minimum Time (Seconds) before switching Positions (different H Scene) [Change Requires Restart]=切换位置前的最小时间(秒)(不同的H场景)[更改需要重启游戏生效]
+Maximum Time (Seconds) wait before pullout out after finish (if relevant). [Change Requires Restart]=完成后拔出前等待的最长时间(秒)(如果相关)。[更改需要重启游戏生效]
+Minimum Time (Seconds) wait before pulling out after finish (if relevant). [Change Requires Restart]=完成后拔出前的最小等待时间(秒)(如果相关)。[更改需要重启游戏生效]
+Maximum Time (Seconds) to Wait before Restartign Position [Change Requires Restart]=重新启动位置前的最大等待时间(秒)[更改需要重启游戏生效]
+Minimum Time (Seconds) to Wait before Restarting Position [Change Requires Restart]=重新启动位置前的最小等待时间(秒)[更改需要重启游戏生效]
+Maximum Time (Seconds) between spanks [Change Requires Restart]=打屁股之间的最长时间(秒) [更改需要重启游戏生效]
+Minimum Time (Seconds) between spanks [Change Requires Restart]=打屁股之间的最小时间(秒) [更改需要重启游戏生效]
+Maximum Time (Seconds) to Wait at Start of Position [Change Requires Restart]=姿势开始时等待的最大等待时间(秒)[更改需要重启游戏生效]
+Minimum Time (Seconds) to Wait at Start of Position [Change Requires Restart]=姿势开始时的最小等待时间(秒)[更改需要重启游戏生效]
+
+//------------------------------------------------------------
+// HS2US
+//------------------------------------------------------------
+Add search boxes to some of the lists in character maker (searching characters).=将搜索框添加到【创建角色】中的某些列表（搜索角色）。
+Add search boxes to some of the lists in character maker (searching characters). Changes how some studio lists work.=将搜索框添加到【创建角色】中的某些列表（搜索角色）。 更改某些工作室列表的工作方式。
+Adjust sizes and positions of some UI elements=调整一些 UI 元素的大小和位置
+Scale all of the Canvas interfaces in game by this factor.=按此数值缩放游戏中的所有 Canvas 界面。
+Scale all of the Canvas interfaces in studio by this factor.=按此数值缩放工作室中的所有 Canvas 界面。
+
+Periodically clean memory from unused objects in case the game doesn't do it for whatever reason. When cleanup is performed the game/studio may stutter/lag for a moment.=定期清理未使用对象的内存，以防游戏出于任何原因不这样做。 执行清理时，游戏/工作室可能会卡顿/滞后片刻。
+How often to clean memory.=多久清理一次内存。
+
+Set base speed for camera keyboard controls. A value less than 1 is slower than vanilla speed. A value greater than one is faster than vanilla speed.=设置相机键盘控制的基本速度。 小于 1 的值比普通速度慢。 大于一的值比普通速度快。
+While moving the camera hold LeftControl to slow camera down and LeftShift to speed it up.=移动相机时，按住 LeftControl 可减慢相机速度，按住 LeftShift 可加快相机速度。
+Speed multiplier when holding LeftShift=按住 LeftShift 时的速度乘数
+Speed multiplier when holding LeftControl=按住 LeftControl 时的速度乘数
+
+Change how pressing F centers the camera.=更改按 F 使相机居中的方式。
+Adds additional buttons to bottom left transform controls for copying and resetting. Allows dragging on the X/Y/Z labels to change values in the text boxes. Increases precision of values in the text boxes.=在左下角的变换控件中添加额外的按钮，用于复制和重置。 允许拖动 X/Y/Z 标签以更改文本框中的值。 提高文本框中值的精度。
+Helps avoid deleting studio objects by accident.=有助于避免意外删除工作室物件。
+
+//------------------------------------------------------------
+// KK_PregnancyPlus
+//------------------------------------------------------------
+Automatically increase belly InflationSize when cum inside.=当精液射入体内时,自动增加腹部的膨胀程度。
+Automatically increase belly InflationSize when releasing inside.=当精液射入体内时,自动增加腹部的膨胀程度。
+Inflation levels required to reach max belly size.=达到最大肚皮尺寸所需的膨胀程度。
+Inflation levels increased when cum inside.=射入精液时,腹部膨胀程度增加。
+Inflation levels decreased when pull out after cum inside.=射入精液后拔出阴茎时,膨胀程度下降。
+The speed that the belly will inflate when triggered over x seconds=触发超过 x 秒时腹部膨胀的速度
+
+This shows the unskinned vert positions (grey dots) as they are imported from the mesh asset. \r\nDon't leave enabled, and dont enable with a ton of characters active.=这显示了从网格资源导入的未蒙皮的顶点位置（灰点）。 \r\n不要保持启用状态，也不要在激活大量角色的情况下启用。
+This shows the initial skinned vert positions (cyan dots) that Preg+ has computed. Not the inflated ones. \r\nDon't leave enabled, and dont enable with a ton of characters active.=这显示了 Preg+ 计算的初始蒙皮顶点位置（青色点）。不是膨胀的。 \r\n不要保持启用状态，也不要在激活大量角色的情况下启用。
+This shows the inflated vert positions (green dots) that Preg+ has computed. \r\nDon't leave enabled, and dont enable with a ton of characters active.=这显示了 Preg+ 计算的膨胀顶点位置（绿点）。 \r\n不要保持启用状态，也不要在激活大量角色的情况下启用。
+This shows the deltas computed from the base mesh that we use to build the blendshape. \r\nDon't leave enabled, and dont enable with a ton of characters active.=这显示了从我们用来构建混合形状的基础网格计算的增量。 \r\n不要保持启用状态，也不要在激活大量角色的情况下启用。
+This shows the characters bones bind poses. \r\nDon't leave enabled.=这显示了角色骨骼绑定姿势。 \r\n不要启用。
+This will allow me to debug where the mesh is, or is not, affected by the main Preg+ slider.  This will disable some Preg+ sliders temporarily. \r\nDon't leave enabled.=这将允许我调试网格是否受主 Preg+ 滑块的影响。这将暂时禁用一些 Preg+ 滑块。 \r\n不要启用。
+Will force update the belly shape every x ticks to help debug belly shape changes during animations.  \r\nDon't leave enabled.=将每 x 刻强制更新腹部形状，以帮助调试动画期间的腹部形状变化。 \r\n不要启用。
+Will cause all mesh verticies to be affected by sliders so I can narrow down which meshes are behaving, and which are not.  \r\nDon't leave enabled=将导致所有网格顶点受到滑块的影响，因此我可以缩小哪些网格的行为，哪些不是。 \r\n不要启用
+Will log lots of Preg+ BlendShape details to the console, but will condiserably slow down the game.  \r\nDon't leave enabled=会将大量 Preg+ 混合形状的细节记录到控制台，但会显着减慢游戏速度。 \r\n不要启用
+Will log lots of Preg+ belly calculations to the console, but will condiserably slow down the game.  \r\nDon't leave enabled=会将大量 Preg+ 腹部计算记录到控制台，但会显着减慢游戏速度。 \r\n不要启用
+Will log lots of Preg+ details to the console, but will condiserably slow down the game.  \r\nDon't leave enabled=将会输出怀孕状态的大量细节日志到控制台, 但是将会有条件的降低游戏速度. 不要保持启用!
+Will apply the selected preset shape to all existing characters in scene=将选定的预设形状应用到场景内的所有现有角色
+
+When enabled, Preg+ will ignore all accessories including AcessoryClothing, and SkinnedAccessories.=启用后，Preg+将忽略所有饰品，包括服装饰品和皮肤饰品。
+When enabled, the sliders will work on male characters as well.=启用后,怀孕效果也会对男性角色起作用。
+When changing characters in Maker, prefer the targets belly when both characters have a belly (Default).  When 'Disabled' the source characters belly shape will be used.=当在角色创建中改变角色时,当两个角色都有肚皮时,首选目标的腹部(默认)。 当 "禁用 "时,将使用源角色的腹部形状。
+
+Allows you to increase the belly InflationSize in Story/Main-Game Mode\r\n\r\nCan be CPU heavy with many characters=允许你在故事/主要游戏模式中增加腹部的膨胀程度。\r\n\r\n角色过多,会导致CPU负担加重
+Allows you to decrease the belly InflationSize in Story/Main-Game Mode\r\n\r\nCan be CPU heavy with many characters=允许你在故事/主要游戏模式中减少肚子的膨胀程度。\r\n\r\n角色过多,会导致CPU负担加重
+Allows you to reset the belly InflationSize in Story/Main-Game Mode\r\n\r\nCan be CPU heavy with many characters=允许你在故事/主游戏模式中重置肚子的膨胀大小\r\n\r\n角色过多,会导致CPU负担加重
+
+Whether or not Preg+ is enabled in Main Game mode=在游戏模式中是否启用怀孕+?
+Allows you to increase or decrease the 'Multiplier' amount in story mode=允许你在故事模式中增加或减少 "倍数 "的数值。
+Allows you to increase or decrease the 'Roundness' amount in story mode for=允许你在故事模式中增加或减少 "圆度 "的数值,以达到以下目的
+Allows you to increase or decrease the 'Move Y' amount in story mode for=允许你在故事模式中增加或减少 "移动Y "的数值,以达到以下目的
+Allows you to increase or decrease the 'Move Z' amount in story mode for=允许你在故事模式中增加或减少 "移动Z "的数值,以达到以下目的
+Allows you to increase or decrease the 'Stretch X' amount in story mode for=允许你在故事模式中增加或减少 "拉伸X "的数值,以达到以下目的
+Allows you to increase or decrease the 'Stretch Y' amount in story mode for=允许你在故事模式中增加或减少 "拉伸Y "的数值,以达到以下目的
+Allows you to increase or decrease the 'Shift Y' amount in story mode for=允许你在故事模式中增加或减少 "变换 Y "的数值,以达到以下目的
+Allows you to increase or decrease the 'Shift Z' amount in story mode for=允许你在故事模式中增加或减少 "变换 Z "的数值,以达到以下目的
+Allows you to increase or decrease the 'Taper Y' amount in story mode for=允许你在故事模式中增加或减少 "锥化 Y "的数值,以达到以下目的
+Allows you to increase or decrease the 'Taper Z' amount in story mode for=允许你在故事模式中增加或减少 "锥化 Z "的数值,以达到以下目的
+Allows you to increase the 'Drop' amount in story mode for=允许你在故事模式中增加 "下垂 "的数值,以达到以下目的
+Allows you to increase or decrease the cloth layer distance to reduce clipping=允许你增加或减少布层的距离,以减少剪切。
+Allows you to increase or decrease the fat fold size, {{A}} for none=允许你增加或减少脂肪褶皱的大小,{{A}}为无效果
+Allows you to raise or lower the fat fold crease position, {{A}} is default=允许你提高或降低脂肪折痕的位置,默认为{{A}}。
+Allows you to shrink or widen the fat fold gap, {{A}} is default=允许你扩大或缩小脂肪折痕的间隙,默认为{{A}}。
+
+//------------------------------------------------------------
+// Maker Defaults
+//------------------------------------------------------------
+Default gaze direction=默认视线朝向
+Default head direction=默认头部朝向
+Default eyebrow pattern=默认眉毛形状
+Default eye pattern=默认眼睛形状
+Default mouth pattern=默认嘴巴形状
+Default pause state=默认暂停状态
+Default clothing state=默认服装状态
+Default background type=默认背景类型
+
+//------------------------------------------------------------
+// Maker Optimizations
+//------------------------------------------------------------
+Lock and hide the cursor when moving the camera in maker.=在创建角色中移动相机时,显示或者隐藏十字光标。
+
+//------------------------------------------------------------
+// Maker/Studio Browser Folders
+//------------------------------------------------------------
+NOTE: This will patch the game to allow nested folder paths in the save file. If you turn this feature off or remove this plugin, any cards that are in subfolders will be removed from your game save (the cards themselves will not be affected, you will just have to readd them to your groups). Changes take effect on game restart=注意:这将给游戏打上补丁,允许在保存文件中使用嵌套的文件夹路径。 如果你关闭这个功能或删除这个插件,任何在子文件夹中的卡都将不在你的游戏目录中显示(角色卡本体文件不会受到影响,只需要把文件移动到你游戏组的文件路径)。 更改在重启游戏后生效
+When files are added/deleted/updated the list will automatically update. If disabled you have to hit the refresh button manually when files are changed.=当文件被添加/删除/更新时,列表会自动更新。 如果禁用,你必须每次在文件被改变时手动点击刷新按钮。
+When you select a custom folder to load a scene from, newly saved scenes will be saved to this folder.\nIf disabled, scenes are always saved to default folder (studio/scene).=当你选择一个自定义文件夹来加载一个场景时,新保存的场景将被保存到这个文件夹。\n如果禁用,场景总是被保存到默认文件夹(工作室/场景)。
+Changes take effect on game restart=更改在重启游戏后生效
+
+//------------------------------------------------------------
+// MakerSortIconReplacer
+//------------------------------------------------------------
+Replaces Illusion Sort Controls with Custom Set=用自定义配置替换I社排序控件
+
+//------------------------------------------------------------
+// Material Editor
+//------------------------------------------------------------
+Controls the size of the window.=控制UI界面窗口的大小
+Watch for file changes and reload textures on change. Can be toggled in the UI.=观察文件变化并在变化时重新加载纹理。 可以在用户界面中切换。
+When enabled, skinned meshes will be exported in their current state with all customization applied as well as in the current pose.=启用后,带蒙皮的网格将以其当前状态导出,并应用所有的定制,以及当前姿势。
+Textures and models will be exported to this folder. If empty, exports to D:\\HoneySelect_{{A}}_DX\\UserData\\MaterialEditor=纹理和模型将被导出到这个文件夹。 如果没有设置自定义路径,\n则导出到D:\\HoneySelect_{{A}}_DX\\UserData\\MaterialEditor。
+Replaces every loaded shader with the MaterialEditor copy of the shader. Reduces the number of copies of shaders loaded which reduces RAM usage and improves performance.=用MaterialEditor的着色器副本替换每个加载的着色器。 减少加载着色器副本的数量,从而减少内存条的使用并提高性能。
+Disable ReceiveShadows for all selected items and their child items in Studio=禁用Studio中所有选定项目及其子项目的阴影接收功能
+Disable ShadowCasting for all selected items and their child items in Studio=禁用Studio中所有选中的项目及其子项目的阴影投射
+Enable ReceiveShadows for all selected items and their child items in Studio=启用Studio中所有选中的项目及其子项目的阴影接收功能
+Enable ShadowCasting for all selected items and their child items in Studio=在Studio中为所有被选中的项目及其子项目启用阴影投射。
+Paste any copied edits for all selected items and their child items in Studio=粘贴所有选定项目及其子项目在Studio中的任何复制的编辑内容
+Reset ReceiveShadows for all selected items and their child items in Studio=重置Studio中所有选定项目及其子项目的阴影接收
+Reset ShadowCasting for all selected items and their child items in Studio=重置Studio中所有选中的项目及其子项目的阴影投射。
+
+//------------------------------------------------------------
+// Message Center
+//------------------------------------------------------------
+Allow plugins to show on screen messages=允许插件在屏幕上显示各种信息
+
+//------------------------------------------------------------
+// Modding API
+//------------------------------------------------------------
+Enables display of additional log messages when certain events are triggered within KKAPI. Useful for plugin devs to understand when controller messages are fired. Changes take effect after game restart.=当某些事件在KKAPI中被触发时,可以显示额外的日志信息。 对插件设计者来说,了解控制器信息何时被触发很有帮助。在游戏重启后更改的设置才能生效。
+
+//------------------------------------------------------------
+// Mute In Background
+//------------------------------------------------------------
+Whether to mute the game when in the background, i.e. alt-tabbed.=在后台运行时,即按Alt-TAB键切换出游戏时,是否将游戏静音。
+
+//------------------------------------------------------------
+// PushUp plugin
+//------------------------------------------------------------
+Is the push-up bra effect enabled by default for all inner tops.=是否默认为所有内上衣启用胸托效果
+The firmer the bra holds the breasts, the less they will bounce=内衣对乳房的支撑数值越大，它们的弹跳就越小
+Flatten the areola and prevent nipple erection while the bra is worn.=戴上内衣时，使乳晕变平并防止乳头勃起
+Apply a bone modifier to make the nipples nearly disappear. This can make bra and top textures look weird around the nipple area. =应用骨骼修改器使乳头几乎消失。\n 这会使乳头区域周围的内衣和顶部纹理看起来很奇怪。
+Lift is the minimum height position of the breasts while the bra is on=提升度是内衣穿着时乳房的最低高度位置
+If the nipples point up or down, wearing a bra will make them point forwards.=如果乳头向上或向下，穿内衣会使乳头向前。
+If the breasts are wide apart, the bra will push them together.=如果乳房外扩，内衣会将它们聚拢到一起。
+Long breasts will be squeezed flat by this amount. Breast volume stays roughly the same, so the breasts may look bigger=长的乳房会被压扁。乳房体积 \n保持大致相同，因此乳房可能看起来更大
+
+//------------------------------------------------------------
+// Re CharaLoader
+//------------------------------------------------------------
+Clean up duplicate and invalid bookMark items.\rRun cleanup at studio startup.=清理重复和无效的书签项目。\r在工作室启动时运行清理。
+Window: scale with scaler factor.=窗口：使用比例系数进行缩放。
+
+//------------------------------------------------------------
+// Resource Unload Optimizations
+//------------------------------------------------------------
+Disables all resource unloading. Requires large amounts of RAM or will likely crash your game.=禁用所有的资源卸载。 需要大量的内存,否则可能会使你的游戏崩溃。
+Minimum amount of memory to be used before resource unloading will run.=在资源卸载运行前要使用的最小内存量。
+Minimum amount of memory to be used during load before resource unloading will run (should be lower than 'Percent Memory Threshold').=在资源卸载运行之前,加载过程中使用的最小内存量(应低于 "内存百分比阈值")。
+Use more memory (if available) in order to load the game faster and reduce random stutter.=使用更多的内存(如果有的话),以便更快地加载游戏,减少随机的卡顿。
+
+//------------------------------------------------------------
+// Runtime Unity Editor
+//------------------------------------------------------------
+Additional parameters that are added to the end of each call to dnSpy.=额外的参数,这些参数被添加到对dnSpy的每次调用的末尾。
+Full path to dnSpy that will enable integration with Inspector. When correctly configured, you will see a new ^ buttons that will open the members in dnSpy.=正确配置后,你会看到一个新的 ^ 按钮,将在dnSpy中打开。
+
+//------------------------------------------------------------
+// Screenshot Manager 
+//------------------------------------------------------------
+Whether screenshot messages will be displayed on screen. Messages will still be written to the log.=屏幕截图信息是否会显示在屏幕上。 信息仍将被写入日志。
+Capture a screenshot "as you see it". Includes interface and such.=捕捉 "你所看到的 "屏幕截图。 包括UI界面之类的。
+Capture a rendered screenshot with no interface. Controlled by other settings.=捕获一个没有UI界面的渲染屏幕截图。 由其他设置控制。
+When capturing the screenshot make the background transparent. Only works if the background is a {{A}}D image, not a {{B}}D object like a map.=当捕获屏幕截图时,使背景透明。 只有当背景是{{A}}D图像,而不是像地图那样的{{B}}D对象时才有效。
+When capturing screenshots, upsampling can cause ambient occlusion to start banding and produce weird effects on the end image. Change this setting to disable AO when capturing the screenshot.=当捕捉屏幕截图时,超采样会导致环境遮挡开始带状,并在最终的图像上产生奇怪的效果。 改变这个设置,在捕捉屏幕截图时禁用AO。
+Screenshot height in pixels=屏幕截图的图片高度,单位:像素
+Screenshot width in pixels=屏幕截图的图片宽度,单位:像素
+When capturing screenshots, different shadow cascade values may look better. Override it or keep the current value.=捕捉屏幕截图时,不同的阴影级别值可能看起来更好。重新设置或保持当前值。
+By default, shadow map resolution is computed from its importance on screen. Setting this to a value greater than zero will override that behavior. Please note that the shadow map resolution will still be capped by memory and hardware limits.=默认情况下,阴影贴图的分辨率是根据其在屏幕上的重要性来计算的。 将此设置为大于0时，将覆盖该行为。 请注意,阴影贴图的分辨率仍然会被内存和硬件限制所限制。
+Render the scene in x times larger resolution, then downscale it to the correct size. Improves screenshot quality at cost of more RAM usage and longer capture times.\n\nBE CAREFUL, SETTING THIS TOO HIGH CAN AND WILL CRASH THE GAME BY RUNNING OUT OF RAM.=以N倍的分辨率渲染场景,然后将其降级到正确的尺寸。 提高截图质量,但代价是更多的内存占用和更长的捕获时间。\n\n❤要小心,设置得太高会使游戏因内存耗尽而崩溃❤
+Multiplies the UI screenshot resolution from the current game resolution by this amount.\nWarning: Some elements will still be rendered at the original resolution (most notably the interface).=将用户界面截图的分辨率与当前游戏分辨率相乘。\n❤警告:有些元素仍将以原始分辨率渲染(最明显的是界面)❤
+
+//------------------------------------------------------------
+// Sideloader
+//------------------------------------------------------------
+Additional directory to load zipmods from.=用于加载附加zipmods的文件夹路径。
+Missing accessories will be replaced by a default item with color and position information intact when loaded in the character maker.=缺少的配件在加载到角色创建中时,将被一个默认的项目取代,其颜色和位置信息保持不变。
+Attempt to change the GUID and/or ID of mods based on the data configured in the manifest.xml. Helps keep backwards compatibility when updating mods.=尝试根据manifest.xml中配置的数据改变MOD的GUID和ID。 帮助在更新MOD时保持向后兼容。
+Enable additional logging useful for debugging issues with Sideloader and sideloader mods.\nWarning: Will increase load and save times noticeably and will result in very large log sizes.=启用额外的日志记录,对于调试Sideloader和sideloader mods的问题非常有用。\n警告:会明显增加加载和保存时间,并会导致非常大的日志记录量。
+Enable verbose logging when loading mods.=启用加载MOD时的粗略日志记录。
+Enable verbose logging for debugging issues with Sideloader and sideloader mods.\nWarning: Will increase game start up time and will result in very large log sizes.=为调试Sideloader和sideloader mods的问题而启用粗略的日志记录。\n警告:会增加游戏的启动时间,并且会导致非常大的日志大小。
+Whether missing mod warnings will be displayed on screen. Messages will still be written to the log.=丢失的MOD警告是否会显示在屏幕上， 消息仍将被写入日志。
+
+//------------------------------------------------------------
+// Skin Overlay Mod
+//------------------------------------------------------------
+Reduces RAM usage to about {{A}}th at the cost of lower quality. Use when loading lots of characters with overlays if you're running out of memory.=将内存的使用量减少到大约{{A}}倍,代价是降低质量。 如果你的内存不够用,在加载大量带有贴图层的角色时使用。
+The value needs to be a valid full path to an existing folder. Default folder will be used if the value is invalid. Exported overlays will be saved there, and by default open overlay dialog will show this directory.=该值需要是一个现有文件夹的有效完整路径。 如果该值无效,将使用默认文件夹,导出的贴图文件将保存在那里,默认情况下,打开贴图对话框将显示该目录。
+
+//------------------------------------------------------------
+// Skin Overlay Mod GUI
+//------------------------------------------------------------
+//------------------------------------------------------------
+//Slider Unlocker
+//------------------------------------------------------------
+Changes will take effect next time the editor is loaded or a character is loaded.=更改将在下次加载编辑器或加载角色时生效。
+
+//------------------------------------------------------------
+// Subtitles
+//------------------------------------------------------------
+Enable or disable showing subtitles.=启用或禁用显示字幕。
+Directory containing subtitle xml info, relative to the BepInEx folder.=包含字幕xml信息的目录,相对于BepInEx文件夹。
+Font size of subtitles.=字幕的字体大小。
+Font style of subtitles, i.e. bold, italic, etc.=字幕的字体样式,即粗体、斜体……等。
+Text alignment of subtitles.=字幕的文字排列。
+Distance from left and right edges of the screen.=与屏幕左、右边缘的距离。
+Distance from top and bottom edges of the screen.=与屏幕顶部和底部边缘的距离。
+Outline thickness for subtitle text.=字幕文字的描边宽度
+Subtitle text color.=字幕文字的颜色。
+Subtitle text outline color.=字幕文字的轮廓颜色。
+Subtitle text position in VR.=字幕文字在VR中的位置。
+Subtitle text position in VR. For {{A}}P when two subtitles may be displayed at once.=字幕文本在VR中的位置。 用于{{A}}P时,可同时显示多个字幕。
+
+//------------------------------------------------------------
+// Text Resource Redirector
+//------------------------------------------------------------
+Handle AchievementInfoData assets=处理成就信息数据资源
+Register strings replaced by AchievementInfoDataHandler as text translations with XUnity Auto Translator=注册字符串由ApievementInfodataHandler替换为与Xunity Auto Translator的文本翻译
+Use translation stored in AchievementInfoData assets if possible=如果可能，使用翻译在ApievementInfodata资产中
+
+Handle BGMNameInfo assets=处理BGM名称信息资产 
+Register strings replaced by BGMNameInfoHandler as text translations with XUnity Auto Translator=注册字符串由bgmnameinfohandler替换为与xunity自动翻译的文本翻译
+Use translation stored in BGMNameInfo assets if possible=如果可能的话，使用存储在BGMNameInfo资产中的翻译
+
+Handle TextAsset assets with ChaListData packed inside=处理内部Chalistdata的TextAsset资产
+Register strings replaced by ChaListDataHandler as text translations with XUnity Auto Translator=注册字符串由Chalistdatahandler替换为与Xunity Auto Translator的文本翻译
+
+Handle EventContentInfoData assets=处理事件内容信息数据资源
+Register strings replaced by EventContentInfoDataHandler as text translations with XUnity Auto Translator=Registed字符串由EventContentInfodataHandler替换为与Xunity Auto Translator的文本翻译
+Use translation stored in EventContentInfoData assets if possible=如果可能，使用翻译存储在EventContentInfodata资产中的转换
+
+Handle ExcelData assets=处理Excel数据资源
+
+Handle MapInfo assets=处理地图信息资源
+Register strings replaced by MapInfoHandler as text translations with XUnity Auto Translator=将MapInfoHandler替换为MapInfoHandler作为文本翻译的寄存器字符串与Xunity Auto Translator
+
+Handle ParameterNameInfo assets=处理参数名称信息资源
+Register strings replaced by ParameterNameInfoHandler as text translations with XUnity Auto Translator=寄存器字符串由parameternameinfohandler替换为与xunity自动翻译的文本翻译
+Use translation stored in ParameterNameInfo assets if possible=如果可能的话，使用翻译在ParameterNameInfo资产中存储
+
+Handle PlanNameInfo assets=处理plannameinfo资产
+Register strings replaced by PlanNameInfoHandler as text translations with XUnity Auto Translator=注册字符串由PlannameInfoHandler替换为与Xunity Auto Translator的文本翻译
+Use translation stored in PlanNameInfo assets if possible=如果可能，使用翻译在PlannameInfo资产中
+
+Handle ScenarioData assets=处理场景数据资源
+
+Enable additional low level debug log messages=启用其他低级调试日志消息
+
+Use whitespace based text reflow for non-japanese languages=对非日语语言使用基于空格的文本重排
+
+Handle TextAsset assets containing tables=处理包含表的文本资源
+
+Handle VoiceInfo assets=处理语音信息资源
+Register strings replaced by VoiceInfoHandler as text translations with XUnity Auto Translator=寄存器字符串由VoiceInfoHandler替换为与Xunity Auto Translator的文本翻译
+
+//------------------------------------------------------------
+// Translation Cache Cleaner
+//------------------------------------------------------------
+Pressing this will attempt to clean your auto-translation cache.=按这个键将清理你本机的自动翻译缓存。
+
+//------------------------------------------------------------
+// Translation Helper
+//------------------------------------------------------------
+Enable game specific optimizations=启用游戏特定的优化
+
+When enabled translated names will be saved with cards in maker, otherwise unmodified names will be restored=启用已启用的翻译名称将使用人物制作中的卡片保存，否则未修改的名称将恢复
+
+Attempt to translate card names when they are loaded in MainGame=尝试在主游戏加载时翻译卡名
+Attempt to translate card names when they are loaded in Maker=尝试在角色创建加载时翻译卡名
+Attempt to translate card names when they are loaded in Studio=尝试在工作室加载时翻译卡名
+
+Characters to trim from returned translations=从返回的翻译中缩减的字符
+Register active character names as replacements with translator=使用翻译器将活动人物名字注册为替换
+Split on space and translate names by sections=在空间中分开并通过部分翻译名称
+Append suffix to names before translating to send hint they are names=在翻译之前将后缀附加到名称，以发送提示他们是名称
+
+//------------------------------------------------------------
+// Uncensor Selector
+//------------------------------------------------------------
+Body to use if the character does not have one set. The censored body will not be selected randomly if there are any alternatives.=如果角色没有设置身体,则使用此配置的身体。 如果有任何备选方案,则不会随机选择身体。
+Penis to use if the character does not have one set. The mosaic penis will not be selected randomly if there are any alternatives.=如果角色没有设置阴茎,则使用此配置的阴茎。 如果有任何替代品,则不会随机选择阴茎。
+Balls to use if the character does not have one set. The mosaic balls will not be selected randomly if there are any alternatives.=如果角色没有睾丸,就使用此配置的睾丸。 如果有任何替代品,就不会随机选择睾丸。
+Whether balls will be displayed on females if not otherwise configured.=如果没有其他配置,女性身上是否会显示睾丸。
+Whether separate exclusion lists will be used for studio (requires restart)=工作室是否会使用单独的排除名单(需要重新启动)。
+
+Body uncensors to exclude from random selection for males=身体解码，从男性的随机选择中排除
+Penis uncensors to exclude from random selection for males=阴茎解码，从男性的随机选择中排除
+Balls uncensors to exclude from random selection for males=睾丸解码，从男性的随机选择中排除
+Body uncensors to exclude from random selection for females=身体解码，从女性的随机选择中排除
+Penis uncensors to exclude from random selection for females=阴茎解码，从女性的随机选择中排除
+Balls uncensors to exclude from random selection for females=睾丸解码，从女性的随机选择中排除
+
+//------------------------------------------------------------
+// Who Is There?
+//------------------------------------------------------------
+Display name of character in surprise events=在惊喜事件中显示人物的名字
+
+//------------------------------------------------------------
+// XUnity Resource Redirector
+//------------------------------------------------------------
+

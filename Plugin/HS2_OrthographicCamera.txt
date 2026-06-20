@@ -1,0 +1,7 @@
+//------------------------------------------------------------
+// KK_OrthographicCamera
+//------------------------------------------------------------
+KK_OrthographicCamera {{A}}\n...=正交视图相机 {{A}}\n▼KK_OrthographicCamera {{A}}▼
+KK_OrthographicCamera {{A}}=▲正交视图相机 {{A}}▲
+
+Toggle orthographic mode=正交视图切换键

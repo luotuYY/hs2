@@ -1,0 +1,24 @@
+//------------------------------------------------------------
+// Sideloader
+//------------------------------------------------------------
+Sideloader {{A}}\n...=附加MOD加载器 {{A}}\n▼Sideloader {{A}}▼
+Sideloader {{A}}=▲附加MOD加载器 {{A}}▲
+
+Sideloader=附加加载器
+
+Logging=记录
+Show missing mod warnings=显示丢失的mod警告
+Whether missing mod warnings will be displayed on screen. Messages will still be written to the log.=是否会在屏幕上显示缺少的mod警告。消息仍将写入日志。
+Debug logging=调试记录
+Enable additional logging useful for debugging issues with Sideloader and sideloader mods.\nWarning: Will increase load and save times noticeably and will result in very large log sizes.=启用对调试Sideloader和Sideloader mods问题有用的附加日志记录。\n警告：将会增加负载及显著节省时间并且会导致产生大量的日志。
+Debug resolve info logging=调试解析信息日志记录
+Enable verbose logging for debugging issues with Sideloader and sideloader mods.\nWarning: Will increase game start up time and will result in very large log sizes.=为Sideloader和Sideloader mods的调试问题启用详细日志记录。\n警告：将增加游戏启动时间，并将导致产生大量的日志。
+Debug mod loading logging=调试模式加载日志
+Enable verbose logging when loading mods.=加载mods时启用详细日志记录
+General=主要设置
+Keep missing accessories=保留丢失的配饰
+Missing accessories will be replaced by a default item with color and position information intact when loaded in the character maker.=当加载角色编辑时，丢失的附件将被颜色和位置信息完整的默认项替换。
+Migration enabled=支持迁移
+Attempt to change the GUID and/or ID of mods based on the data configured in the manifest.xml. Helps keep backwards compatibility when updating mods.=尝试根据manifest.xml中配置的数据更改MOD的GUID和/或ID。有助于在更新mods时保持向后兼容性。
+Additional mods directory=追加mods目录
+Additional directory to load zipmods from.=额外要加载的zipmods目录。

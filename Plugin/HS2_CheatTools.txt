@@ -1,0 +1,90 @@
+//------------------------------------------------------------
+// Cheat Tools
+//------------------------------------------------------------
+//Plugin/modsettings
+
+Cheat Tools {{A}}\n...=游戏作弊器 {{A}}\n▼Cheat Tools {{A}}▼
+Cheat Tools {{A}}=▲游戏作弊器 {{A}}▲
+
+Toggle cheat window=作弊器窗口开关
+
+
+//------------------------------------------------------------
+//ModUI
+
+Speed=速度
+Reset=重置
+Open in inspector=在检查器中打开
+Heroine list=女主角列表
+Manager.ADVManager.Instance=管理程序.高级管理程序.实例
+Manager.ADVManager.instance=管理程序.高级管理程序.实例
+Manager.BaseMap.Instance=管理程序.基础地图.实例
+Manager.BaseMap.instance=管理程序.基础地图.实例
+Manager.Character.Instance=管理程序.角色.实例
+Manager.Character.instance=管理程序.角色.实例
+Manager.Config=管理程序.配置
+Manager.Game.Instance=管理程序.游戏.实例
+Manager.Game.instance=管理程序.游戏.实例
+Manager.GameSystem.Instance=管理程序.游戏系统.实例
+Manager.GameSystem.instance=管理程序.游戏系统.实例
+Manager.Scene.Instance=管理程序.场景.实例
+Manager.Scene.instance=管理程序.场景.实例
+Manager.Sound.Instance=管理程序.声音.实例
+Manager.Sound.instance=管理程序.声音.实例
+Studio.Instance=工作室.实例
+Studio.instance=工作室.实例
+Root Objects=根对象
+
+Unable to edit character stats on this screen. Start an H scene or enter the lobby.=无法在此屏幕上编辑角色统计信息。开始H场景或进入大厅。
+
+Danger zone! These cheats are permanent and can't be undone without resetting the save.=危险区！这些作弊是永久性的如果不重置存档则无法撤消。
+Get all achievements=获得全部成就
+Unlock all perks=解锁所有特权
+
+H scene controls=H场景控件
+Male Gauge: {{A}}=男性快感值: {{A}}
+Female Gauge: {{A}}=女性快感值: {{A}}
+Pain Gauge: {{A}}=痛苦值: {{A}}
+Open HScene Flags in inspector=在检查器中打开H场景标记
+
+Character status editor=角色状态编辑器
+//r:"^Select #([0-9]+) - ([\S\s]+)$"=选择 #$1 - $2
+
+
+
+Select a character to edit their stats=选择一个角色编辑其统计值
+//sr:"^Selected heroine name: (?<name>[\S\s]+)$"=选中女主角的名字: ${name}
+
+Current state: Blank=当前状态: 空白
+Current state: Favor=当前状态: 好感
+Current state: Enjoyment=当前状态: 爱慕
+Current state: Aversion=当前状态: 厌恶
+Current state: Slavery=当前状态: 奴役
+Current state: Broken=当前状态: 崩坏
+Current state: Dependence=当前状态: 依赖
+Blank=空白
+Favor=好感
+Enjoyment=爱慕
+Aversion=厌恶
+Slavery=奴役
+Broken=崩坏
+Dependence=依赖
+Statistics:=统计数据:
+Favor: {{A}}=好感: {{A}}
+Enjoyment: {{A}}=爱慕: {{A}}
+Aversion: {{A}}=厌恶: {{A}}
+Slavery: {{A}}=奴役: {{A}}
+Broken: {{A}}=崩坏: {{A}}
+Dependence: {{A}}=依赖: {{A}}
+Dirty: {{A}}=下流: {{A}}
+Tiredness: {{A}}=疲劳: {{A}}
+Toilet: {{A}}=厕所: {{A}}
+Libido: {{A}}=性欲: {{A}}
+hCount:=h总数
+View more stats and flags=查看更多统计信息和标记
+
+Navigate to Heroine's GameObject=导航到女主角的游戏对象
+//Heroine has no body assigned=女主角无指派
+Open Heroine in inspector=在检查器中打开女主角
+Inspect extended data=检查扩展数据
+//r:"^ExtData for (*.)$"=$1扩展数据

@@ -1,0 +1,14 @@
+//------------------------------------------------------------
+// Who Is There?
+//------------------------------------------------------------
+Who Is There? {{A}}\n...=惊喜事件人名查看器 {{A}}\n▼Who Is There? {{A}}▼
+Who Is There? {{A}}=▲惊喜事件人名查看器 {{A}}▲
+
+
+Settings=设置
+Enabled=启用
+Whether the plugin is enabled=插件是否启用
+
+Keyboard Shortcuts=快捷键
+Toggle showing who is in room=切换显示谁在房间内
+Display name of character in surprise events=显示惊喜事件的角色名字

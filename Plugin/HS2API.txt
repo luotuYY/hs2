@@ -1,0 +1,9 @@
+//------------------------------------------------------------
+// Modding API
+//------------------------------------------------------------
+Modding API {{A}}\n...=Modding API {{A}}\n▼Modding API {{A}}▼
+Modding API {{A}}=▲Modding API {{A}}▲
+
+Debug=调试
+Show debug messages=显示调试信息
+Enables display of additional log messages when certain events are triggered within KKAPI. Useful for plugin devs to understand when controller messages are fired. Changes take effect after game restart.=在KKAPI中触发某些事件时，启用显示其他日志消息。插件开发人员了解何时触发控制器消息非常有用。更改在游戏重新启动后生效。

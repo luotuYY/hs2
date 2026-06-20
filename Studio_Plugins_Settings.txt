@@ -1,0 +1,347 @@
+//------------------------------------------------------------
+// ■ 插件-Animation Controller
+//------------------------------------------------------------
+Toggle Animation Controller Window = 切换动画控制器窗口
+
+//------------------------------------------------------------
+// ■ 插件-CharaAnime
+//------------------------------------------------------------
+GreetingText=问候语
+Hello, world!=Hello, world!
+Show chara anime UI=显示角色动画 UI
+General.Toggles=常规-开关
+DisplayGreeting=显示问候语
+Main GUI window height=主 GUI 窗口高度
+Main GUI window width=主 GUI 窗口宽度
+Main GUI X position=主 GUI 位置X
+Main GUI Y position=主 GUI 位置Y
+
+//------------------------------------------------------------
+// ■ 插件-Clip Controller 
+//------------------------------------------------------------
+Show clipcontroller=显示剪辑控制器
+
+//------------------------------------------------------------
+// ■ 插件-Default Studio Scene
+//------------------------------------------------------------
+DefaultScenePath=默认场景路径
+
+//------------------------------------------------------------
+// ■ 插件-Extra move axis in bottom right corner
+//------------------------------------------------------------
+Extra gizmos=额外小工具
+Show extra move gizmo=显示额外的移动小工具
+Use selected object as reference=使用选定对象作为参考
+
+//------------------------------------------------------------
+// ■ 插件-FK Height Adjust UI
+//------------------------------------------------------------
+Maximum Height Adj (% of character height)=最大高度调整（角色高度的百分比）
+Minimum Height Adj (% of character height)=最小高度调整（角色高度的百分比）
+
+//------------------------------------------------------------
+// ■ 插件-HS2 MultiAngleRotation
+//------------------------------------------------------------
+1.Roll=滚动
+Roll (clockwise)=滚动 (顺时针)
+Roll (counter-clockwise)=滚动 (逆时针)
+Roll Angle=滚动角度
+2.Front/Back=前/后
+Front/Back=前/后
+Front/Back Angle (leave this be)=前/后角 (保持不变)
+3.Side=侧面
+Side (clockwise)=侧面 (顺时针)
+Side (counter-clockwise)=侧面 (逆时针)
+Side Angle=侧面角度
+
+//------------------------------------------------------------
+// ■ 插件-HS2 Particle Editor
+//------------------------------------------------------------
+Show ParticleEditor GUI=显示粒子编辑器 GUI
+
+//------------------------------------------------------------
+// ■ 插件-HS2 Studio Transform Orientation
+//------------------------------------------------------------
+Child object transform orientation=子物体变换方向
+Relative to Parent=相对于父级
+
+//------------------------------------------------------------
+// ■ 插件-HS2_Studio Voice X
+//------------------------------------------------------------
+Max Distance Multiplier=最大距离乘数
+Min Distance Multiplier=最小距离乘数
+
+//------------------------------------------------------------
+// ■ 插件-HS2_QuickAccessBox
+//------------------------------------------------------------
+Number of recents to remember=最近要记住的次数
+Search developer information=搜索开发者信息
+Show quick access box=显示快速访问框
+
+Thumbnail generation=缩略图生成
+Dark background=深色背景
+Generate item thumbnails=生成项目缩略图
+Manual mode=手册模式
+Output directory=输出目录
+
+//------------------------------------------------------------
+// ■ 插件-HS2_StopBotheringMe
+//------------------------------------------------------------
+StopBotheringMe=别打扰我
+Enable Probe Volume=启用探针体积
+High Quality Proxy Volume=高质量代理体积
+Proxy Probe Density=代理探针密度
+Proxy Probe Resolution=代理探针分辨率
+Use Hiqh Quality Resolution=使用高质量分辨率
+
+//------------------------------------------------------------
+// ■ 插件-HS2PE
+//------------------------------------------------------------
+AnklesCorrection By Default=默认脚踝矫正
+Ankles Correction By Default=默认脚踝矫正
+Crotch Correction By Default=默认胯部矫正
+Main Window Shortcut=主窗口快捷键
+Main Window Size=主窗口尺寸
+
+//------------------------------------------------------------
+// ■ 插件-Image Embed
+//------------------------------------------------------------
+Save pattern images to scene data=将 UserData/pattern 图像保存到场景数据
+Save BG images to scene data=将 UserData/BG 图像保存到场景数据
+Save frame images to scene data=将 UserData/frame 图像保存到场景数据
+
+//------------------------------------------------------------
+// ■ 插件-Item Layer Edit
+//------------------------------------------------------------
+Change layer=改变层级
+
+//------------------------------------------------------------
+// ■ 插件-Map Controller plugin
+//------------------------------------------------------------
+List navigation=列表导航
+;Down=上
+;Up=下
+
+//------------------------------------------------------------
+// ■ 插件-Move Controller HS2
+//------------------------------------------------------------
+Toggle Window Visible=切换窗口可视
+
+Move Controller settings=移动控制器设置
+GUI Scale=GUI 缩放
+Hide object handle when FK active=FK 活动时隐藏对象句柄
+
+//------------------------------------------------------------
+// ■ 插件-NodesConstraints
+//------------------------------------------------------------
+Open NodeConstraints UI=打开 NodeConstraints UI
+
+//------------------------------------------------------------
+// ■ 插件-Pose Quick Load
+//------------------------------------------------------------
+Pose Quick Loading=姿势快速加载
+
+//------------------------------------------------------------
+// ■ 插件-Pose Tools
+//------------------------------------------------------------
+Load Expression=加载表情
+Load Skirt FK=加载裙子 FK
+Order by=排序方式
+Filename=文件名
+Date=日期
+Save pose as filename prefix=将姿势另存为文件名前缀
+Save pose data as png=将姿势数据保存为 png
+
+//------------------------------------------------------------
+// ■ 插件-ReCharLoader
+//------------------------------------------------------------
+ReCharaLoader=角色加载器Re
+Anatomy=外貌
+Outfit=服饰
+Cloth=衣服
+Acc=饰品
+
+//------------------------------------------------------------
+// ■ 插件-Sceneloader plugin
+//------------------------------------------------------------
+Initial folder=初始文件夹
+
+//------------------------------------------------------------
+// ■ 插件-Studio Camera Tweaks
+//------------------------------------------------------------
+Camera Object=相机物件
+Hide newly created camera objects=隐藏新创建的相机物件
+Spawn at current camera position=在当前相机位置生成
+
+//------------------------------------------------------------
+// ■ 插件-Studio Character Editor
+//------------------------------------------------------------
+Default charactor export path=默认角色导出路径
+Double export PNG size=导出PNG时双倍尺寸
+Folder list after select=选择后的文件夹列表
+Precise input mode=精确输入模式
+StudioCharaEditor UI shortcut key=工作室角色编辑器 UI 快捷键
+Thumbnail of current item=当前项目的缩略图
+Unlimited slider bar=滑动条无限制
+
+GUI Language=GUI 语言
+
+//------------------------------------------------------------
+// ■ 插件-Studio Character Monitor
+//------------------------------------------------------------
+Toggle monitor=切换监视器
+
+Interface=界面
+Color of the text=文本颜色
+White=白色
+Black=黑色
+Outline=描边
+Screen position=屏幕位置
+Lower Left=左下
+Lower Center=中下
+Lower Right=右下
+Upper Left=左上
+Upper Center=中上
+Upper Right=右上
+Middle Left=中间偏左
+Middle Center=中间偏中
+Middle Right=中间偏右
+Options=选项
+Show Acc State=显示饰品状态
+Show Animation Information=显示动画信息
+Show Clothes State Information=显示服饰状态信息
+Show Eye/Neck Look State=显示 眼睛/颈部 观察状态
+Show Face/Hand State=显示 脸部/手部 状态
+Show Kinematics Information=显示运动学信息
+Show Misc State=显示其他状态
+
+//------------------------------------------------------------
+// ■ 插件-Studio Character Sort
+//------------------------------------------------------------
+Character cards default sort values. Changes take effect at next startup.=角色卡默认分类值。更改在下次启动生效。
+Sort By=分类方式
+Sort Order=分类次序
+Descending=降序
+Ascending=升序
+
+//------------------------------------------------------------
+// ■ 插件-Studio Custom Masking
+//------------------------------------------------------------
+Add New Masks To Selected Object=向选定对象添加新蒙版
+Collider Color=碰撞器颜色
+
+//------------------------------------------------------------
+// ■ 插件-Studio MultiSelect Chara
+//------------------------------------------------------------
+Notification Sounds=通知声音
+Perform multi-select=执行多选
+
+//------------------------------------------------------------
+// ■ 插件-Studio Object Move Hotkeys
+//------------------------------------------------------------
+Hotkey All=热键 全部
+Hotkey X=热键 X
+Hotkey Y=热键 Y
+Hotkey Z=热键 Z
+
+//------------------------------------------------------------
+// ■ 插件-Studio Pose Loader
+//------------------------------------------------------------
+Clean up BookMark=清理书签
+Show base log info=显示基本日志信息
+
+Window=窗口
+Item Maximum=道具最大数量
+Item Minimum=道具最小数量
+Window scale=窗口比例
+
+//╳=你
+X=X
+//x=A
+
+//------------------------------------------------------------
+// ■ 插件-Studio Scene Initial Camera
+//------------------------------------------------------------
+Activate Initial Camera=激活初始相机
+Restore Previous Initial Camera=恢复上一个初始相机
+Restore Next Initial Camera=恢复下一个初始相机
+
+Save Initial Camera=保存初始相机
+Preserve Camera During Autosave=在自动保存期间保留相机
+Create Studio Camera Object=创建工作室相机对象
+
+//------------------------------------------------------------
+// ■ 插件-Studio Scene Loaded Sound
+//------------------------------------------------------------
+Import Sound=导入音效
+Load Sound=加载音效
+
+//------------------------------------------------------------
+// ■ 插件-Studio Scene Navigation
+//------------------------------------------------------------
+//Notification Sounds=通知声音
+Restore Loader Page=恢复加载器页面
+Track Last Loaded Scene=追踪最后加载的场景
+Navigate Next=导航下一步
+Navigate Previous=导航前一步
+Reload Current=重载当前
+
+//------------------------------------------------------------
+// ■ 插件-TreeNodeNaming 
+//------------------------------------------------------------
+Hotkey=热键
+
+//------------------------------------------------------------
+// ■ 插件-TimeLine
+//------------------------------------------------------------
+Copy Keyframes=复制关键帧
+Cut Keyframes=剪切关键帧
+Open Timeline UI=打开 Timeline UI
+PasteKeyframes=粘贴关键帧
+Paste Keyframes=粘贴关键帧
+Play or Pause Timeline=播放 / 停止 Timeline
+
+//------------------------------------------------------------
+// ■ 插件-VideoExport
+//------------------------------------------------------------
+Open VideoExport UI=打开 VideoExport UI
+Start or Stop Recording=开始 / 停止 录像
+
+VideoExport=视频导出
+autoDeleteImages=自动删除图像
+autoGenerateVideo=自动生成视频
+aviQuality=avi质量
+bmpCaptureMode=BMP 捕获模式
+bmpImageFormat=BMP 图像格式
+bmpSizeMultiplier=BMP 大小倍率
+builtInCaptureMode=内置捕获模式
+builtInImageFormat=内置图像格式
+builtInSizeMultiplier=内置尺寸乘数
+ffmpegRotation=ffmpeg 旋转
+framerate=帧率
+framesFolder=帧文件夹
+imagesPostfix=图像后缀
+imagesPrefix=图像前缀
+language=语言
+limitDuration=限制持续时间
+limitDurationNumber=限制持续时间数值
+mp{{A}}Codec=mp{{A}} 编 / 解码器
+mp{{A}}Preset=mp{{A}} 预设
+mp{{A}}Quality=mp{{A}} 质量
+outputFolder=输出目录
+prewarmLoopCount=预热循环计数
+resize=大小调整
+resizeX=调整大小 X
+resizeY=调整大小 Y
+selectedExtension=选择扩展
+selectedLimitDurationType=选定限制持续时间类型
+selectedScreenshotPlugin=选定的屏幕截图插件
+selectedUpdateDynamicBonesMode=选择更新动态骨骼模式
+webmCodec=webm 编 / 解码器
+webmDeadline=webm 截止日期
+webmQuality=webm 质量
+
+The folder where frames are stored=存储帧的文件夹
+The folder where videos are stored=存储视频的文件夹
+Interface language=界面语言
+

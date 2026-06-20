@@ -1,0 +1,14 @@
+//------------------------------------------------------------
+// HS2_ChicksDigMapModdersPlugin
+//------------------------------------------------------------
+HS{{A}}ChicksDigMapModdersPlugin {{B}}\n...=女孩探索Mod地图插件 {{B}}\n▼HS{{A}}ChicksDigMapModdersPlugin {{B}}▼
+HS{{A}}ChicksDigMapModdersPlugin {{B}}=▲女孩探索Mod地图插件 {{B}}▲
+
+Use Modded Maps For Safe Events=对安全事件使用Mod地图
+Girls Will Show Up In Modded Maps for Standard Events=普通事件时女孩会出现在Mod地图中
+Use Modded Maps For First Time girls=女孩首次登场可使用Mod地图
+Modded Maps are Selectable From Lobby for a First Meeting=在大厅选择与女孩第一次约会可以选择Mod地图
+Use Modded Maps For All Events=所有事件都可使用Mod地图
+Not Recommended...Really Not Recommended, Crashes Possible, Weirdity Guaranteed=不推荐...真的不推荐，可能会奔溃，保证很诡异。
+Enable Debug Logging=开启调试日志
+Waste HD Space=会浪费磁盘空间

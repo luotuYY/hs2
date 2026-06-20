@@ -1,0 +1,10 @@
+//------------------------------------------------------------
+// HS2_ExtraGroups 
+//------------------------------------------------------------
+HS{{A}}_ExtraGroups {{B}}\n...=增加分组女孩数 {{B}}\n▼HS{{A}}_ExtraGroups {{B}}▼
+HS{{A}}_ExtraGroups {{B}}=▲增加分组女孩数 {{B}}▲
+
+Requires restart! Modifies save!=保存后必须重启！才能生效！
+Groups Count=分组数量
+Girls Count=女孩数量
+Requires a restart to apply.=需要重新启动才能生效

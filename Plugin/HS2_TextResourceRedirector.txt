@@ -1,0 +1,47 @@
+//------------------------------------------------------------
+// Text Resource Redirector
+//------------------------------------------------------------
+Text Resource Redirector {{A}}\n...=文本资源重定向器 {{A}}\n▼Text Resource Redirector {{A}}▼
+Text Resource Redirector {{A}}=▲文本资源重定向器 {{A}}▲
+ParameterNameInfoHandler=参数名称信息处理程序 
+MapInfoHandler=地图信息处理程序
+ExcelDataHandler=Excel数据处理程序
+EventContentInfoDataHandler=事件内容信息数据处理程序
+ChaListDataHandler=人物列表数据处理程序
+BGMNameInfoHandler=BGM名称信息处理程序 
+Use Translation from Asset=使用本机资源翻译
+Register as Translations=注册为翻译
+AchievementInfoDataHandler=成就信息数据处理程序 
+PlanNameInfoHandler=计划名称信息处理程序
+ScenarioDataHandler=场景数据处理程序 
+TextAssetTableHandler=文本资产表处理程序 
+VoiceInfoHandler=语音信息处理程序 
+Handle EventContentInfoData assets=处理事件内容信息数据资源
+Handle AchievementInfoData assets=处理成就信息数据资源
+Register strings replaced by AchievementInfoDataHandler as text translations with XUnity Auto Translator=注册字符串由ApievementInfodataHandler替换为与Xunity Auto Translator的文本翻译
+Use translation stored in AchievementInfoData assets if possible=如果可能，使用翻译在ApievementInfodata资产中
+Handle BGMNameInfo assets=处理BGM名称信息资产 
+Register strings replaced by BGMNameInfoHandler as text translations with XUnity Auto Translator=注册字符串由bgmnameinfohandler替换为与xunity自动翻译的文本翻译
+Register strings replaced by ChaListDataHandler as text translations with XUnity Auto Translator=注册字符串由Chalistdatahandler替换为与Xunity Auto Translator的文本翻译
+Use translation stored in BGMNameInfo assets if possible=如果可能的话，使用存储在BGMNameInfo资产中的翻译
+Handle TextAsset assets with ChaListData packed inside=处理内部Chalistdata的TextAsset资产
+Register strings replaced by EventContentInfoDataHandler as text translations with XUnity Auto Translator=Registed字符串由EventContentInfodataHandler替换为与Xunity Auto Translator的文本翻译
+Use translation stored in EventContentInfoData assets if possible=如果可能，使用翻译存储在EventContentInfodata资产中的转换
+Handle ExcelData assets=处理Excel数据资源
+Handle MapInfo assets=处理地图信息资源
+Register strings replaced by MapInfoHandler as text translations with XUnity Auto Translator=将MapInfoHandler替换为MapInfoHandler作为文本翻译的寄存器字符串与Xunity Auto Translator
+Handle ParameterNameInfo assets=处理参数名称信息资源
+Register strings replaced by ParameterNameInfoHandler as text translations with XUnity Auto Translator=寄存器字符串由parameternameinfohandler替换为与xunity自动翻译的文本翻译
+Use translation stored in ParameterNameInfo assets if possible=如果可能的话，使用翻译在ParameterNameInfo资产中存储
+Use translation stored in PlanNameInfo assets if possible=如果可能，使用翻译在PlannameInfo资产中
+Handle PlanNameInfo assets=处理plannameinfo资产
+Register strings replaced by PlanNameInfoHandler as text translations with XUnity Auto Translator=注册字符串由PlannameInfoHandler替换为与Xunity Auto Translator的文本翻译
+Handle ScenarioData assets=处理场景数据资源
+Handle TextAsset assets containing tables=处理包含表的文本资源
+Handle VoiceInfo assets=处理语音信息资源
+Register strings replaced by VoiceInfoHandler as text translations with XUnity Auto Translator=寄存器字符串由VoiceInfoHandler替换为与Xunity Auto Translator的文本翻译
+Enable Tracing=启用跟踪
+Enable additional low level debug log messages=启用其他低级调试日志消息
+Text Formatter=文本格式化程序
+Alternate Text Reflow=交替文本重排
+Use whitespace based text reflow for non-Japanese languages.=对非日语语言使用基于空格的文本重排。

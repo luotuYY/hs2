@@ -1,0 +1,153 @@
+//------------------------------------------------------------
+// Generic Texts
+// use # to search for instances of the following "\\Sample#"
+//------------------------------------------------------------
+はい=是
+いいえ=否
+戻る=返回
+チ=性
+なし=无
+マップ=地图
+上=上
+少=小
+日=日
+カラー=颜色
+標準=标准
+声質=音质
+
+//Body Parts
+体=身体
+首=颈部
+目=眼
+眉=眉
+口=嘴唇
+手=手
+左手=左手
+右手=右手
+
+// Assistant's name
+フュル=芙妤
+
+//------------------------------------------------------------
+// Personalities
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\cha_sample_voice_00\
+// RedirectedResources\assets\abdata\etcetra\list\config\30\00\
+// RedirectedResources\assets\abdata\studio\info\34\voicegroup_34\
+
+
+//------------------------------------------------------------
+// Traits
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00
+
+//------------------------------------------------------------
+// Mentality
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\list\characustom\00\init_mind_param_00\
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00
+
+//------------------------------------------------------------
+// Sex Traits
+//------------------------------------------------------------
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00
+
+//------------------------------------------------------------
+// Characters box in Chara Maker, Chara Finder, My Room and Lobby
+//------------------------------------------------------------
+// Character's Personalities
+性格=性格
+
+// Character's Headings
+メンタル=心理
+特性=特性
+心情=心情
+H属性=H属性
+
+// Character's Status
+// sr:"^(通常|好意|淫乱|嫌悪|隷属|享楽)([0-9])$"
+// RedirectedResources\assets\abdata\etcetra\list\parametername\30\00\
+
+淫乱=淫乱
+H=H
+苦痛=痛感
+お尻=屁股
+
+所属グループ=所属的组
+
+//------------------------------------------------------------
+// Color Picker in Chara Maker, Chara Finder and Sex Scenes
+//------------------------------------------------------------
+ピッカー=选择器
+スライダー=滑杆
+プリセット=预设
+色相=色调
+明度=亮度
+彩度=色彩饱和度
+透明度=透明度
+赤=红色
+緑=绿色
+青=蓝色
+
+左クリックで適用、右クリックで削除=左键单击以应用，右键单击以删除
+左クリックで適用=左键单击以应用
+左クリックで現在のカラーを登録=左键单击以注册当前颜色
+
+//------------------------------------------------------------
+// Settings Box in Chara Maker and Chara Finder
+// (parts also used in shooting menus)
+//------------------------------------------------------------
+状態設定=状态设置
+
+//general
+視線=视线
+//Neck#
+カメラ=相机
+正面=正面
+ポーズ=拍照姿势
+//Eye#
+//Eyebrows#
+//Mouth#
+ポーズ再生=播放动作
+
+//Clothing
+服状態=衣服状态
+自動=自动
+着衣=衣服
+下着=内衣
+全裸=全裸
+装飾=装饰
+表示=显示
+非表示=隐藏
+
+//Lights
+ライト向きX=X光线方向
+ライト向きY=Y光线方向
+ライト強さ=光强度
+
+//Background
+背景=背景
+単色=单色
+画像=画像
+
+//------------------------------------------------------------
+// Shooting Menu (save card) in Chara Maker and Chara Finder
+// (uses text from Settings Box)
+//------------------------------------------------------------
+撮影メニュー=拍摄菜单
+
+目の開き=眼睛睁闭
+口の開き=嘴的开合
+//L Hand#
+//R Hand#
+
+背面フレーム=后画框
+前面フレーム=前画框
+
+保存=保存
+
+//Prompts
+本当に削除しますか？=您确定要删除此文件吗?
+本当に削除しますか？\n<color%3D#DE4529FF>このキャラにはパラメータが含まれています。</color>=真的删除吗?\n<color%3D#DE4529FF>包括角色的状态。</color>
+本当に上書きしますか？=您真的要覆盖它吗？
+本当に上書きしますか？\n<color%3D#DE4529FF>上書きするとパラメータは初期化されます。</color>=您真的要覆盖它吗？\n<color％3D#DE4529FF>覆盖将初始化参数。</color>

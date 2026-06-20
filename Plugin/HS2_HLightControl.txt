@@ -1,0 +1,14 @@
+//------------------------------------------------------------
+// HS2_HLightControl
+//------------------------------------------------------------
+HS{{A}}_HLightControl {{B}}\n...=H时光线控制器 {{B}}\n▼HS{{A}}_HLightControl {{B}}▼
+HS{{A}}_HLightControl {{B}}=▲H时光线控制器 {{B}}▲
+
+Auxiliary Light=辅助照明
+Backlight=背光
+Lock Camlight=锁定镜头灯光
+Lower Shadow Resolution=低分辨率阴影
+
+Shadow resolution target=对象阴影分辨率
+What resolution to apply when clicking 'Lower shadow resolution'=启用'低分辨率阴影'后使用的分辨率
+           
